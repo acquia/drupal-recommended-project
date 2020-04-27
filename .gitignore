@@ -1,5 +1,10 @@
 vendor
 composer.lock
-docroot/core
+/docroot/core
+/docroot/libraries
+/docroot/modules/contrib
+/docroot/profiles/contrib
+/docroot/themes/contrib
+/docroot/sites/default/files
 /.editorconfig
 /.gitattributes
