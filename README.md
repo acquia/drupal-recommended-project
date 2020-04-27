@@ -7,7 +7,7 @@ This is a project template providing a recommended Drupal 9 application. It is b
 
 Create a new project using Composer:
 
-`composer create-project acquia/recommended-project`
+`composer create-project --no-interaction acquia/recommended-project`
 
 # License
 

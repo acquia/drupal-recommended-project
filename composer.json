@@ -1,6 +1,6 @@
 {
   "name": "acquia/recommended-project",
-  "description": "Recommended Drupal application based ",
+  "description": "Acquia-compatible Drupal application based on the Drupal Recommended Project",
   "license": "GPL-2.0-or-later",
   "authors": [
     {
