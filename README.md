@@ -7,6 +7,8 @@ This project includes the following additional packages:
 * Drupal core
 * [Acquia BLT](https://github.com/acquia/blt) (Development and automation toolset)
 * [Acquia Lightning](https://github.com/acquia/lightning) (Drupal distribution)
+* [Drush](https://github.com/drush-ops/drush) (Drupal CLI and development tool, via Lightning)
+* [Acquia Connector](https://drupal.org/project/acquia_connector) (Management and reporting tool for Acquia Cloud sites, via Lightning)
 
 ## Installation and usage
 
