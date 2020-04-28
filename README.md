@@ -3,12 +3,13 @@ Acquia Drupal Recommended Project
 
 This is a project template providing a great out-of-the-box experience for new Drupal 9 projects hosted on Acquia. It is based on the [Drupal Recommended Project](https://github.com/drupal/recommended-project/tree/9.0.x) and similar to the [Acquia Minimal Project](https://github.com/acquia/minimal-project), with the principal difference being the addition of several modules and packages that provide the best possible out-of-the-box experience for Acquia customers.
 
-This project includes the following additional packages:
+This project includes the following packages and configuration:
 * Drupal core
 * [Acquia BLT](https://github.com/acquia/blt) (Development and automation toolset)
 * [Acquia Lightning](https://github.com/acquia/lightning) (Drupal distribution)
 * [Drush](https://github.com/drush-ops/drush) (Drupal CLI and development tool, via Lightning)
 * [Acquia Connector](https://drupal.org/project/acquia_connector) (Management and reporting tool for Acquia Cloud sites, via Lightning)
+* [Asset Packagist](https://asset-packagist.org/) repository, package, and configuration (via Lightning)
 
 ## Installation and usage
 
