@@ -25,7 +25,8 @@
     "composer/installers": "^1.2",
     "cweagans/composer-patches": "^1.6",
     "drupal/core-composer-scaffold": "^9",
-    "drupal/core-recommended": "^9"
+    "drupal/core-recommended": "^9",
+    "drupal/mysql56": "^1.0@beta"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
