@@ -1,7 +1,7 @@
 Acquia Drupal Recommended Project
 ====
 
-This is a project template providing a great out-of-the-box experience for new Drupal 9 projects hosted on Acquia. It is based on the [Drupal Recommended Project](https://github.com/drupal/recommended-project/tree/9.0.x) and similar to the [Acquia Minimal Project](https://github.com/acquia/minimal-project), with the principal difference being the addition of several modules and packages that provide the best possible out-of-the-box experience for Acquia customers.
+This is a project template providing a great out-of-the-box experience for new Drupal 9 projects hosted on Acquia. It is based on the [Drupal Recommended Project](https://github.com/drupal/recommended-project/tree/9.0.x) and similar to the [Acquia Drupal Minimal Project](https://github.com/acquia/drupal-minimal-project), with the principal difference being the addition of several modules and packages that provide the best possible out-of-the-box experience for Acquia customers.
 
 This project includes the following packages and configuration:
 * Drupal core
@@ -15,7 +15,7 @@ This project includes the following packages and configuration:
 
 Create a new project using Composer:
 ```
-composer create-project --no-interaction acquia/recommended-project
+composer create-project --no-interaction acquia/drupal-recommended-project
 ```
 
 Once you create the project, you can and should customize `composer.json` and the rest of the project to suit your needs. You will receive updates from any dependent packages, but not from the project template itself. It's yours to keep!
