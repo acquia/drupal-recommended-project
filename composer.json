@@ -21,7 +21,7 @@
   },
   "require": {
     "acquia/blt": "12.x-dev",
-    "acquia/lightning": "dev-9.0.x-compatible",
+    "acquia/lightning": "5.0.x-dev",
     "composer/installers": "^1.2",
     "cweagans/composer-patches": "^1.6",
     "drupal/core-composer-scaffold": "^9",
