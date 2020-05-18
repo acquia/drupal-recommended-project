@@ -22,6 +22,8 @@ cache:
 env:
   global:
     - ORCA_VERSION=dev-develop
+    - ORCA_SUT_NAME=acquia/drupal-recommended-project
+    - ORCA_SUT_BRANCH=master
 
 jobs:
   fast_finish: true
