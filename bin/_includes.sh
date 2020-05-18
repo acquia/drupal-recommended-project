@@ -10,4 +10,4 @@
 #     Includes common features used by the Travis CI scripts.
 
 # Reuse ORCA's own includes.
-source ../../../orca/bin/travis/_includes.sh
+source ../../orca/bin/travis/_includes.sh
