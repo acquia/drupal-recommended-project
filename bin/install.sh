@@ -11,5 +11,6 @@
 
 cd "$(dirname "$0")"; source _includes.sh
 
-orca fixture:init -f
-
+case "$ORCA_JOB" in
+  "FIXTURE") orca debug:packages; eval "orca fixture:init -f"; unset ORCA_ENABLE_NIGHTWATCH ;;
+esac

@@ -11,4 +11,7 @@
 
 cd "$(dirname "$0")"; source _includes.sh
 
-orca qa:automated-tests
+case "$ORCA_JOB" in
+  "FIXTURE") eval "orca qa:automated-tests"; unset ORCA_ENABLE_NIGHTWATCH ;;
+esac
+
