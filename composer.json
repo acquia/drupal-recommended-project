@@ -78,8 +78,6 @@
         },
         "patches": {}
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": {
         "drupal": {
             "type": "composer",
@@ -89,5 +87,7 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
