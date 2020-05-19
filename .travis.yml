@@ -29,22 +29,18 @@ jobs:
   fast_finish: true
   include:
     - { name: "Static code analysis", env: ORCA_JOB=STATIC_CODE_ANALYSIS }
-    - { name: "D9 readiness test", php: "7.3", env: ORCA_JOB=FIXTURE}
+    - { name: "D9 readiness test", php: "7.3", env: ORCA_JOB=CUSTOM}
 
 before_install:
   - composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
   - curl https://patch-diff.githubusercontent.com/raw/acquia/orca/pull/85.patch | git -C ../orca apply
   - ../orca/bin/travis/before_install.sh
 
-install:
-  - ../orca/bin/travis/install.sh
-  - ./bin/install.sh
+install: ../orca/bin/travis/install.sh
 
 before_script: ../orca/bin/travis/before_script.sh
 
-script:
-  - ../orca/bin/travis/script.sh
-  - - ./bin/script.sh
+script: ../orca/bin/travis/script.sh
 
 before_cache: ../orca/bin/travis/before_cache.sh
 
