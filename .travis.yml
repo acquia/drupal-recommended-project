@@ -32,6 +32,7 @@ jobs:
     - { name: "Integrated D9 tests", php: "7.3", env: ORCA_JOB=CUSTOM ORCA_CUSTOM_FIXTURE_INIT_ARGS="--core=D9_READINESS --dev"}
 
 before_install:
+  - cd /home/travis/build/acquia/drupal-recommended-project && git branch
   - composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
   - curl https://patch-diff.githubusercontent.com/raw/acquia/orca/pull/85.patch | git -C ../orca apply
   - ../orca/bin/travis/before_install.sh
