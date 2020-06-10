@@ -25,7 +25,7 @@ env:
     - ORCA_SUT_NAME=acquia/drupal-recommended-project
     # This has to be something random or Composer won't use the path repo.
     - ORCA_SUT_BRANCH=bologna
-    - ORCA_PACKAGES_CONFIG_ALTER=/home/travis/build/acquia/drupal-recommended-project/packages_alter.yml
+    - ORCA_PACKAGES_CONFIG_ALTER=../drupal-recommended-project/packages_alter.yml
 
 jobs:
   fast_finish: true
