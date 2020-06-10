@@ -31,7 +31,7 @@ jobs:
   fast_finish: true
   include:
     - { name: "Static code analysis", env: ORCA_JOB=STATIC_CODE_ANALYSIS }
-    - { name: "Integrated D9 tests", php: "7.3", env: ORCA_JOB=CUSTOM ORCA_CUSTOM_FIXTURE_INIT_ARGS="--core=D9_READINESS --dev"}
+    - { name: "D9 readiness test", php: "7.3", env: ORCA_JOB=D9_READINESS}
 
 before_install:
   - composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
