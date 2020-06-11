@@ -24,7 +24,7 @@ env:
     - ORCA_VERSION=dev-master
     - ORCA_SUT_NAME=acquia/drupal-recommended-project
     # This has to be something random or Composer won't use the path repo.
-    - ORCA_SUT_BRANCH=bologna
+    - ORCA_SUT_BRANCH=master
 
 jobs:
   fast_finish: true
