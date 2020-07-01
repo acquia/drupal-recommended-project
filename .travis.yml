@@ -21,7 +21,7 @@ cache:
 
 env:
   global:
-    - ORCA_VERSION=dev-master
+    - ORCA_VERSION=^2
     - ORCA_SUT_NAME=acquia/drupal-recommended-project
     # This has to be something random or Composer won't use the path repo.
     - ORCA_SUT_BRANCH=bologna
