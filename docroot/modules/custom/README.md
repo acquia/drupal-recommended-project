@@ -1,1 +1,1 @@
-This directory should contain all custom modules and features.
+This directory should contain all custom modules.
