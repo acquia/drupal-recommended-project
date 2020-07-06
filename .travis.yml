@@ -33,7 +33,7 @@ jobs:
   include:
     - { name: "Static code analysis", env: ORCA_JOB=STATIC_CODE_ANALYSIS }
     - { name: "D9 readiness test", php: "7.3", env: ORCA_JOB=D9_READINESS}
-    - { name: "D9 integrated tests", env: ORCA_JOB=CUSTOM ORCA_CUSTOM_FIXTURE_INIT_ARGS="--core=D9_READINESS --dev --project-template=$ORCA_FIXTURE_PROJECT_TEMPLATE" }
+    - { name: "D9 integrated tests", env: ORCA_JOB=CUSTOM ORCA_CUSTOM_FIXTURE_INIT_ARGS="--core=D9_READINESS --dev --project-template=acquia/drupal-recommended-project" }
 
 before_install:
   - composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
