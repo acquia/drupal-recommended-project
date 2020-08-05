@@ -1,5 +1,5 @@
 diff --git a/src/Fixture/FixtureCreator.php b/src/Fixture/FixtureCreator.php
-index 1435a51..4fb0903 100644
+index 1435a51..905c34b 100644
 --- a/src/Fixture/FixtureCreator.php
 +++ b/src/Fixture/FixtureCreator.php
 @@ -411,7 +411,7 @@ class FixtureCreator {
@@ -16,7 +16,7 @@ index 1435a51..4fb0903 100644
      }
      foreach ($dependencies as $package_name => &$package) {
 +      // Don't try to require the SUT if it's a project template.
-+      if ($package == $this->sut && $this->isProjectTemplateSut()) {
++      if ($package == $this->sut && $this->isSutProjectTemplate()) {
 +        unset($dependencies[$package_name]);
 +        continue;
 +      }
