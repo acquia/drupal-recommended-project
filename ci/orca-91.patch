@@ -1,0 +1,53 @@
+diff --git a/src/Fixture/FixtureCreator.php b/src/Fixture/FixtureCreator.php
+index 1435a51..905c34b 100644
+--- a/src/Fixture/FixtureCreator.php
++++ b/src/Fixture/FixtureCreator.php
+@@ -411,7 +411,7 @@ class FixtureCreator {
+   private function getProjectTemplateString(): string {
+     switch (TRUE) {
+       case $this->isSutProjectTemplate():
+-        return "{$this->projectTemplate}:@dev";
++        return "{$this->projectTemplate}:dev-bologna";
+ 
+       case $this->projectTemplate === 'acquia/blt-project':
+         $version = ($this->isDev)
+@@ -818,6 +818,12 @@ class FixtureCreator {
+       $dependencies = [$this->sut];
+     }
+     foreach ($dependencies as $package_name => &$package) {
++      // Don't try to require the SUT if it's a project template.
++      if ($package == $this->sut && $this->isSutProjectTemplate()) {
++        unset($dependencies[$package_name]);
++        continue;
++      }
++
+       // Always symlink the SUT.
+       if ($package == $this->sut) {
+         $package = $this->getLocalPackageString($package);
+diff --git a/src/Package/Package.php b/src/Package/Package.php
+index d40a774..2f999c7 100644
+--- a/src/Package/Package.php
++++ b/src/Package/Package.php
+@@ -219,6 +219,9 @@ class Package {
+       case 'drupal-theme':
+         return "docroot/themes/contrib/{$this->getProjectName()}";
+ 
++      case 'project-template':
++        return ".";
++
+       default:
+         return "vendor/{$this->getPackageName()}";
+     }
+diff --git a/src/Task/TestFramework/TestRunner.php b/src/Task/TestFramework/TestRunner.php
+index c9c375a..5b34f74 100644
+--- a/src/Task/TestFramework/TestRunner.php
++++ b/src/Task/TestFramework/TestRunner.php
+@@ -127,7 +127,7 @@ class TestRunner {
+       $this->startServers();
+     }
+ 
+-    if ($this->sut) {
++    if ($this->sut && $this->sut->getPackageName() != 'acquia/drupal-recommended-project') {
+       $this->runSutTests();
+     }
+     if (!$this->isSutOnly) {

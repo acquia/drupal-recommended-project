@@ -23,7 +23,7 @@ env:
   global:
     - ORCA_VERSION=^2
     - ORCA_SUT_NAME=acquia/drupal-recommended-project
-    - ORCA_PACKAGES_CONFIG_ALTER=../drupal-recommended-project/packages_alter.yml
+    - ORCA_PACKAGES_CONFIG_ALTER=../drupal-recommended-project/ci/packages_alter.yml
     # This has to be something random or Composer won't use the path repo.
     - ORCA_SUT_BRANCH=bologna
     - ORCA_ENABLE_NIGHTWATCH=FALSE
@@ -37,7 +37,7 @@ jobs:
 
 before_install:
   - composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
-  - curl https://patch-diff.githubusercontent.com/raw/acquia/orca/pull/91.patch | git -C ../orca apply
+  - git -C ../orca apply /home/travis/build/acquia/drupal-recommended-project/ci/orca-91.patch
   - ../orca/bin/travis/before_install.sh
   - git -C /home/travis/build/acquia/drupal-recommended-project branch
   - composer --global config repositories.drupal-recommended-project path /home/travis/build/acquia/drupal-recommended-project
@@ -55,4 +55,3 @@ after_success: ../orca/bin/travis/after_success.sh
 after_failure: ../orca/bin/travis/after_failure.sh
 
 after_script: ../orca/bin/travis/after_script.sh
-
