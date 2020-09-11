@@ -21,26 +21,22 @@ cache:
 
 env:
   global:
-    - ORCA_VERSION=^2
     - ORCA_SUT_NAME=acquia/drupal-recommended-project
+    - ORCA_SUT_BRANCH=master
+    - ORCA_VERSION=^2
     - ORCA_PACKAGES_CONFIG_ALTER=../drupal-recommended-project/ci/packages_alter.yml
-    # This has to be something random or Composer won't use the path repo.
-    - ORCA_SUT_BRANCH=bologna
     - ORCA_ENABLE_NIGHTWATCH=FALSE
 
 jobs:
   fast_finish: true
   include:
     - { name: "Static code analysis", env: ORCA_JOB=STATIC_CODE_ANALYSIS }
-    - { name: "D9 readiness test", php: "7.3", env: ORCA_JOB=D9_READINESS}
-    - { name: "D9 integrated tests", env: ORCA_JOB=CUSTOM ORCA_CUSTOM_FIXTURE_INIT_ARGS="--core=D9_READINESS --dev --project-template=acquia/drupal-recommended-project" }
+    - { name: "D9 readiness test", env: ORCA_JOB=D9_READINESS}
+    - { name: "D9 integrated tests", env: ORCA_JOB=CUSTOM ORCA_CUSTOM_FIXTURE_INIT_ARGS="--core=D9_READINESS --dev" }
 
 before_install:
   - composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
-  - git -C ../orca apply /home/travis/build/acquia/drupal-recommended-project/ci/orca-91.patch
   - ../orca/bin/travis/before_install.sh
-  - git -C /home/travis/build/acquia/drupal-recommended-project branch
-  - composer --global config repositories.drupal-recommended-project path /home/travis/build/acquia/drupal-recommended-project
 
 install: ../orca/bin/travis/install.sh
 
