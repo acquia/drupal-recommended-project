@@ -23,7 +23,7 @@ env:
   global:
     - ORCA_SUT_NAME=acquia/drupal-recommended-project
     - ORCA_SUT_BRANCH=master
-    - ORCA_VERSION=^2
+    - ORCA_VERSION=2.10.0
     - ORCA_PACKAGES_CONFIG_ALTER=../drupal-recommended-project/packages_alter.yml
     - ORCA_ENABLE_NIGHTWATCH=FALSE
 
