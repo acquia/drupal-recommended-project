@@ -35,8 +35,8 @@ jobs:
     - { name: "D9 integrated tests", env: ORCA_JOB=CUSTOM ORCA_CUSTOM_FIXTURE_INIT_ARGS="--core=D9_READINESS --dev" }
 
 before_install:
-  - curl https://patch-diff.githubusercontent.com/raw/acquia/orca/pull/113.patch | git -C ../orca apply
   - composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
+  - curl https://patch-diff.githubusercontent.com/raw/acquia/orca/pull/113.patch | git -C ../orca apply
   - ../orca/bin/travis/before_install.sh
 
 install: ../orca/bin/travis/install.sh
