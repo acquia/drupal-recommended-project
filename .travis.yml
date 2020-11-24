@@ -20,8 +20,8 @@ cache:
 
 env:
   global:
-    - ORCA_SUT_NAME=drupal/example
-    - ORCA_SUT_BRANCH=8.x-1.x
+    - ORCA_SUT_NAME=acquia/drupal-recommended-project
+    - ORCA_SUT_BRANCH=master
     - ORCA_VERSION=^3
 
 jobs:
