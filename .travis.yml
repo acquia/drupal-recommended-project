@@ -22,6 +22,7 @@ env:
   global:
     - ORCA_SUT_NAME=acquia/drupal-recommended-project
     - ORCA_SUT_BRANCH=master
+    - ORCA_PACKAGES_CONFIG_ALTER=../drupal-recommended-project/packages_alter.yml
     - ORCA_VERSION=^3
 
 jobs:
