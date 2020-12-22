@@ -1,5 +1,4 @@
 vendor
-composer.lock
 /docroot/core
 /docroot/libraries
 /docroot/modules/contrib
