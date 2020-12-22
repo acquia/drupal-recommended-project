@@ -1,7 +1,15 @@
-vendor
+# Core ignored files and directories
+# @see https://git.drupalcode.org/project/drupal/-/blob/9.2.x/example.gitignore
 /docroot/core
+/vendor/
+/docroot/sites/*/settings*.php
+/docroot/sites/*/services*.yml
+/docroot/sites/*/files
+/docroot/sites/*/private
+/docroot/sites/simpletest
+
+# Project-specific directories
 /docroot/libraries
 /docroot/modules/contrib
 /docroot/profiles/contrib
 /docroot/themes/contrib
-/docroot/sites/*/files
