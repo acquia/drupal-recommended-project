@@ -64,7 +64,7 @@ before_install:
 
 install:
   - composer global require zaporylie/composer-drupal-optimizations
-  - ../orca/bin/travis/install.sh
+  - travis_wait ../orca/bin/travis/install.sh
 
 before_script: ../orca/bin/travis/before_script.sh
 
