@@ -62,7 +62,9 @@ before_install:
   - composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
   - ../orca/bin/travis/before_install.sh
 
-install: travis_wait ../orca/bin/travis/install.sh
+install:
+  - composer global require zaporylie/composer-drupal-optimizations
+  - ../orca/bin/travis/install.sh
 
 before_script: ../orca/bin/travis/before_script.sh
 
