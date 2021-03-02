@@ -24,22 +24,22 @@
     },
     "extra": {
         "drupal-scaffold": {
-            "locations": {
-                "web-root": "docroot/"
-            },
             "file-mapping": {
                 "[web-root]/sites/default/default.services.yml": {
                     "mode": "replace",
-                    "path": "docroot/core/assets/scaffold/files/default.services.yml",
-                    "overwrite": false
+                    "overwrite": false,
+                    "path": "docroot/core/assets/scaffold/files/default.services.yml"
                 },
                 "[web-root]/sites/default/default.settings.php": {
                     "mode": "replace",
-                    "path": "docroot/core/assets/scaffold/files/default.settings.php",
-                    "overwrite": false
+                    "overwrite": false,
+                    "path": "docroot/core/assets/scaffold/files/default.settings.php"
                 }
             },
-            "gitignore": true
+            "gitignore": true,
+            "locations": {
+                "web-root": "docroot/"
+            }
         },
         "enable-patching": true,
         "installer-paths": {
@@ -54,20 +54,20 @@
             "docroot/modules/contrib/{$name}": [
                 "type:drupal-module"
             ],
+            "docroot/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
             "docroot/profiles/contrib/{$name}": [
                 "type:drupal-profile"
             ],
             "docroot/themes/contrib/{$name}": [
                 "type:drupal-theme"
             ],
-            "drush/Commands/contrib/{$name}": [
-                "type:drupal-drush"
-            ],
-            "docroot/modules/custom/{$name}": [
-                "type:drupal-custom-module"
-            ],
             "docroot/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
+            ],
+            "drush/Commands/contrib/{$name}": [
+                "type:drupal-drush"
             ]
         },
         "installer-types": [
