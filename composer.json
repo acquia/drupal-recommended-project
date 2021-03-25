@@ -17,7 +17,8 @@
         "cweagans/composer-patches": "^1.6",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
-        "drupal/mysql56": "^1.0"
+        "drupal/mysql56": "^1.0",
+        "oomphinc/composer-installers-extender": "^1.1 || ^2"
     },
     "config": {
         "sort-packages": true
