@@ -25,6 +25,12 @@ For instance, you can remove a provided package by running the following command
 composer remove acquia/blt
 ```
 
+## Next steps
+
+After creating your project, consider doing the following:
+* Install the [BLT Launcher](https://github.com/acquia/blt-launcher) and follow the rest of the [BLT setup guide](https://docs.acquia.com/blt/install/next-steps/).
+* Set up automated testing using BLT recipes and plugins such as [BLT Behat](https://github.com/acquia/blt-behat) and the [Acquia Drupal Spec Tool](https://github.com/acquia/drupal-spec-tool).
+
 # License
 
 Copyright (C) 2020 Acquia, Inc.
