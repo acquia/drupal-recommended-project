@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "php": "^7.3",
         "acquia/acquia_cms": "^1.1",
         "acquia/blt": "^12",
         "acquia/blt-phpcs": "^1.0",
@@ -20,8 +21,7 @@
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
         "drupal/mysql56": "^1.0",
-        "oomphinc/composer-installers-extender": "^1.1 || ^2",
-        "php": "^7.3"
+        "oomphinc/composer-installers-extender": "^1.1 || ^2"
     },
     "config": {
         "sort-packages": true
