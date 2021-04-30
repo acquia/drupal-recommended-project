@@ -29,7 +29,9 @@ jobs:
   fast_finish: true
   include:
     - { env: ORCA_JOB=STATIC_CODE_ANALYSIS, name: "Static code analysis" }
-    - { env: ORCA_JOB=INTEGRATED_TEST_ON_PREVIOUS_MINOR, name: "Integrated test on previous minor Drupal core version" }
+    # Acquia CMS does not support Drupal 9.0. Uncomment the following line when ACMS supports the previous minor version
+    # of drupal/core.
+    # - { env: ORCA_JOB=INTEGRATED_TEST_ON_PREVIOUS_MINOR, name: "Integrated test on previous minor Drupal core version" }
     - { env: ORCA_JOB=INTEGRATED_UPGRADE_TEST_FROM_PREVIOUS_MINOR, name: "Integrated upgrade test from previous minor" }
     - { env: ORCA_JOB=ISOLATED_TEST_ON_CURRENT, name: "Isolated test on current Drupal core version" }
     - { env: ORCA_JOB=INTEGRATED_TEST_ON_CURRENT, name: "Integrated test on current Drupal core version" }
