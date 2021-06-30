@@ -28,7 +28,15 @@
     },
     "extra": {
         "drupal-scaffold": {
+            "allowed-packages": [
+                "drupal/core",
+                "acquia/acquia_cms"
+            ],
             "file-mapping": {
+                "[profile-root]/.editorconfig": false,
+                "[profile-root]/.gitattributes": false,
+                "[profile-root]/.travis.yml": false,
+                "[profile-root]/acquia-pipelines.yml": false,
                 "[web-root]/sites/default/default.services.yml": {
                     "mode": "replace",
                     "overwrite": false,
