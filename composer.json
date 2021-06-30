@@ -10,9 +10,12 @@
         }
     ],
     "require": {
+        "php": "^7.3",
+        "acquia/acquia_cms": "^1.2",
         "acquia/blt": "^12",
         "acquia/blt-phpcs": "^1.0",
-        "acquia/lightning": "^5",
+        "acquia/drupal-environment-detector": "^1",
+        "acquia/memcache-settings": "^1",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6",
         "drupal/core-composer-scaffold": "^9",
@@ -39,6 +42,7 @@
             },
             "gitignore": true,
             "locations": {
+                "profile-root": "docroot/profiles/contrib/acquia_cms",
                 "web-root": "docroot/"
             }
         },
@@ -91,5 +95,23 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "post-install-cmd": [
+            "composer run-script post-update-cmd"
+        ],
+        "pre-update-cmd": [
+            "@putenv COMPOSER_MEMORY_LIMIT=2G"
+        ],
+        "post-update-cmd": [
+            "composer run-script remove-git-submodules"
+        ],
+        "acms:install": [
+            "bash ./docroot/profiles/contrib/acquia_cms/install-acms"
+        ],
+        "nuke": [
+            "rm -rf docroot vendor composer.lock"
+        ],
+        "remove-git-submodules": "find . -mindepth 2 -type d -name .git | xargs rm -rf"
+    }
 }
