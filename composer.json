@@ -24,13 +24,11 @@
         "oomphinc/composer-installers-extender": "^1.1 || ^2"
     },
     "config": {
-        "process-timeout": 0,
         "sort-packages": true
     },
     "extra": {
         "drupal-scaffold": {
             "allowed-packages": [
-                "drupal/core",
                 "acquia/acquia_cms"
             ],
             "file-mapping": {
@@ -106,21 +104,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "post-install-cmd": [
-            "composer run-script post-update-cmd"
-        ],
-        "pre-update-cmd": [
-            "@putenv COMPOSER_MEMORY_LIMIT=2G"
-        ],
-        "post-update-cmd": [
-            "composer run-script remove-git-submodules"
-        ],
         "acms:install": [
             "bash ./docroot/profiles/contrib/acquia_cms/install-acms"
         ],
         "nuke": [
             "rm -rf docroot vendor composer.lock"
-        ],
-        "remove-git-submodules": "find . -mindepth 2 -type d -name .git | xargs rm -rf"
+        ]
     }
 }
