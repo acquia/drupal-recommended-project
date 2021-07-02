@@ -10,9 +10,12 @@
         }
     ],
     "require": {
+        "php": "^7.3",
+        "acquia/acquia_cms": "^1.2",
         "acquia/blt": "^12",
         "acquia/blt-phpcs": "^1.0",
-        "acquia/lightning": "^5",
+        "acquia/drupal-environment-detector": "^1",
+        "acquia/memcache-settings": "^1",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6",
         "drupal/core-composer-scaffold": "^9",
@@ -25,7 +28,14 @@
     },
     "extra": {
         "drupal-scaffold": {
+            "allowed-packages": [
+                "acquia/acquia_cms"
+            ],
             "file-mapping": {
+                "[profile-root]/.editorconfig": false,
+                "[profile-root]/.gitattributes": false,
+                "[profile-root]/.travis.yml": false,
+                "[profile-root]/acquia-pipelines.yml": false,
                 "[web-root]/sites/default/default.services.yml": {
                     "mode": "replace",
                     "overwrite": false,
@@ -39,6 +49,7 @@
             },
             "gitignore": true,
             "locations": {
+                "profile-root": "docroot/profiles/contrib/acquia_cms",
                 "web-root": "docroot/"
             }
         },
@@ -91,5 +102,13 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "acms:install": [
+            "bash ./docroot/profiles/contrib/acquia_cms/install-acms"
+        ],
+        "nuke": [
+            "rm -rf docroot vendor composer.lock"
+        ]
+    }
 }
