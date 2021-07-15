@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.3",
+        "php": ">=7.3",
         "acquia/acquia_cms": "^1.2",
         "acquia/blt": "^12",
         "acquia/blt-phpcs": "^1.0",
