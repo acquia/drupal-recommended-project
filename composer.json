@@ -27,6 +27,7 @@
         "sort-packages": true
     },
     "extra": {
+        "composer-exit-on-patch-failure": true,
         "drupal-scaffold": {
             "allowed-packages": [
                 "acquia/acquia_cms"
