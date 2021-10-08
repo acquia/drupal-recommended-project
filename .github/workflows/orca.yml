@@ -9,7 +9,6 @@ jobs:
       ORCA_SUT_NAME: acquia/drupal-recommended-project
       ORCA_SUT_BRANCH: master
       ORCA_VERSION: dev-develop
-      ORCA_PACKAGES_CONFIG_ALTER: ../drupal-recommended-project/packages_alter.yml
       ORCA_JOB: ${{ matrix.orca-job }}
 
     strategy:
