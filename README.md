@@ -22,7 +22,7 @@ Once you create the project, you can and should customize `composer.json` and th
 
 For instance, you can remove a provided package by running the following command and committing the changed `composer.json` and `composer.lock` to Git:
 ```
-composer remove acquia/blt
+composer remove acquia/mysql56
 ```
 
 ## Next steps
