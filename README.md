@@ -5,7 +5,6 @@ This is a project template providing a great out-of-the-box experience for new D
 
 This project includes the following packages and configuration:
 * Drupal core
-* [Acquia BLT](https://github.com/acquia/blt) (Development and automation toolset)
 * [Acquia CMS](https://github.com/acquia/acquia_cms) (Drupal distribution)
 * [Drush](https://github.com/drush-ops/drush) (Drupal CLI and development tool)
 * [Acquia Connector](https://drupal.org/project/acquia_connector) (Management and reporting tool for Acquia Cloud sites)
