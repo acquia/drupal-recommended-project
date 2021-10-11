@@ -23,10 +23,10 @@
         "oomphinc/composer-installers-extender": "^1.1 || ^2"
     },
     "config": {
-        "sort-packages": true,
         "platform": {
             "php": "7.3"
-        }
+        },
+        "sort-packages": true
     },
     "extra": {
         "composer-exit-on-patch-failure": true,
