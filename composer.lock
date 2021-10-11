@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de4c75550ac2aae6aaeb95f2e452b3e6",
+    "content-hash": "fdcdc64454189a09ba8b77afb410043f",
     "packages": [
         {
             "name": "acquia/acquia_cms",
@@ -13403,28 +13403,28 @@
         },
         {
             "name": "spatie/ssl-certificate",
-            "version": "1.22.1",
+            "version": "1.21.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/ssl-certificate.git",
-                "reference": "c4756c3f18f9abeea62cfe99fc841229d9fead2c"
+                "reference": "3f827acdbff1745e1af2a4a38d7b985494db4ac1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/ssl-certificate/zipball/c4756c3f18f9abeea62cfe99fc841229d9fead2c",
-                "reference": "c4756c3f18f9abeea62cfe99fc841229d9fead2c",
+                "url": "https://api.github.com/repos/spatie/ssl-certificate/zipball/3f827acdbff1745e1af2a4a38d7b985494db4ac1",
+                "reference": "3f827acdbff1745e1af2a4a38d7b985494db4ac1",
                 "shasum": ""
             },
             "require": {
                 "ext-intl": "*",
                 "ext-json": "*",
-                "nesbot/carbon": "^2.23",
-                "php": "^7.4|^8.0",
+                "nesbot/carbon": "^2.3",
+                "php": "^7.2",
                 "spatie/macroable": "^1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.0",
-                "spatie/phpunit-snapshot-assertions": "^4.2.3"
+                "phpunit/phpunit": "^8.0",
+                "spatie/phpunit-snapshot-assertions": "^2.0"
             },
             "type": "library",
             "autoload": {
@@ -13455,19 +13455,14 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/ssl-certificate/issues",
-                "source": "https://github.com/spatie/ssl-certificate/tree/1.22.1"
+                "source": "https://github.com/spatie/ssl-certificate/tree/1.21.0"
             },
             "funding": [
                 {
-                    "url": "https://github.com/sponsors/spatie",
-                    "type": "github"
-                },
-                {
-                    "url": "https://spatie.be/open-source/support-us",
-                    "type": "other"
+                    "type": "spatie"
                 }
             ],
-            "time": "2021-02-15T15:42:15+00:00"
+            "time": "2020-10-19T06:41:57+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -17063,5 +17058,8 @@
         "php": ">=7.3"
     },
     "platform-dev": [],
+    "platform-overrides": {
+        "php": "7.3"
+    },
     "plugin-api-version": "2.1.0"
 }

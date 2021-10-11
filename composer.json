@@ -13,6 +13,7 @@
         "php": ">=7.3",
         "acquia/acquia_cms": "^1.3.2",
         "acquia/drupal-environment-detector": "^1",
+        "acquia/http-hmac-php": "3.4.0",
         "acquia/memcache-settings": "^1",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6",
@@ -22,7 +23,10 @@
         "oomphinc/composer-installers-extender": "^1.1 || ^2"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "7.3"
+        }
     },
     "extra": {
         "composer-exit-on-patch-failure": true,
