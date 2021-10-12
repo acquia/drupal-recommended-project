@@ -13,9 +13,9 @@ This project includes the following packages and configuration:
 
 ## Installation and usage
 
-Create a new project using Composer:
+Create a new project using Composer. Use `dev-master` to ensure all dependencies are up to date.
 ```
-composer create-project --no-interaction acquia/drupal-recommended-project
+composer create-project --no-interaction acquia/drupal-recommended-project:dev-master
 ```
 
 Once you create the project, you can and should customize `composer.json` and the rest of the project to suit your needs. You will receive updates from any dependent packages, but not from the project template itself. It's yours to keep!
