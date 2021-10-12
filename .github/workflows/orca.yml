@@ -50,8 +50,13 @@ jobs:
             php-version: "7.3"
             allow-failure: true
 
-          - orca-job: ""
-            php-version: "7.3"
+          - php-version: "7.3"
+            allow-failure: false
+
+          - php-version: "7.4"
+            allow-failure: false
+
+          - php-version: "8.0"
             allow-failure: false
     steps:
       - uses: actions/checkout@v2
@@ -70,6 +75,7 @@ jobs:
           composer create-project --no-dev --ignore-platform-req=php acquia/orca ../orca "$ORCA_VERSION"
           curl https://patch-diff.githubusercontent.com/raw/acquia/orca/pull/166.patch | git -C ../orca apply
           ../orca/bin/ci/before_install.sh
+          (exit 1)
           if [[ ! "$ORCA_JOB" ]]; then composer install; fi
 
       - name: Install
