@@ -27,37 +27,29 @@ jobs:
           - ISOLATED_TEST_ON_NEXT_MINOR
           - INTEGRATED_TEST_ON_NEXT_MINOR
           - ISOLATED_UPGRADE_TEST_TO_NEXT_MAJOR_BETA_OR_LATER
+          # This is our custom job on 7.3
+          - ""
         php-version: [ "7.3" ]
         allow-failure: [ false ]
         include:
           - orca-job: ISOLATED_TEST_ON_CURRENT
             php-version: "8.0"
-            allow-failure: false
 
           - orca-job: INTEGRATED_UPGRADE_TEST_TO_NEXT_MINOR_DEV
-            php-version: "7.3"
             allow-failure: true
 
           - orca-job: ISOLATED_TEST_ON_NEXT_MINOR_DEV
-            php-version: "7.3"
             allow-failure: true
 
           - orca-job: INTEGRATED_TEST_ON_NEXT_MINOR_DEV
-            php-version: "7.3"
             allow-failure: true
 
           - orca-job: ISOLATED_UPGRADE_TEST_TO_NEXT_MAJOR_DEV
-            php-version: "7.3"
             allow-failure: true
 
-          - php-version: "7.3"
-            allow-failure: false
-
+          # These are our custom jobs to ensure composer install works
           - php-version: "7.4"
-            allow-failure: false
-
           - php-version: "8.0"
-            allow-failure: false
     steps:
       - uses: actions/checkout@v2
 
