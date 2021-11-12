@@ -6017,32 +6017,35 @@
         },
         {
             "name": "drupal/mysql56",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/mysql56.git",
-                "reference": "8.x-1.2"
+                "reference": "8.x-1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/mysql56-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "a4c4f6a7846971f494ee7850132bfbe220ff8687"
+                "url": "https://ftp.drupal.org/files/projects/mysql56-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "9666b1c8df22509e2443ed98f8edd7c14f8a5234"
             },
             "require": {
-                "drupal/core": "~9.0.0-beta3 || 9.1.* || 9.2.*"
+                "drupal/core": "~9.0.0-beta3 || 9.1.* || 9.2.* || 9.3.*"
             },
             "type": "library",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1623858646",
+                    "version": "8.x-1.3",
+                    "datestamp": "1634249671",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
                 },
-                "installer-name": "mysql"
+                "installer-name": "mysql",
+                "branch-alias": {
+                    "dev-8.x-1.x": "1.x-dev"
+                }
             },
             "autoload": {
                 "psr-4": {
