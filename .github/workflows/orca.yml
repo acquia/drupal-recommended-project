@@ -55,7 +55,9 @@ jobs:
 
       - name: Before install
         run: |
-          composer create-project --no-dev --ignore-platform-req=php acquia/orca ../orca "$ORCA_VERSION"
+          composer create-project --no-dev --no-install --ignore-platform-req=php acquia/orca ../orca "$ORCA_VERSION"
+          curl https://patch-diff.githubusercontent.com/raw/acquia/orca/pull/176.patch | git -C ../orca apply
+          composer install -d ../orca
           ../orca/bin/ci/before_install.sh
 
       - name: Install
