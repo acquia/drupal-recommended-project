@@ -42,10 +42,10 @@ jobs:
           - orca-job: ISOLATED_TEST_ON_CURRENT
             php-version: "8.0"
           # These are our custom jobs to ensure composer install works
-          - php-version: "7.4"
-            allow-failure: false
-          - php-version: "8.0"
-            allow-failure: false
+          - orca-job: ""
+            php-version: "7.4"
+          - orca-job: ""
+            php-version: "8.0"
     steps:
       - uses: actions/checkout@v2
 
