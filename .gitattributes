@@ -1,3 +1,3 @@
 CONTRIBUTING.md export-ignore
-.travis.yml export-ignore
-packages_alter.yml export-ignore
+.github export-ignore
+.gitattributes export-ignore
