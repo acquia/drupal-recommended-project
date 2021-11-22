@@ -91,3 +91,8 @@ drush/sites/.checksums
 
 # Deprecation detector rules
 .rules
+
+.DS_Store
+ .idea/
+ .php_cache
+ vendor/

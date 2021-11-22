@@ -1,3 +1,11 @@
 CONTRIBUTING.md export-ignore
 .github export-ignore
 .gitattributes export-ignore
+/*.sh export-ignore
+/.acquia export-ignore
+/.gitattributes export-ignore
+/.travis.yml export-ignore
+/ci export-ignore
+/logs export-ignore
+/tests/fixtures export-ignore
+
