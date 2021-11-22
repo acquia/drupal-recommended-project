@@ -33,17 +33,15 @@ jobs:
           - INTEGRATED_TEST_ON_NEXT_MINOR_DEV
           - ISOLATED_TEST_ON_NEXT_MINOR_DEV
           - INTEGRATED_UPGRADE_TEST_TO_NEXT_MINOR_DEV
-          # This is our custom job on 7.3
+          # This is our custom job on 7.4
           - ""
           # We do not run deprecated code scans since they'd scan the entire
           # codebase (since the SUT is the project template).
-        php-version: [ "7.3" ]
+        php-version: [ "7.4" ]
         include:
           - orca-job: ISOLATED_TEST_ON_CURRENT
             php-version: "8.0"
           # These are our custom jobs to ensure composer install works
-          - orca-job: ""
-            php-version: "7.4"
           - orca-job: ""
             php-version: "8.0"
     steps:
