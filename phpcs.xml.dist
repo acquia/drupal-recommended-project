@@ -16,6 +16,7 @@
     <file>docroot/modules/custom</file>
     <file>docroot/themes/custom</file>
     <file>docroot/profiles/custom</file>
+    <file>tests</file>
 
     <exclude-pattern>vendor/*</exclude-pattern>
 
