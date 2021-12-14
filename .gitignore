@@ -94,3 +94,6 @@ drush/sites/.checksums
 
 # PHPCS
 .phpcs-cache
+
+# PHPUnit
+.phpunit.result.cache
