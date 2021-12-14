@@ -23,6 +23,12 @@
         "drupal/upgrade_status": "^3.12",
         "oomphinc/composer-installers-extender": "^1.1 || ^2"
     },
+    "require-dev": {
+        "acquia/coding-standards": "^0.8.0",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.6"
+    },
     "config": {
         "platform": {
             "php": "7.4"
@@ -122,39 +128,33 @@
         "acms:install": [
             "bash ./docroot/profiles/contrib/acquia_cms/install-acms"
         ],
-        "nuke": [
-            "rm -rf docroot vendor composer.lock"
-        ],
-        "test": [
-            "echo \u001B\"[33mRunning composer test script. Edit composer.json scripts.test to modify test commands.\u001B[0m\"",
-            "echo \u001B\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001B[0m\"",
-            "@lint",
-            "@cs",
-            "@stan",
-            "@unit"
+        "cbf": "phpcbf",
+        "cs": [
+            "echo \u001b\"[33m Running PHP Code Sniffer. Create or edit phpcs.xml.dist to change configuration.\u001b[0m\"",
+            "phpcs"
         ],
         "lint": [
             "find src -name '*.php' -print0 | xargs -0 -n1 php -l",
             "find tests -name '*.php' -print0 | xargs -0 -n1 php -l"
         ],
-        "cs": [
-            "echo \u001B\"[33m Running PHP Code Sniffer. Create or edit phpcs.xml.dist to change configuration.\u001B[0m\"",
-            "phpcs"
+        "nuke": [
+            "rm -rf docroot vendor composer.lock"
         ],
         "stan": [
-            "echo \u001B\"[33mRunning PHP Stan. Create or edit phpstan.neon.dist to change configuration.\u001B[0m\"",
+            "echo \u001b\"[33mRunning PHP Stan. Create or edit phpstan.neon.dist to change configuration.\u001b[0m\"",
             "phpstan analyze"
         ],
-        "unit": [
-            "echo \u001B\"[33mRunning PHP Unit. Create or edit phpunit.xml.dist to change configuration.\u001B[0m\"",
-            "phpunit tests/phpunit -vvv"
+        "test": [
+            "echo \u001b\"[33mRunning composer test script. Edit composer.json scripts.test to modify test commands.\u001b[0m\"",
+            "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
+            "@lint",
+            "@cs",
+            "@stan",
+            "@unit"
         ],
-        "cbf": "phpcbf"
-    },
-    "require-dev": {
-        "acquia/coding-standards": "^0.8.0",
-        "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpunit/phpunit": "^9.5",
-        "squizlabs/php_codesniffer": "^3.6"
+        "unit": [
+            "echo \u001b\"[33mRunning PHP Unit. Create or edit phpunit.xml.dist to change configuration.\u001b[0m\"",
+            "phpunit tests/phpunit -vvv"
+        ]
     }
 }

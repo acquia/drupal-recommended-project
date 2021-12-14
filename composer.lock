@@ -6801,7 +6801,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-1.4",
-                    "datestamp": "1626702090",
+                    "datestamp": "1637145565",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7786,7 +7786,7 @@
             "extra": {
                 "drupal": {
                     "version": "6.1.0",
-                    "datestamp": "1635676666",
+                    "datestamp": "1638988001",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
