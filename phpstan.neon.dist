@@ -4,3 +4,4 @@ parameters:
         - docroot/modules/custom
         - docroot/themes/custom
         - docroot/profiles/custom
+        - tests
