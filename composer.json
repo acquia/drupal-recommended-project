@@ -163,7 +163,7 @@
         "app-deploy": [
             "echo \u001b\"[33mRunning composer app-deploy script. Edit composer.json scripts.app-deploy to modify test commands.\u001b[0m\"",
             "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
-            "acli push:artifact --dest-git-url=$ACLI_DEST_GIT_URL --dest-git-branch=$ACLI_DEST_GIT_BRANCH --no-interaction -vvv"
+            "acli push:artifact --no-interaction -vvv"
         ]
     }
 }
