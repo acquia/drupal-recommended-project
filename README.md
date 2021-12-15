@@ -27,9 +27,24 @@ composer remove acquia/mysql56
 
 ## Next steps
 
-After creating your project, consider doing the following:
+After creating your project, if you'd also like to use Acquia BLT, do the following:
+* Add BLT via Composer with `composer require acquia/blt`
 * Install the [BLT Launcher](https://github.com/acquia/blt-launcher) and follow the rest of the [BLT setup guide](https://docs.acquia.com/blt/install/next-steps/).
 * Set up automated testing using BLT recipes and plugins such as [BLT Behat](https://github.com/acquia/blt-behat) and the [Acquia Drupal Spec Tool](https://github.com/acquia/drupal-spec-tool).
+* Update composer.json's scripts array to utilize BLT commands. E.g., 
+```json
+    {"scripts": {
+        "app-validate-all": [
+            "blt validate --no-interaction --ansi --verbose"
+        ],
+        "app-test-all": [
+            "blt tests --no-interaction --ansi --verbose"
+        ],
+        "app-deploy": [
+            "blt artifact:deploy --commit-msg \"Automated commit by Code Studio for Pipeline ${CI_PIPELINE_ID}\" --branch \"${CI_COMMIT_BRANCH}-codestudio-build\" --ignore-dirty --no-interaction --verbose"
+        ]
+    }}
+```
 
 # License
 

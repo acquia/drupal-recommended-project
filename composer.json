@@ -20,8 +20,15 @@
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
         "drupal/mysql56": "^1.0",
+        "drupal/upgrade_status": "^3.13",
         "drush/drush": "^10.6",
         "oomphinc/composer-installers-extender": "^1.1 || ^2"
+    },
+    "require-dev": {
+        "acquia/coding-standards": "^0.8.0",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.6"
     },
     "config": {
         "platform": {
@@ -121,6 +128,42 @@
     "scripts": {
         "acms:install": [
             "bash ./docroot/profiles/contrib/acquia_cms/install-acms"
+        ],
+        "app-deploy": [
+            "echo \u001b\"[33mRunning composer app-deploy script. Edit composer.json scripts.app-deploy to modify test commands.\u001b[0m\"",
+            "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
+            "acli push:artifact --no-interaction -vvv"
+        ],
+        "app-fix-phpcbf": [
+            "phpcbf"
+        ],
+        "app-test-all": [
+            "echo \u001b\"[33mRunning composer app-test-all script. Edit composer.json scripts.app-test-all to modify test commands.\u001b[0m\"",
+            "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
+            "@app-test-unit"
+        ],
+        "app-test-unit": [
+            "echo \u001b\"[33mRunning PHP Unit. Create or edit phpunit.xml.dist to change configuration.\u001b[0m\"",
+            "phpunit -vvv"
+        ],
+        "app-validate-all": [
+            "echo \u001b\"[33mRunning composer app-validate-all script. Edit composer.json scripts.app-validate-all to modify validate commands.\u001b[0m\"",
+            "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
+            "@app-validate-php-lint",
+            "@app-validate-phpcs",
+            "@app-validate-phpstan"
+        ],
+        "app-validate-php-lint": [
+            "find src -name '*.php' -print0 | xargs -0 -n1 php -l",
+            "find tests -name '*.php' -print0 | xargs -0 -n1 php -l"
+        ],
+        "app-validate-phpcs": [
+            "echo \u001b\"[33m Running PHP Code Sniffer. Create or edit phpcs.xml.dist to change configuration.\u001b[0m\"",
+            "phpcs"
+        ],
+        "app-validate-phpstan": [
+            "echo \u001b\"[33mRunning PHP Stan. Create or edit phpstan.neon.dist to change configuration.\u001b[0m\"",
+            "phpstan analyze"
         ],
         "nuke": [
             "rm -rf docroot vendor composer.lock"

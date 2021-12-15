@@ -91,3 +91,9 @@ drush/sites/.checksums
 
 # Deprecation detector rules
 .rules
+
+# PHPCS
+.phpcs-cache
+
+# PHPUnit
+.phpunit.result.cache
