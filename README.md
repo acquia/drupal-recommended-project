@@ -35,10 +35,8 @@ After creating your project, if you'd also like to use Acquia BLT, do the follow
 ```json
     {"scripts": {
         "codestudio-build": [],
-        "codestudio-validate": [
-            "blt validate --no-interaction --ansi --verbose"
-        ],
         "codestudio-test": [
+            "blt validate --no-interaction --ansi --verbose",
             "blt tests --no-interaction --ansi --verbose"
         ],
         "codestudio-deploy": [
