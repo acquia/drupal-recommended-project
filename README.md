@@ -34,13 +34,14 @@ After creating your project, if you'd also like to use Acquia BLT, do the follow
 * Update composer.json's scripts array to utilize BLT commands. E.g., 
 ```json
     {"scripts": {
-        "app-validate-all": [
+        "codestudio-build": [],
+        "codestudio-validate": [
             "blt validate --no-interaction --ansi --verbose"
         ],
-        "app-test-all": [
+        "codestudio-test": [
             "blt tests --no-interaction --ansi --verbose"
         ],
-        "app-deploy": [
+        "codestudio-deploy": [
             "blt artifact:deploy --commit-msg \"Automated commit by Code Studio for Pipeline ${CI_PIPELINE_ID}\" --branch \"${CI_COMMIT_BRANCH}-codestudio-build\" --ignore-dirty --no-interaction --verbose"
         ]
     }}

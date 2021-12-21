@@ -129,39 +129,39 @@
         "acms:install": [
             "bash ./docroot/profiles/contrib/acquia_cms/install-acms"
         ],
-        "app-deploy": [
-            "echo \u001b\"[33mRunning composer app-deploy script. Edit composer.json scripts.app-deploy to modify test commands.\u001b[0m\"",
+        "codestudio-build": [
+            "echo \u001b\"[33mRunning composer codestudio-build script. Edit composer.json scripts.codestudio-build to modify build commands.\u001b[0m\"",
+            "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\""
+        ],
+        "codestudio-deploy": [
+            "echo \u001b\"[33mRunning composer codestudio-deploy script. Edit composer.json scripts.codestudio-deploy to modify deploy commands.\u001b[0m\"",
             "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
             "acli push:artifact --no-interaction -vvv"
         ],
-        "app-fix-phpcbf": [
+        "fix-phpcbf": [
             "phpcbf"
         ],
-        "app-test-all": [
-            "echo \u001b\"[33mRunning composer app-test-all script. Edit composer.json scripts.app-test-all to modify test commands.\u001b[0m\"",
+        "codestudio-test": [
+            "echo \u001b\"[33mRunning composer codestudio-test script. Edit composer.json scripts.codestudio to modify test commands.\u001b[0m\"",
             "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
-            "@app-test-unit"
+            "@validate-php-lint",
+            "@validate-phpcs",
+            "@validate-phpstan",
+            "@test-unit"
         ],
-        "app-test-unit": [
+        "test-unit": [
             "echo \u001b\"[33mRunning PHP Unit. Create or edit phpunit.xml.dist to change configuration.\u001b[0m\"",
             "phpunit -vvv"
         ],
-        "app-validate-all": [
-            "echo \u001b\"[33mRunning composer app-validate-all script. Edit composer.json scripts.app-validate-all to modify validate commands.\u001b[0m\"",
-            "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
-            "@app-validate-php-lint",
-            "@app-validate-phpcs",
-            "@app-validate-phpstan"
-        ],
-        "app-validate-php-lint": [
+        "validate-php-lint": [
             "find src -name '*.php' -print0 | xargs -0 -n1 php -l",
             "find tests -name '*.php' -print0 | xargs -0 -n1 php -l"
         ],
-        "app-validate-phpcs": [
+        "validate-phpcs": [
             "echo \u001b\"[33m Running PHP Code Sniffer. Create or edit phpcs.xml.dist to change configuration.\u001b[0m\"",
             "phpcs"
         ],
-        "app-validate-phpstan": [
+        "validate-phpstan": [
             "echo \u001b\"[33mRunning PHP Stan. Create or edit phpstan.neon.dist to change configuration.\u001b[0m\"",
             "phpstan analyze"
         ],
