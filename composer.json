@@ -30,6 +30,18 @@
         "phpunit/phpunit": "^9.5",
         "squizlabs/php_codesniffer": "^3.6"
     },
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        "asset-packagist": {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
         "platform": {
             "php": "7.4"
@@ -113,18 +125,6 @@
             }
         }
     },
-    "repositories": {
-        "drupal": {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        },
-        "asset-packagist": {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "scripts": {
         "acms:install": [
             "bash ./docroot/profiles/contrib/acquia_cms/install-acms"
@@ -138,9 +138,6 @@
             "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
             "acli push:artifact --no-interaction -vvv"
         ],
-        "fix-phpcbf": [
-            "phpcbf"
-        ],
         "codestudio-test": [
             "echo \u001b\"[33mRunning composer codestudio-test script. Edit composer.json scripts.codestudio to modify test commands.\u001b[0m\"",
             "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
@@ -148,6 +145,12 @@
             "@validate-phpcs",
             "@validate-phpstan",
             "@test-unit"
+        ],
+        "fix-phpcbf": [
+            "phpcbf"
+        ],
+        "nuke": [
+            "rm -rf docroot vendor composer.lock"
         ],
         "test-unit": [
             "echo \u001b\"[33mRunning PHP Unit. Create or edit phpunit.xml.dist to change configuration.\u001b[0m\"",
@@ -164,9 +167,6 @@
         "validate-phpstan": [
             "echo \u001b\"[33mRunning PHP Stan. Create or edit phpstan.neon.dist to change configuration.\u001b[0m\"",
             "phpstan analyze"
-        ],
-        "nuke": [
-            "rm -rf docroot vendor composer.lock"
         ]
     }
 }
