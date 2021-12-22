@@ -139,7 +139,7 @@
             "acli push:artifact --no-interaction -vvv"
         ],
         "codestudio-test": [
-            "echo \u001b\"[33mRunning composer codestudio-test script. Edit composer.json scripts.codestudio to modify test commands.\u001b[0m\"",
+            "echo \u001b\"[33mRunning composer codestudio-test script. Edit composer.json scripts.codestudio-test to modify test commands.\u001b[0m\"",
             "echo \u001b\"[33mBy default, Acquia Code Studio will use use this during CI/CD jobs.\u001b[0m\"",
             "@validate-php-lint",
             "@validate-phpcs",
