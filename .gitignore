@@ -1,5 +1,7 @@
 # Files and directories suggested to be ignored by Drupal
-# @see https://git.drupalcode.org/project/drupal/-/blob/9.2.x/example.gitignore
+# We allow settings.php to be committed since Acquia's filesystem is read-only
+# @see https://git.drupalcode.org/project/drupal/-/blob/9.3.x/example.gitignore
+# @see https://www.drupal.org/project/drupal/issues/3257119
 /docroot/core
 /vendor/
 /docroot/sites/*/settings.*.php
