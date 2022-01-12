@@ -100,3 +100,6 @@ drush/sites/.checksums
 
 # PHPUnit
 .phpunit.result.cache
+
+# Drupal check report.
+drupal-check-report.xml
