@@ -103,3 +103,11 @@ drush/sites/.checksums
 
 # Drupal check report.
 drupal-check-report.xml
+
+# Local files
+local.settings.php
+local.drush.yml
+local.site.yml
+local.services.yml
+*.local
+local.blt.yml
