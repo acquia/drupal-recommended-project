@@ -60,22 +60,21 @@
                     "overwrite": false,
                     "path": "docroot/core/assets/scaffold/files/default.services.yml"
                 },
-                "[web-root]/sites/default/services.yml": {
-                    "mode": "replace",
-                    "overwrite": false,
-                    "path": "docroot/core/assets/scaffold/files/default.services.yml"
-                },
                 "[web-root]/sites/default/default.settings.php": {
                     "mode": "replace",
                     "overwrite": false,
                     "path": "docroot/core/assets/scaffold/files/default.settings.php"
+                },
+                "[web-root]/sites/default/services.yml": {
+                    "mode": "replace",
+                    "overwrite": false,
+                    "path": "docroot/core/assets/scaffold/files/default.services.yml"
                 },
                 "[web-root]/sites/default/settings.php": {
                     "mode": "replace",
                     "overwrite": false,
                     "path": "docroot/core/assets/scaffold/files/default.settings.php"
                 }
-
             },
             "gitignore": true,
             "locations": {
