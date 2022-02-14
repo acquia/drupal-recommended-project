@@ -5,8 +5,10 @@
 # @see https://www.drupal.org/project/drupal/issues/3257119
 /docroot/core
 /vendor/
-/docroot/sites/*/settings.*.php
-/docroot/sites/*/services*.yml
+/docroot/sites/*/local.settings.php
+/docroot/sites/*/settings.local.php
+/docroot/sites/*/local.services.yml
+/docroot/sites/*/services.local.yml
 /docroot/sites/*/files
 /docroot/sites/*/private
 /docroot/sites/simpletest
