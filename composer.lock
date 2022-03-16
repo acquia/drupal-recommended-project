@@ -8,21 +8,21 @@
     "packages": [
         {
             "name": "acquia/acquia_cms",
-            "version": "v1.4.4",
+            "version": "v1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia_cms.git",
-                "reference": "aafedff9e7ab733756cce72ed4302ef47b00f167"
+                "reference": "1b35cdb18fa4ce6229a43467b4b80ebb327ffe98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia_cms/zipball/aafedff9e7ab733756cce72ed4302ef47b00f167",
-                "reference": "aafedff9e7ab733756cce72ed4302ef47b00f167",
+                "url": "https://api.github.com/repos/acquia/acquia_cms/zipball/1b35cdb18fa4ce6229a43467b4b80ebb327ffe98",
+                "reference": "1b35cdb18fa4ce6229a43467b4b80ebb327ffe98",
                 "shasum": ""
             },
             "require": {
                 "acquia/cohesion": "6.8.1",
-                "acquia/cohesion-theme": "^6.6.0",
+                "acquia/cohesion-theme": "^6.8",
                 "acquia/drupal-environment-detector": "^1.4",
                 "acquia/memcache-settings": "^1",
                 "cweagans/composer-patches": "^1.7",
@@ -41,7 +41,7 @@
                 "drupal/component": "1.0-rc3",
                 "drupal/config_ignore": "2.3.0",
                 "drupal/config_rewrite": "^1.4",
-                "drupal/core": "~9.2.6 || ^9.3",
+                "drupal/core": "~9.2.6 || ~9.3.7",
                 "drupal/default_content": "2.0.0-alpha1",
                 "drupal/diff": "^1",
                 "drupal/entity_clone": "1.0-beta6",
@@ -159,7 +159,8 @@
                         "Error: Attempt to modify property 'styles' on array": "https://gist.githubusercontent.com/panshulK/86e53ac29386142b4204ab885018b36c/raw/c05e9c959cd8102534ccc1923809f90bc735785c/site-studio-updated-style.patch"
                     },
                     "drupal/acquia_telemetry-acquia_telemetry": {
-                        "Add check for core index": "https://www.drupal.org/files/issues/2020-08-18/3165473-27.patch"
+                        "Add check for core index": "https://www.drupal.org/files/issues/2020-08-18/3165473-27.patch",
+                        "Use markup to render text on status report page": "https://git.drupalcode.org/project/acquia_telemetry/-/merge_requests/1.diff"
                     },
                     "drupal/component": {
                         "Missing Use statement creates fatal errors": "https://git.drupalcode.org/project/component/-/merge_requests/2.patch"
@@ -223,9 +224,9 @@
             "homepage": "https://github.com/acquia/acquia_cms",
             "support": {
                 "issues": "https://github.com/acquia/acquia_cms/issues",
-                "source": "https://github.com/acquia/acquia_cms/tree/v1.4.4"
+                "source": "https://github.com/acquia/acquia_cms/tree/v1.4.5"
             },
-            "time": "2022-03-01T17:28:29+00:00"
+            "time": "2022-03-07T09:26:40+00:00"
         },
         {
             "name": "acquia/acsf-contenthub-console",
@@ -4632,12 +4633,20 @@
                     "homepage": "https://www.drupal.org/user/109765"
                 },
                 {
+                    "name": "amangrover90",
+                    "homepage": "https://www.drupal.org/user/3602433"
+                },
+                {
                     "name": "jmoreira",
                     "homepage": "https://www.drupal.org/user/2374486"
                 },
                 {
                     "name": "kaynen",
                     "homepage": "https://www.drupal.org/user/733308"
+                },
+                {
+                    "name": "pajor",
+                    "homepage": "https://www.drupal.org/user/3528384"
                 }
             ],
             "description": "Calculates recursive dependencies of any entity.",
@@ -8557,16 +8566,16 @@
         },
         {
             "name": "ergebnis/composer-normalize",
-            "version": "2.23.1",
+            "version": "2.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/composer-normalize.git",
-                "reference": "a54e28d1338903d9b6043d2187ed0f059d89938f"
+                "reference": "0492b8de602ac601f5d53a5ef9c9558701a18f31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/a54e28d1338903d9b6043d2187ed0f059d89938f",
-                "reference": "a54e28d1338903d9b6043d2187ed0f059d89938f",
+                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/0492b8de602ac601f5d53a5ef9c9558701a18f31",
+                "reference": "0492b8de602ac601f5d53a5ef9c9558701a18f31",
                 "shasum": ""
             },
             "require": {
@@ -8581,11 +8590,11 @@
                 "composer/composer": "^2.2.5",
                 "ergebnis/license": "^1.2.0",
                 "ergebnis/php-cs-fixer-config": "^3.4.0",
-                "fakerphp/faker": "^1.18.0",
-                "phpunit/phpunit": "^9.5.13",
+                "fakerphp/faker": "^1.19.0",
+                "phpunit/phpunit": "^9.5.17",
                 "psalm/plugin-phpunit": "~0.16.1",
-                "symfony/filesystem": "^5.4.3",
-                "vimeo/psalm": "^4.18.1"
+                "symfony/filesystem": "^5.4.6",
+                "vimeo/psalm": "^4.22.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -8628,7 +8637,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-31T06:49:30+00:00"
+            "time": "2022-03-09T08:15:05+00:00"
         },
         {
             "name": "ergebnis/json-normalizer",
