@@ -1,15 +1,19 @@
 name: Auto-Merge dependency updates
 on:
   pull_request_target:
-    types: [opened]
+    types: [opened, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   enable-auto-merge:
     runs-on: ubuntu-latest
 
-    if: github.event.pull_request.user.login == 'violinist-dev'
+    if: github.event.pull_request.user.login == 'violinist-bot'
     steps:
-    - run: 'gh pr merge --auto $GITHUB_PR'
+    - run: 'gh pr merge --auto --squash $GITHUB_PR'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_PR: ${{ github.event.pull_request.html_url }}
