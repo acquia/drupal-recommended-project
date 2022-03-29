@@ -1,7 +1,7 @@
 name: Auto-Merge dependency updates
 on:
   pull_request_target:
-    types: [opened]
+    types: [opened, reopened]
 
 jobs:
   enable-auto-merge:
