@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "acquia/acquia_cms",
-            "version": "v1.4.5",
+            "version": "v1.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia_cms.git",
-                "reference": "1b35cdb18fa4ce6229a43467b4b80ebb327ffe98"
+                "reference": "56b85eeda4985a571fe800bf1c924ace303dc9c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia_cms/zipball/1b35cdb18fa4ce6229a43467b4b80ebb327ffe98",
-                "reference": "1b35cdb18fa4ce6229a43467b4b80ebb327ffe98",
+                "url": "https://api.github.com/repos/acquia/acquia_cms/zipball/56b85eeda4985a571fe800bf1c924ace303dc9c3",
+                "reference": "56b85eeda4985a571fe800bf1c924ace303dc9c3",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 "drupal/component": "1.0-rc3",
                 "drupal/config_ignore": "2.3.0",
                 "drupal/config_rewrite": "^1.4",
-                "drupal/core": "~9.2.6 || ~9.3.7",
+                "drupal/core": "~9.2.16 || ~9.3.9",
                 "drupal/default_content": "2.0.0-alpha1",
                 "drupal/diff": "^1",
                 "drupal/entity_clone": "1.0-beta6",
@@ -159,28 +159,28 @@
                         "Error: Attempt to modify property 'styles' on array": "https://gist.githubusercontent.com/panshulK/86e53ac29386142b4204ab885018b36c/raw/c05e9c959cd8102534ccc1923809f90bc735785c/site-studio-updated-style.patch"
                     },
                     "drupal/acquia_telemetry-acquia_telemetry": {
-                        "Add check for core index": "https://www.drupal.org/files/issues/2020-08-18/3165473-27.patch",
-                        "Use markup to render text on status report page": "https://git.drupalcode.org/project/acquia_telemetry/-/merge_requests/1.diff"
+                        "3165473 - Add check for core index": "https://www.drupal.org/files/issues/2020-08-18/3165473-27.patch",
+                        "3267344 - Use markup to render text on status report page": "https://git.drupalcode.org/project/acquia_telemetry/-/merge_requests/1.diff"
                     },
                     "drupal/component": {
-                        "Missing Use statement creates fatal errors": "https://git.drupalcode.org/project/component/-/merge_requests/2.patch"
+                        "3236462 - Missing Use statement creates fatal errors": "https://git.drupalcode.org/project/component/-/merge_requests/2.patch"
                     },
                     "drupal/config_ignore": {
-                        "Support for export filtering via Drush": "https://www.drupal.org/files/issues/2021-08-18/config_ignore_2857247-75.patch"
+                        "2857247 - Support for export filtering via Drush": "https://www.drupal.org/files/issues/2021-08-18/config_ignore_2857247-75.patch"
                     },
                     "drupal/core": {
-                        "It is possible to overflow the number of items allowed in Media Library": "https://www.drupal.org/files/issues/2019-12-28/3082690-80.patch",
-                        "Media Library widget produces error this value should not be null when field is required": "https://www.drupal.org/files/issues/2020-10-08/3160238-25.patch",
-                        "SQLite database locking errors cause fatal errors": "https://www.drupal.org/files/issues/1120020-59.patch"
+                        "3059955 - It is possible to overflow the number of items allowed in Media Library": "https://www.drupal.org/files/issues/2019-12-28/3082690-80.patch",
+                        "3160238 - Media Library widget produces \"This value should not be null\" error when field is required": "https://www.drupal.org/files/issues/2020-10-08/3160238-25.patch",
+                        "3160238 - SQLite database locking errors cause fatal errors": "https://www.drupal.org/files/issues/1120020-59.patch"
                     },
                     "drupal/default_content": {
-                        "2698425 - Duplicate content issues in default content": "https://git.drupalcode.org/project/default_content/-/merge_requests/5.patch"
+                        "2698425 - Do not reimport existing entities": "https://git.drupalcode.org/project/default_content/-/merge_requests/5.patch"
                     },
                     "drupal/entity_clone": {
-                        "Allow fields implementing EntityReferenceFieldItemListInterface to clone their referenced entities": "https://www.drupal.org/files/issues/2021-04-14/3013286-19.patch"
+                        "3013286 - Allow fields implementing EntityReferenceFieldItemListInterface to clone their referenced entities": "https://www.drupal.org/files/issues/2021-04-14/3013286-19.patch"
                     },
                     "drupal/facets": {
-                        "Fix the select/deselect facet link issue": "https://www.drupal.org/files/issues/2022-01-18/3259123-search-facet-reset-link.patch"
+                        "3259123 - ViewsDisplayBase::isRenderedInCurrentRequest() doesn't let the facet link to reset to original URL": "https://www.drupal.org/files/issues/2022-01-18/3259123-search-facet-reset-link.patch"
                     },
                     "drupal/focal_point": {
                         "3162210 - Preview link accidentally closes the media library": "https://www.drupal.org/files/issues/2020-10-06/3162210-17.patch"
@@ -189,10 +189,10 @@
                         "3224364 - Replace deprecated boolean return in uksort() for PHP 8 compatibility.": "https://www.drupal.org/files/issues/2021-07-19/3224364-2.patch"
                     },
                     "drupal/reroute_email": {
-                        "Invalid argument supplied for foreach() in reroute_email_check_email_by_permission() (line 316)": "https://git.drupalcode.org/project/reroute_email/-/commit/438a67caeb0b0cc47d1deb0cee50afda9a907dc8.diff"
+                        "3254806 - Invalid argument supplied for foreach() in reroute_email_check_email_by_permission() (line 316)": "https://git.drupalcode.org/project/reroute_email/-/commit/438a67caeb0b0cc47d1deb0cee50afda9a907dc8.diff"
                     },
                     "drupal/search_api": {
-                        "Resolves call to member function preExecute() on null error on site install": "https://www.drupal.org/files/issues/2021-09-20/search_api_condition_cacheable_metadata.patch"
+                        "3236696 - Call to a member function preExecute() on null in SearchApiTagCache->alterCacheMetadata()": "https://www.drupal.org/files/issues/2021-09-20/search_api_condition_cacheable_metadata.patch"
                     }
                 }
             },
@@ -224,28 +224,29 @@
             "homepage": "https://github.com/acquia/acquia_cms",
             "support": {
                 "issues": "https://github.com/acquia/acquia_cms/issues",
-                "source": "https://github.com/acquia/acquia_cms/tree/v1.4.5"
+                "source": "https://github.com/acquia/acquia_cms/tree/v1.4.6"
             },
-            "time": "2022-03-07T09:26:40+00:00"
+            "time": "2022-03-28T10:20:12+00:00"
         },
         {
             "name": "acquia/acsf-contenthub-console",
-            "version": "1.2.1",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acsf-contenthub-console.git",
-                "reference": "1fd6e6974c88db3277da1d861cc399f47593eb2e"
+                "reference": "67ada49bc7870f2655329c546e88009762584b84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acsf-contenthub-console/zipball/1fd6e6974c88db3277da1d861cc399f47593eb2e",
-                "reference": "1fd6e6974c88db3277da1d861cc399f47593eb2e",
+                "url": "https://api.github.com/repos/acquia/acsf-contenthub-console/zipball/67ada49bc7870f2655329c546e88009762584b84",
+                "reference": "67ada49bc7870f2655329c546e88009762584b84",
                 "shasum": ""
             },
             "require": {
-                "acquia/cloud-contenthub-console": "^1.2.0"
+                "acquia/cloud-contenthub-console": "^1.3"
             },
             "require-dev": {
+                "drupal/coder": "dev-8.x-3.x",
                 "php-coveralls/php-coveralls": "^2.4",
                 "phpunit/phpunit": "^8",
                 "squizlabs/php_codesniffer": "^3.5"
@@ -270,30 +271,31 @@
             "description": "A package providing Acquia Cloud Site Factory commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/acsf-contenthub-console/issues",
-                "source": "https://github.com/acquia/acsf-contenthub-console/tree/1.2.1"
+                "source": "https://github.com/acquia/acsf-contenthub-console/tree/1.3"
             },
-            "time": "2021-10-25T12:53:41+00:00"
+            "time": "2022-03-24T12:04:11+00:00"
         },
         {
             "name": "acquia/cloud-contenthub-console",
-            "version": "1.2.0",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cloud-contenthub-console.git",
-                "reference": "c251e29d95255bc9436c21bea2a45234b2992a4c"
+                "reference": "0564f8e3c1483eae64a35862f8aecd1bd50f890a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cloud-contenthub-console/zipball/c251e29d95255bc9436c21bea2a45234b2992a4c",
-                "reference": "c251e29d95255bc9436c21bea2a45234b2992a4c",
+                "url": "https://api.github.com/repos/acquia/cloud-contenthub-console/zipball/0564f8e3c1483eae64a35862f8aecd1bd50f890a",
+                "reference": "0564f8e3c1483eae64a35862f8aecd1bd50f890a",
                 "shasum": ""
             },
             "require": {
-                "acquia/contenthub-console-helpers": "^1.0",
+                "acquia/contenthub-console-helpers": "^1.3",
                 "ext-json": "*",
                 "typhonius/acquia-php-sdk-v2": "<=2.0.15"
             },
             "require-dev": {
+                "drupal/coder": "dev-8.x-3.x",
                 "php-coveralls/php-coveralls": "^2.4",
                 "phpunit/phpunit": "^8",
                 "squizlabs/php_codesniffer": "^3.5"
@@ -318,9 +320,9 @@
             "description": "A package providing Acquia Cloud commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/cloud-contenthub-console/issues",
-                "source": "https://github.com/acquia/cloud-contenthub-console/tree/1.2.0"
+                "source": "https://github.com/acquia/cloud-contenthub-console/tree/1.3"
             },
-            "time": "2021-04-09T18:50:18+00:00"
+            "time": "2022-03-24T11:45:08+00:00"
         },
         {
             "name": "acquia/cohesion",
@@ -423,16 +425,16 @@
         },
         {
             "name": "acquia/content-hub-php",
-            "version": "2.1",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/content-hub-php.git",
-                "reference": "613a64a26f63c7d677e3947c16e9bfbe590e7d1b"
+                "reference": "70dd845e40be08abb56e048f4bac623548e6c1df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/content-hub-php/zipball/613a64a26f63c7d677e3947c16e9bfbe590e7d1b",
-                "reference": "613a64a26f63c7d677e3947c16e9bfbe590e7d1b",
+                "url": "https://api.github.com/repos/acquia/content-hub-php/zipball/70dd845e40be08abb56e048f4bac623548e6c1df",
+                "reference": "70dd845e40be08abb56e048f4bac623548e6c1df",
                 "shasum": ""
             },
             "require": {
@@ -446,7 +448,7 @@
                 "symfony/serializer": "^3.4 || ^4.3"
             },
             "require-dev": {
-                "drupal/coder": "^8.3",
+                "drupal/coder": "dev-8.x-3.x",
                 "mockery/mockery": "^1.2",
                 "pdepend/pdepend": "~1.0",
                 "phploc/phploc": "~2.0",
@@ -484,31 +486,32 @@
             "homepage": "https://github.com/acquia/content-hub-php",
             "support": {
                 "issues": "https://github.com/acquia/content-hub-php/issues",
-                "source": "https://github.com/acquia/content-hub-php/tree/2.1"
+                "source": "https://github.com/acquia/content-hub-php/tree/2.1.1"
             },
-            "time": "2021-11-26T14:57:07+00:00"
+            "time": "2022-03-24T09:08:45+00:00"
         },
         {
             "name": "acquia/contenthub-console",
-            "version": "1.3.1",
+            "version": "1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/contenthub-console.git",
-                "reference": "b11bf253cd51caaaf4882cc119b4b4bfa4fd997f"
+                "reference": "3f0862073ed3fe337207861af2aa0659713e31c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/contenthub-console/zipball/b11bf253cd51caaaf4882cc119b4b4bfa4fd997f",
-                "reference": "b11bf253cd51caaaf4882cc119b4b4bfa4fd997f",
+                "url": "https://api.github.com/repos/acquia/contenthub-console/zipball/3f0862073ed3fe337207861af2aa0659713e31c5",
+                "reference": "3f0862073ed3fe337207861af2aa0659713e31c5",
                 "shasum": ""
             },
             "require": {
-                "acquia/acsf-contenthub-console": "^1.2.0",
+                "acquia/acsf-contenthub-console": "^1.3",
                 "ext-json": "*",
                 "spatie/ssl-certificate": "1.21|1.22.1",
                 "zumba/amplitude-php": "^1"
             },
             "require-dev": {
+                "drupal/coder": "dev-8.x-3.x",
                 "php-coveralls/php-coveralls": "^2.4",
                 "phpunit/phpunit": "^8",
                 "squizlabs/php_codesniffer": "^3.5"
@@ -533,30 +536,30 @@
             "description": "A package providing Acquia ContentHub commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/contenthub-console/issues",
-                "source": "https://github.com/acquia/contenthub-console/tree/1.3.1"
+                "source": "https://github.com/acquia/contenthub-console/tree/1.4"
             },
-            "time": "2021-08-10T14:24:41+00:00"
+            "time": "2022-03-24T12:19:19+00:00"
         },
         {
             "name": "acquia/contenthub-console-helpers",
-            "version": "1.2",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/contenthub-console-helpers.git",
-                "reference": "043c5a7230ed5a0fb9a7d99db4c0c1c2444831df"
+                "reference": "dd68209cda2cfa170a737b391716f9f74fef924c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/contenthub-console-helpers/zipball/043c5a7230ed5a0fb9a7d99db4c0c1c2444831df",
-                "reference": "043c5a7230ed5a0fb9a7d99db4c0c1c2444831df",
+                "url": "https://api.github.com/repos/acquia/contenthub-console-helpers/zipball/dd68209cda2cfa170a737b391716f9f74fef924c",
+                "reference": "dd68209cda2cfa170a737b391716f9f74fef924c",
                 "shasum": ""
             },
             "require": {
-                "drupal/coder": "^8.3",
-                "eclipsegc/common-console": "^0.0.2",
+                "eclipsegc/common-console": "^0.0.3",
                 "ext-json": "*"
             },
             "require-dev": {
+                "drupal/coder": "dev-8.x-3.x",
                 "php-coveralls/php-coveralls": "^2.4",
                 "phpunit/phpunit": "^8",
                 "squizlabs/php_codesniffer": "^3.5"
@@ -581,9 +584,9 @@
             "description": "A package providing Helper Libraries for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/contenthub-console-helpers/issues",
-                "source": "https://github.com/acquia/contenthub-console-helpers/tree/1.2"
+                "source": "https://github.com/acquia/contenthub-console-helpers/tree/1.3"
             },
-            "time": "2021-07-08T15:18:03+00:00"
+            "time": "2022-03-24T11:27:37+00:00"
         },
         {
             "name": "acquia/drupal-environment-detector",
@@ -2011,81 +2014,6 @@
             "time": "2017-08-16T07:58:18+00:00"
         },
         {
-            "name": "dealerdirect/phpcodesniffer-composer-installer",
-            "version": "v0.7.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git",
-                "reference": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
-                "reference": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0 || ^2.0",
-                "php": ">=5.3",
-                "squizlabs/php_codesniffer": "^2.0 || ^3.1.0 || ^4.0"
-            },
-            "require-dev": {
-                "composer/composer": "*",
-                "php-parallel-lint/php-parallel-lint": "^1.3.1",
-                "phpcompatibility/php-compatibility": "^9.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Franck Nijhof",
-                    "email": "franck.nijhof@dealerdirect.com",
-                    "homepage": "http://www.frenck.nl",
-                    "role": "Developer / IT Manager"
-                },
-                {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer/graphs/contributors"
-                }
-            ],
-            "description": "PHP_CodeSniffer Standards Composer Installer Plugin",
-            "homepage": "http://www.dealerdirect.com",
-            "keywords": [
-                "PHPCodeSniffer",
-                "PHP_CodeSniffer",
-                "code quality",
-                "codesniffer",
-                "composer",
-                "installer",
-                "phpcbf",
-                "phpcs",
-                "plugin",
-                "qa",
-                "quality",
-                "standard",
-                "standards",
-                "style guide",
-                "stylecheck",
-                "tests"
-            ],
-            "support": {
-                "issues": "https://github.com/dealerdirect/phpcodesniffer-composer-installer/issues",
-                "source": "https://github.com/dealerdirect/phpcodesniffer-composer-installer"
-            },
-            "time": "2022-02-04T12:51:07+00:00"
-        },
-        {
             "name": "dflydev/dot-access-data",
             "version": "v1.1.0",
             "source": {
@@ -2613,23 +2541,23 @@
         },
         {
             "name": "drupal/acquia_contenthub",
-            "version": "2.30.0",
+            "version": "2.31.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/acquia_contenthub.git",
-                "reference": "8.x-2.30"
+                "reference": "8.x-2.31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acquia_contenthub-8.x-2.30.zip",
-                "reference": "8.x-2.30",
-                "shasum": "66e400e1d5dfea3a3e1f5981a3215f207c08149b"
+                "url": "https://ftp.drupal.org/files/projects/acquia_contenthub-8.x-2.31.zip",
+                "reference": "8.x-2.31",
+                "shasum": "e764652564e7eedb9f633cb8d43f521321d4a70d"
             },
             "require": {
-                "acquia/content-hub-php": "^2.1",
-                "acquia/contenthub-console": "^1.3.1",
+                "acquia/content-hub-php": "^2.1.1",
+                "acquia/contenthub-console": "^1.4",
                 "drupal/core": "^8.8 || ^9",
-                "drupal/depcalc": "^1.10",
+                "drupal/depcalc": "^1.11",
                 "laminas/laminas-diactoros": "^1.8 || ^2.2",
                 "symfony/psr-http-message-bridge": "^1.1.2 || ^2.0"
             },
@@ -2650,8 +2578,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.30",
-                    "datestamp": "1641973913",
+                    "version": "8.x-2.31",
+                    "datestamp": "1648484465",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2683,8 +2611,8 @@
                     "homepage": "https://www.drupal.org/user/3602433"
                 },
                 {
-                    "name": "ankitsingh0188",
-                    "homepage": "https://www.drupal.org/user/3268690"
+                    "name": "amarlata",
+                    "homepage": "https://www.drupal.org/user/3504572"
                 },
                 {
                     "name": "attilatilman",
@@ -2695,16 +2623,8 @@
                     "homepage": "https://www.drupal.org/user/45640"
                 },
                 {
-                    "name": "jmoreira",
-                    "homepage": "https://www.drupal.org/user/2374486"
-                },
-                {
                     "name": "kaynen",
                     "homepage": "https://www.drupal.org/user/733308"
-                },
-                {
-                    "name": "looking4justice",
-                    "homepage": "https://www.drupal.org/user/3607847"
                 },
                 {
                     "name": "pajor",
@@ -2959,17 +2879,17 @@
         },
         {
             "name": "drupal/acsf",
-            "version": "2.71.0",
+            "version": "2.72.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/acsf.git",
-                "reference": "8.x-2.71"
+                "reference": "8.x-2.72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acsf-8.x-2.71.zip",
-                "reference": "8.x-2.71",
-                "shasum": "56e9c49613adf8b5e3944abbddad770de9930f34"
+                "url": "https://ftp.drupal.org/files/projects/acsf-8.x-2.72.zip",
+                "reference": "8.x-2.72",
+                "shasum": "f56053a3092f04ede09491ed45fb17416ead9062"
             },
             "require": {
                 "drupal/acsf_duplication": "*",
@@ -2988,8 +2908,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.71",
-                    "datestamp": "1644404678",
+                    "version": "8.x-2.72",
+                    "datestamp": "1648038271",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3059,7 +2979,7 @@
         },
         {
             "name": "drupal/acsf_duplication",
-            "version": "2.71.0",
+            "version": "2.72.0",
             "require": {
                 "drupal/acsf": "^2",
                 "drupal/core": "^8 || ^9"
@@ -3067,8 +2987,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.71",
-                    "datestamp": "1644404678",
+                    "version": "8.x-2.72",
+                    "datestamp": "1648038271",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3129,7 +3049,7 @@
         },
         {
             "name": "drupal/acsf_theme",
-            "version": "2.71.0",
+            "version": "2.72.0",
             "require": {
                 "drupal/acsf": "^2",
                 "drupal/acsf_variables": "*",
@@ -3138,8 +3058,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.71",
-                    "datestamp": "1644404678",
+                    "version": "8.x-2.72",
+                    "datestamp": "1648038271",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3200,7 +3120,7 @@
         },
         {
             "name": "drupal/acsf_variables",
-            "version": "2.71.0",
+            "version": "2.72.0",
             "require": {
                 "drupal/acsf": "^2",
                 "drupal/core": "^8 || ^9"
@@ -3208,8 +3128,8 @@
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.71",
-                    "datestamp": "1644404678",
+                    "version": "8.x-2.72",
+                    "datestamp": "1648038271",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3632,51 +3552,6 @@
                 "source": "https://git.drupalcode.org/project/checklistapi",
                 "issues": "https://www.drupal.org/project/issues/checklistapi"
             }
-        },
-        {
-            "name": "drupal/coder",
-            "version": "8.3.14",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/coder.git",
-                "reference": "adb06efa79ba8b91afed2f351014a6b94192622f"
-            },
-            "require": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
-                "ext-mbstring": "*",
-                "php": ">=7.1",
-                "sirbrillig/phpcs-variable-analysis": "^2.10",
-                "slevomat/coding-standard": "^7.0",
-                "squizlabs/php_codesniffer": "^3.6.0",
-                "symfony/yaml": ">=2.0.5"
-            },
-            "require-dev": {
-                "phpstan/phpstan": "^1.2.0",
-                "phpunit/phpunit": "^6.0 || ^7.0 || ^8.0"
-            },
-            "type": "phpcodesniffer-standard",
-            "autoload": {
-                "psr-4": {
-                    "Drupal\\": "coder_sniffer/Drupal/",
-                    "DrupalPractice\\": "coder_sniffer/DrupalPractice/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "Coder is a library to review Drupal code.",
-            "homepage": "https://www.drupal.org/project/coder",
-            "keywords": [
-                "code review",
-                "phpcs",
-                "standards"
-            ],
-            "support": {
-                "issues": "https://www.drupal.org/project/issues/coder",
-                "source": "https://www.drupal.org/project/coder"
-            },
-            "time": "2022-01-28T09:33:01+00:00"
         },
         {
             "name": "drupal/collapsiblock",
@@ -4587,17 +4462,17 @@
         },
         {
             "name": "drupal/depcalc",
-            "version": "1.10.0",
+            "version": "1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/depcalc.git",
-                "reference": "8.x-1.10"
+                "reference": "8.x-1.11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/depcalc-8.x-1.10.zip",
-                "reference": "8.x-1.10",
-                "shasum": "be4672bd78b1966212442060918fe64a53c5a14c"
+                "url": "https://ftp.drupal.org/files/projects/depcalc-8.x-1.11.zip",
+                "reference": "8.x-1.11",
+                "shasum": "d710b2186b4b220bc8374ba6c3c95037d107758c"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -4608,8 +4483,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.10",
-                    "datestamp": "1626878867",
+                    "version": "8.x-1.11",
+                    "datestamp": "1647957996",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5458,17 +5333,17 @@
         },
         {
             "name": "drupal/google_tag",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/google_tag.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/google_tag-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "1bdc6f93d1c79c27738320597f2185f5de37432f"
+                "url": "https://ftp.drupal.org/files/projects/google_tag-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "b2929a517cc86bb3e54dded127556f18236a8628"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
@@ -5476,8 +5351,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1593179846",
+                    "version": "8.x-1.5",
+                    "datestamp": "1648569365",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6208,17 +6083,17 @@
         },
         {
             "name": "drupal/moderation_sidebar",
-            "version": "1.4.0",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/moderation_sidebar.git",
-                "reference": "8.x-1.4"
+                "reference": "8.x-1.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/moderation_sidebar-8.x-1.4.zip",
-                "reference": "8.x-1.4",
-                "shasum": "5e6b0b68d01cd93a31c326c9fd20524a0e12d36a"
+                "url": "https://ftp.drupal.org/files/projects/moderation_sidebar-8.x-1.5.zip",
+                "reference": "8.x-1.5",
+                "shasum": "d3391f5ca10a9d145d217ef2ce0b463d90a14510"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -6226,8 +6101,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.4",
-                    "datestamp": "1589812642",
+                    "version": "8.x-1.5",
+                    "datestamp": "1648129967",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -7163,8 +7038,12 @@
                     "homepage": "https://www.drupal.org/user/404865"
                 },
                 {
-                    "name": "thunderbot",
-                    "homepage": "https://www.drupal.org/user/3511180"
+                    "name": "jonathan1055",
+                    "homepage": "https://www.drupal.org/user/92645"
+                },
+                {
+                    "name": "smustgrave",
+                    "homepage": "https://www.drupal.org/user/3252890"
                 },
                 {
                     "name": "volkerk",
@@ -8383,16 +8262,16 @@
         },
         {
             "name": "eclipsegc/common-console",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EclipseGc/CommonConsole.git",
-                "reference": "11364326ae4b14efdebda4d1587370049a42b38c"
+                "reference": "4285b5b1e86559207fa00961779918937dddbb59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EclipseGc/CommonConsole/zipball/11364326ae4b14efdebda4d1587370049a42b38c",
-                "reference": "11364326ae4b14efdebda4d1587370049a42b38c",
+                "url": "https://api.github.com/repos/EclipseGc/CommonConsole/zipball/4285b5b1e86559207fa00961779918937dddbb59",
+                "reference": "4285b5b1e86559207fa00961779918937dddbb59",
                 "shasum": ""
             },
             "require": {
@@ -8426,9 +8305,9 @@
             "description": "A Common Console base application.",
             "support": {
                 "issues": "https://github.com/EclipseGc/CommonConsole/issues",
-                "source": "https://github.com/EclipseGc/CommonConsole/tree/0.0.2"
+                "source": "https://github.com/EclipseGc/CommonConsole/tree/0.0.3"
             },
-            "time": "2021-07-08T14:47:28+00:00"
+            "time": "2022-02-24T10:28:50+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -8566,16 +8445,16 @@
         },
         {
             "name": "ergebnis/composer-normalize",
-            "version": "2.24.0",
+            "version": "2.24.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/composer-normalize.git",
-                "reference": "0492b8de602ac601f5d53a5ef9c9558701a18f31"
+                "reference": "3d5392cfca3d519412cef3f4817c73d2f60d43fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/0492b8de602ac601f5d53a5ef9c9558701a18f31",
-                "reference": "0492b8de602ac601f5d53a5ef9c9558701a18f31",
+                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/3d5392cfca3d519412cef3f4817c73d2f60d43fd",
+                "reference": "3d5392cfca3d519412cef3f4817c73d2f60d43fd",
                 "shasum": ""
             },
             "require": {
@@ -8587,11 +8466,11 @@
                 "php": "^7.4 || ^8.0"
             },
             "require-dev": {
-                "composer/composer": "^2.2.5",
+                "composer/composer": "^2.2.9",
                 "ergebnis/license": "^1.2.0",
                 "ergebnis/php-cs-fixer-config": "^3.4.0",
                 "fakerphp/faker": "^1.19.0",
-                "phpunit/phpunit": "^9.5.17",
+                "phpunit/phpunit": "^9.5.19",
                 "psalm/plugin-phpunit": "~0.16.1",
                 "symfony/filesystem": "^5.4.6",
                 "vimeo/psalm": "^4.22.0"
@@ -8637,7 +8516,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-03-09T08:15:05+00:00"
+            "time": "2022-03-19T13:37:12+00:00"
         },
         {
             "name": "ergebnis/json-normalizer",
@@ -11921,16 +11800,16 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "93ebd0014cab80c4ea9f5e297ea48672f1b87706"
+                "reference": "77a32518733312af16a44300404e945338981de3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/93ebd0014cab80c4ea9f5e297ea48672f1b87706",
-                "reference": "93ebd0014cab80c4ea9f5e297ea48672f1b87706",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/77a32518733312af16a44300404e945338981de3",
+                "reference": "77a32518733312af16a44300404e945338981de3",
                 "shasum": ""
             },
             "require": {
@@ -11965,9 +11844,9 @@
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
             "support": {
                 "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
-                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.6.0"
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.6.1"
             },
-            "time": "2022-01-04T19:58:01+00:00"
+            "time": "2022-03-15T21:29:03+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -12087,55 +11966,6 @@
                 "source": "https://github.com/phpspec/prophecy-phpunit/tree/v2.0.1"
             },
             "time": "2020-07-09T08:33:42+00:00"
-        },
-        {
-            "name": "phpstan/phpdoc-parser",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "dbc093d7af60eff5cd575d2ed761b15ed40bd08e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/dbc093d7af60eff5cd575d2ed761b15ed40bd08e",
-                "reference": "dbc093d7af60eff5cd575d2ed761b15ed40bd08e",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.1 || ^8.0"
-            },
-            "require-dev": {
-                "php-parallel-lint/php-parallel-lint": "^1.2",
-                "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^1.0",
-                "phpstan/phpstan-strict-rules": "^1.0",
-                "phpunit/phpunit": "^9.5",
-                "symfony/process": "^5.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PHPStan\\PhpDocParser\\": [
-                        "src/"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "PHPDoc parser with support for nullable, intersection and generic types",
-            "support": {
-                "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.2.0"
-            },
-            "time": "2021-09-16T20:46:02+00:00"
         },
         {
             "name": "phpstan/phpstan",
@@ -14160,120 +13990,6 @@
             "time": "2020-09-28T06:39:44+00:00"
         },
         {
-            "name": "sirbrillig/phpcs-variable-analysis",
-            "version": "v2.11.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sirbrillig/phpcs-variable-analysis.git",
-                "reference": "c921498b474212fe4552928bbeb68d70250ce5e8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/c921498b474212fe4552928bbeb68d70250ce5e8",
-                "reference": "c921498b474212fe4552928bbeb68d70250ce5e8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "limedeck/phpunit-detailed-printer": "^3.1 || ^4.0 || ^5.0",
-                "phpstan/phpstan": "^0.11.8",
-                "phpunit/phpunit": "^5.0 || ^6.5 || ^7.0 || ^8.0",
-                "sirbrillig/phpcs-import-detection": "^1.1"
-            },
-            "type": "phpcodesniffer-standard",
-            "autoload": {
-                "psr-4": {
-                    "VariableAnalysis\\": "VariableAnalysis/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sam Graham",
-                    "email": "php-codesniffer-variableanalysis@illusori.co.uk"
-                },
-                {
-                    "name": "Payton Swick",
-                    "email": "payton@foolord.com"
-                }
-            ],
-            "description": "A PHPCS sniff to detect problems with variables.",
-            "support": {
-                "issues": "https://github.com/sirbrillig/phpcs-variable-analysis/issues",
-                "source": "https://github.com/sirbrillig/phpcs-variable-analysis",
-                "wiki": "https://github.com/sirbrillig/phpcs-variable-analysis/wiki"
-            },
-            "time": "2022-02-21T17:01:13+00:00"
-        },
-        {
-            "name": "slevomat/coding-standard",
-            "version": "7.0.19",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "bef66a43815bbf9b5f49775e9ded3f7c6ba0cc37"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/bef66a43815bbf9b5f49775e9ded3f7c6ba0cc37",
-                "reference": "bef66a43815bbf9b5f49775e9ded3f7c6ba0cc37",
-                "shasum": ""
-            },
-            "require": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7",
-                "php": "^7.1 || ^8.0",
-                "phpstan/phpdoc-parser": "^1.0.0",
-                "squizlabs/php_codesniffer": "^3.6.2"
-            },
-            "require-dev": {
-                "phing/phing": "2.17.2",
-                "php-parallel-lint/php-parallel-lint": "1.3.2",
-                "phpstan/phpstan": "1.4.6",
-                "phpstan/phpstan-deprecation-rules": "1.0.0",
-                "phpstan/phpstan-phpunit": "1.0.0",
-                "phpstan/phpstan-strict-rules": "1.1.0",
-                "phpunit/phpunit": "7.5.20|8.5.21|9.5.16"
-            },
-            "type": "phpcodesniffer-standard",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "7.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "SlevomatCodingStandard\\": "SlevomatCodingStandard"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
-            "support": {
-                "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/7.0.19"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/kukulich",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/slevomat/coding-standard",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2022-03-01T18:01:41+00:00"
-        },
-        {
             "name": "solarium/solarium",
             "version": "6.2.3",
             "source": {
@@ -14453,62 +14169,6 @@
                 }
             ],
             "time": "2021-02-15T15:42:15+00:00"
-        },
-        {
-            "name": "squizlabs/php_codesniffer",
-            "version": "3.6.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "5e4e71592f69da17871dba6e80dd51bce74a351a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5e4e71592f69da17871dba6e80dd51bce74a351a",
-                "reference": "5e4e71592f69da17871dba6e80dd51bce74a351a",
-                "shasum": ""
-            },
-            "require": {
-                "ext-simplexml": "*",
-                "ext-tokenizer": "*",
-                "ext-xmlwriter": "*",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
-            },
-            "bin": [
-                "bin/phpcs",
-                "bin/phpcbf"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Greg Sherwood",
-                    "role": "lead"
-                }
-            ],
-            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
-            "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
-            "keywords": [
-                "phpcs",
-                "standards"
-            ],
-            "support": {
-                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
-                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
-                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
-            },
-            "time": "2021-12-12T21:44:58+00:00"
         },
         {
             "name": "stack/builder",
@@ -18279,6 +17939,126 @@
             "time": "2021-10-14T20:20:03+00:00"
         },
         {
+            "name": "dealerdirect/phpcodesniffer-composer-installer",
+            "version": "v0.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer.git",
+                "reference": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Dealerdirect/phpcodesniffer-composer-installer/zipball/1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+                "reference": "1c968e542d8843d7cd71de3c5c9c3ff3ad71a1db",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.3",
+                "squizlabs/php_codesniffer": "^2.0 || ^3.1.0 || ^4.0"
+            },
+            "require-dev": {
+                "composer/composer": "*",
+                "php-parallel-lint/php-parallel-lint": "^1.3.1",
+                "phpcompatibility/php-compatibility": "^9.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dealerdirect\\Composer\\Plugin\\Installers\\PHPCodeSniffer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Franck Nijhof",
+                    "email": "franck.nijhof@dealerdirect.com",
+                    "homepage": "http://www.frenck.nl",
+                    "role": "Developer / IT Manager"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/Dealerdirect/phpcodesniffer-composer-installer/graphs/contributors"
+                }
+            ],
+            "description": "PHP_CodeSniffer Standards Composer Installer Plugin",
+            "homepage": "http://www.dealerdirect.com",
+            "keywords": [
+                "PHPCodeSniffer",
+                "PHP_CodeSniffer",
+                "code quality",
+                "codesniffer",
+                "composer",
+                "installer",
+                "phpcbf",
+                "phpcs",
+                "plugin",
+                "qa",
+                "quality",
+                "standard",
+                "standards",
+                "style guide",
+                "stylecheck",
+                "tests"
+            ],
+            "support": {
+                "issues": "https://github.com/dealerdirect/phpcodesniffer-composer-installer/issues",
+                "source": "https://github.com/dealerdirect/phpcodesniffer-composer-installer"
+            },
+            "time": "2022-02-04T12:51:07+00:00"
+        },
+        {
+            "name": "drupal/coder",
+            "version": "8.3.14",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/coder.git",
+                "reference": "adb06efa79ba8b91afed2f351014a6b94192622f"
+            },
+            "require": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "ext-mbstring": "*",
+                "php": ">=7.1",
+                "sirbrillig/phpcs-variable-analysis": "^2.10",
+                "slevomat/coding-standard": "^7.0",
+                "squizlabs/php_codesniffer": "^3.6.0",
+                "symfony/yaml": ">=2.0.5"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.2.0",
+                "phpunit/phpunit": "^6.0 || ^7.0 || ^8.0"
+            },
+            "type": "phpcodesniffer-standard",
+            "autoload": {
+                "psr-4": {
+                    "Drupal\\": "coder_sniffer/Drupal/",
+                    "DrupalPractice\\": "coder_sniffer/DrupalPractice/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "Coder is a library to review Drupal code.",
+            "homepage": "https://www.drupal.org/project/coder",
+            "keywords": [
+                "code review",
+                "phpcs",
+                "standards"
+            ],
+            "support": {
+                "issues": "https://www.drupal.org/project/issues/coder",
+                "source": "https://www.drupal.org/project/coder"
+            },
+            "time": "2022-01-28T09:33:01+00:00"
+        },
+        {
             "name": "phpcompatibility/php-compatibility",
             "version": "9.3.5",
             "source": {
@@ -18339,6 +18119,220 @@
                 "source": "https://github.com/PHPCompatibility/PHPCompatibility"
             },
             "time": "2019-12-27T09:44:58+00:00"
+        },
+        {
+            "name": "phpstan/phpdoc-parser",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpdoc-parser.git",
+                "reference": "05333065c88f9518e08b094bdd10a4a9e538b2d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/05333065c88f9518e08b094bdd10a4a9e538b2d4",
+                "reference": "05333065c88f9518e08b094bdd10a4a9e538b2d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "php-parallel-lint/php-parallel-lint": "^1.2",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^1.5",
+                "phpstan/phpstan-strict-rules": "^1.0",
+                "phpunit/phpunit": "^9.5",
+                "symfony/process": "^5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPStan\\PhpDocParser\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPDoc parser with support for nullable, intersection and generic types",
+            "support": {
+                "issues": "https://github.com/phpstan/phpdoc-parser/issues",
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.4.1"
+            },
+            "time": "2022-03-29T09:28:16+00:00"
+        },
+        {
+            "name": "sirbrillig/phpcs-variable-analysis",
+            "version": "v2.11.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sirbrillig/phpcs-variable-analysis.git",
+                "reference": "c921498b474212fe4552928bbeb68d70250ce5e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sirbrillig/phpcs-variable-analysis/zipball/c921498b474212fe4552928bbeb68d70250ce5e8",
+                "reference": "c921498b474212fe4552928bbeb68d70250ce5e8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "limedeck/phpunit-detailed-printer": "^3.1 || ^4.0 || ^5.0",
+                "phpstan/phpstan": "^0.11.8",
+                "phpunit/phpunit": "^5.0 || ^6.5 || ^7.0 || ^8.0",
+                "sirbrillig/phpcs-import-detection": "^1.1"
+            },
+            "type": "phpcodesniffer-standard",
+            "autoload": {
+                "psr-4": {
+                    "VariableAnalysis\\": "VariableAnalysis/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sam Graham",
+                    "email": "php-codesniffer-variableanalysis@illusori.co.uk"
+                },
+                {
+                    "name": "Payton Swick",
+                    "email": "payton@foolord.com"
+                }
+            ],
+            "description": "A PHPCS sniff to detect problems with variables.",
+            "support": {
+                "issues": "https://github.com/sirbrillig/phpcs-variable-analysis/issues",
+                "source": "https://github.com/sirbrillig/phpcs-variable-analysis",
+                "wiki": "https://github.com/sirbrillig/phpcs-variable-analysis/wiki"
+            },
+            "time": "2022-02-21T17:01:13+00:00"
+        },
+        {
+            "name": "slevomat/coding-standard",
+            "version": "7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slevomat/coding-standard.git",
+                "reference": "b521bd358b5f7a7d69e9637fd139e036d8adeb6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/b521bd358b5f7a7d69e9637fd139e036d8adeb6f",
+                "reference": "b521bd358b5f7a7d69e9637fd139e036d8adeb6f",
+                "shasum": ""
+            },
+            "require": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.6.2 || ^0.7",
+                "php": "^7.2 || ^8.0",
+                "phpstan/phpdoc-parser": "^1.4.1",
+                "squizlabs/php_codesniffer": "^3.6.2"
+            },
+            "require-dev": {
+                "phing/phing": "2.17.2",
+                "php-parallel-lint/php-parallel-lint": "1.3.2",
+                "phpstan/phpstan": "1.4.10|1.5.2",
+                "phpstan/phpstan-deprecation-rules": "1.0.0",
+                "phpstan/phpstan-phpunit": "1.0.0|1.1.0",
+                "phpstan/phpstan-strict-rules": "1.1.0",
+                "phpunit/phpunit": "7.5.20|8.5.21|9.5.19"
+            },
+            "type": "phpcodesniffer-standard",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SlevomatCodingStandard\\": "SlevomatCodingStandard"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
+            "support": {
+                "issues": "https://github.com/slevomat/coding-standard/issues",
+                "source": "https://github.com/slevomat/coding-standard/tree/7.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/kukulich",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/slevomat/coding-standard",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-03-29T12:44:16+00:00"
+        },
+        {
+            "name": "squizlabs/php_codesniffer",
+            "version": "3.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "reference": "5e4e71592f69da17871dba6e80dd51bce74a351a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5e4e71592f69da17871dba6e80dd51bce74a351a",
+                "reference": "5e4e71592f69da17871dba6e80dd51bce74a351a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
+            },
+            "bin": [
+                "bin/phpcs",
+                "bin/phpcbf"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "lead"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "https://github.com/squizlabs/PHP_CodeSniffer",
+            "keywords": [
+                "phpcs",
+                "standards"
+            ],
+            "support": {
+                "issues": "https://github.com/squizlabs/PHP_CodeSniffer/issues",
+                "source": "https://github.com/squizlabs/PHP_CodeSniffer",
+                "wiki": "https://github.com/squizlabs/PHP_CodeSniffer/wiki"
+            },
+            "time": "2021-12-12T21:44:58+00:00"
         }
     ],
     "aliases": [],
