@@ -6,19 +6,6 @@ on:
       - master
 
 jobs:
-  should_publish:
-    runs-on: ubuntu-latest
-    outputs:
-      should_publish: ${{ steps.should_publish.outputs.should_publish }}
-    steps:
-      - id: should_publish
-        run: |
-          if [[ "${{ github.event.head_commit.author.name }}" == "Violinist bot" ]]; then
-            echo "::set-output name=should_publish::true"
-          else
-            echo "::set-output name=should_publish::false"
-          fi
-
   update_release_draft:
     runs-on: ubuntu-latest
     permissions:
@@ -26,7 +13,5 @@ jobs:
       pull-requests: read
     steps:
       - uses: release-drafter/release-drafter@v5
-        with:
-          publish: ${{needs.should_publish.outputs.should_publish}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
