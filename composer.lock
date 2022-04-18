@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "19d0669541410879822f905af0701750",
+    "content-hash": "11554f255bf54f85c0720e52dd1a7a59",
     "packages": [
         {
             "name": "acquia/acquia_cms",
@@ -227,20 +227,20 @@
         },
         {
             "name": "acquia/acsf-contenthub-console",
-            "version": "1.3",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acsf-contenthub-console.git",
-                "reference": "67ada49bc7870f2655329c546e88009762584b84"
+                "reference": "14df10b788035cc507590b7a65207221060d091f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acsf-contenthub-console/zipball/67ada49bc7870f2655329c546e88009762584b84",
-                "reference": "67ada49bc7870f2655329c546e88009762584b84",
+                "url": "https://api.github.com/repos/acquia/acsf-contenthub-console/zipball/14df10b788035cc507590b7a65207221060d091f",
+                "reference": "14df10b788035cc507590b7a65207221060d091f",
                 "shasum": ""
             },
             "require": {
-                "acquia/cloud-contenthub-console": "^1.3"
+                "acquia/cloud-contenthub-console": "dev-main"
             },
             "require-dev": {
                 "drupal/coder": "dev-8.x-3.x",
@@ -248,6 +248,7 @@
                 "phpunit/phpunit": "^8",
                 "squizlabs/php_codesniffer": "^3.5"
             },
+            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -268,26 +269,26 @@
             "description": "A package providing Acquia Cloud Site Factory commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/acsf-contenthub-console/issues",
-                "source": "https://github.com/acquia/acsf-contenthub-console/tree/1.3"
+                "source": "https://github.com/acquia/acsf-contenthub-console/tree/main"
             },
-            "time": "2022-03-24T12:04:11+00:00"
+            "time": "2022-03-24T12:11:20+00:00"
         },
         {
             "name": "acquia/cloud-contenthub-console",
-            "version": "1.3",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/cloud-contenthub-console.git",
-                "reference": "0564f8e3c1483eae64a35862f8aecd1bd50f890a"
+                "reference": "992fe2dc442eb09bece88bcc6cbaf3dbda6832a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/cloud-contenthub-console/zipball/0564f8e3c1483eae64a35862f8aecd1bd50f890a",
-                "reference": "0564f8e3c1483eae64a35862f8aecd1bd50f890a",
+                "url": "https://api.github.com/repos/acquia/cloud-contenthub-console/zipball/992fe2dc442eb09bece88bcc6cbaf3dbda6832a3",
+                "reference": "992fe2dc442eb09bece88bcc6cbaf3dbda6832a3",
                 "shasum": ""
             },
             "require": {
-                "acquia/contenthub-console-helpers": "^1.3",
+                "acquia/contenthub-console-helpers": "main-dev",
                 "ext-json": "*",
                 "typhonius/acquia-php-sdk-v2": "<=2.0.15"
             },
@@ -297,6 +298,7 @@
                 "phpunit/phpunit": "^8",
                 "squizlabs/php_codesniffer": "^3.5"
             },
+            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -317,9 +319,9 @@
             "description": "A package providing Acquia Cloud commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/cloud-contenthub-console/issues",
-                "source": "https://github.com/acquia/cloud-contenthub-console/tree/1.3"
+                "source": "https://github.com/acquia/cloud-contenthub-console/tree/main"
             },
-            "time": "2022-03-24T11:45:08+00:00"
+            "time": "2022-03-24T11:56:24+00:00"
         },
         {
             "name": "acquia/cohesion",
@@ -422,7 +424,7 @@
         },
         {
             "name": "acquia/content-hub-php",
-            "version": "2.1.1",
+            "version": "2.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/content-hub-php.git",
@@ -458,6 +460,7 @@
             "suggest": {
                 "ramsey/uuid": "A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID)"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -489,20 +492,20 @@
         },
         {
             "name": "acquia/contenthub-console",
-            "version": "1.4",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/contenthub-console.git",
-                "reference": "3f0862073ed3fe337207861af2aa0659713e31c5"
+                "reference": "e7b9ec967cc4561cef0c3d77516af2350fb1591b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/contenthub-console/zipball/3f0862073ed3fe337207861af2aa0659713e31c5",
-                "reference": "3f0862073ed3fe337207861af2aa0659713e31c5",
+                "url": "https://api.github.com/repos/acquia/contenthub-console/zipball/e7b9ec967cc4561cef0c3d77516af2350fb1591b",
+                "reference": "e7b9ec967cc4561cef0c3d77516af2350fb1591b",
                 "shasum": ""
             },
             "require": {
-                "acquia/acsf-contenthub-console": "^1.3",
+                "acquia/acsf-contenthub-console": "dev-main",
                 "ext-json": "*",
                 "spatie/ssl-certificate": "1.21|1.22.1",
                 "zumba/amplitude-php": "^1"
@@ -513,6 +516,7 @@
                 "phpunit/phpunit": "^8",
                 "squizlabs/php_codesniffer": "^3.5"
             },
+            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -533,26 +537,26 @@
             "description": "A package providing Acquia ContentHub commands for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/contenthub-console/issues",
-                "source": "https://github.com/acquia/contenthub-console/tree/1.4"
+                "source": "https://github.com/acquia/contenthub-console/tree/main"
             },
-            "time": "2022-03-24T12:19:19+00:00"
+            "time": "2022-03-24T12:22:23+00:00"
         },
         {
             "name": "acquia/contenthub-console-helpers",
-            "version": "1.3",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/contenthub-console-helpers.git",
-                "reference": "dd68209cda2cfa170a737b391716f9f74fef924c"
+                "reference": "8cb7371b44b659d877353e124f617e5990d4fe53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/contenthub-console-helpers/zipball/dd68209cda2cfa170a737b391716f9f74fef924c",
-                "reference": "dd68209cda2cfa170a737b391716f9f74fef924c",
+                "url": "https://api.github.com/repos/acquia/contenthub-console-helpers/zipball/8cb7371b44b659d877353e124f617e5990d4fe53",
+                "reference": "8cb7371b44b659d877353e124f617e5990d4fe53",
                 "shasum": ""
             },
             "require": {
-                "eclipsegc/common-console": "^0.0.3",
+                "eclipsegc/common-console": "0.0.x-dev",
                 "ext-json": "*"
             },
             "require-dev": {
@@ -561,6 +565,7 @@
                 "phpunit/phpunit": "^8",
                 "squizlabs/php_codesniffer": "^3.5"
             },
+            "default-branch": true,
             "type": "project",
             "autoload": {
                 "psr-4": {
@@ -581,9 +586,9 @@
             "description": "A package providing Helper Libraries for the CommonConsole command line interface.",
             "support": {
                 "issues": "https://github.com/acquia/contenthub-console-helpers/issues",
-                "source": "https://github.com/acquia/contenthub-console-helpers/tree/1.3"
+                "source": "https://github.com/acquia/contenthub-console-helpers/tree/main"
             },
-            "time": "2022-03-24T11:27:37+00:00"
+            "time": "2022-03-24T11:46:16+00:00"
         },
         {
             "name": "acquia/drupal-environment-detector",
@@ -857,23 +862,23 @@
         },
         {
             "name": "chi-teck/drupal-code-generator",
-            "version": "2.5.1",
+            "version": "2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "cd3912e25e20bb12b6dce8d522793f3abd71ab8c"
+                "reference": "a49f29b0fe6b6c87fa7dc8979589ce8794c4d655"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/cd3912e25e20bb12b6dce8d522793f3abd71ab8c",
-                "reference": "cd3912e25e20bb12b6dce8d522793f3abd71ab8c",
+                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/a49f29b0fe6b6c87fa7dc8979589ce8794c4d655",
+                "reference": "a49f29b0fe6b6c87fa7dc8979589ce8794c4d655",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "php": ">=7.4",
-                "psr/log": "^1.1 || ^2.0",
-                "symfony/console": "^4.4.15 || ^5.1",
+                "psr/log": "^1.1 || ^2.0 || ^3.0",
+                "symfony/console": "^4.4.15 || ^5.1 || ^6.0",
                 "symfony/filesystem": "^4.4 || ^5.1 || ^6",
                 "symfony/polyfill-php80": "^1.23",
                 "symfony/string": "^5.1 || ^6",
@@ -885,12 +890,12 @@
             "require-dev": {
                 "chi-teck/drupal-coder-extension": "^1.2",
                 "drupal/coder": "^8.3.14",
-                "friendsoftwig/twigcs": "^5.0",
+                "friendsoftwig/twigcs": "dev-master",
                 "phpspec/prophecy-phpunit": "^2.0",
                 "phpunit/phpunit": "^9.4",
                 "squizlabs/php_codesniffer": "^3.5",
-                "symfony/var-dumper": "^5.2",
-                "symfony/yaml": "^5.2"
+                "symfony/var-dumper": "^5.2 || ^6.0",
+                "symfony/yaml": "^5.2 || ^6.0"
             },
             "bin": [
                 "bin/dcg"
@@ -913,9 +918,9 @@
             "description": "Drupal code generator",
             "support": {
                 "issues": "https://github.com/Chi-teck/drupal-code-generator/issues",
-                "source": "https://github.com/Chi-teck/drupal-code-generator/tree/2.5.1"
+                "source": "https://github.com/Chi-teck/drupal-code-generator/tree/2.5.3"
             },
-            "time": "2022-02-24T10:39:38+00:00"
+            "time": "2022-03-31T17:15:11+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1337,65 +1342,40 @@
         },
         {
             "name": "consolidation/config",
-            "version": "1.2.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/config.git",
-                "reference": "cac1279bae7efb5c7fb2ca4c3ba4b8eb741a96c1"
+                "reference": "0c15841b2bf60d9af1ce29884673e7d9d50c3b75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/config/zipball/cac1279bae7efb5c7fb2ca4c3ba4b8eb741a96c1",
-                "reference": "cac1279bae7efb5c7fb2ca4c3ba4b8eb741a96c1",
+                "url": "https://api.github.com/repos/consolidation/config/zipball/0c15841b2bf60d9af1ce29884673e7d9d50c3b75",
+                "reference": "0c15841b2bf60d9af1ce29884673e7d9d50c3b75",
                 "shasum": ""
             },
             "require": {
-                "dflydev/dot-access-data": "^1.1.0",
-                "grasmash/expander": "^1",
-                "php": ">=5.4.0"
+                "dflydev/dot-access-data": "^1.1.0 || ^2 || ^3",
+                "grasmash/expander": "^2.0.1",
+                "php": ">=7.1.3",
+                "symfony/event-dispatcher": "^4 || ^5 || ^6"
             },
             "require-dev": {
-                "g1a/composer-test-scenarios": "^3",
-                "php-coveralls/php-coveralls": "^1",
-                "phpunit/phpunit": "^5",
-                "squizlabs/php_codesniffer": "2.*",
-                "symfony/console": "^2.5|^3|^4",
-                "symfony/yaml": "^2.8.11|^3|^4"
+                "ext-json": "*",
+                "phpunit/phpunit": ">=7.5.20",
+                "squizlabs/php_codesniffer": "^3",
+                "symfony/console": "^4 || ^5 || ^6",
+                "symfony/yaml": "^4 || ^5 || ^6",
+                "yoast/phpunit-polyfills": "^1"
             },
             "suggest": {
+                "symfony/event-dispatcher": "Required to inject configuration into Command options",
                 "symfony/yaml": "Required to use Consolidation\\Config\\Loader\\YamlConfigLoader"
             },
             "type": "library",
             "extra": {
-                "scenarios": {
-                    "symfony4": {
-                        "require-dev": {
-                            "symfony/console": "^4.0"
-                        },
-                        "config": {
-                            "platform": {
-                                "php": "7.1.3"
-                            }
-                        }
-                    },
-                    "symfony2": {
-                        "require-dev": {
-                            "symfony/console": "^2.8",
-                            "symfony/event-dispatcher": "^2.8",
-                            "phpunit/phpunit": "^4.8.36"
-                        },
-                        "remove": [
-                            "php-coveralls/php-coveralls"
-                        ],
-                        "config": {
-                            "platform": {
-                                "php": "5.4.8"
-                            }
-                        }
-                    }
-                },
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-main": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1416,57 +1396,37 @@
             "description": "Provide configuration services for a commandline tool.",
             "support": {
                 "issues": "https://github.com/consolidation/config/issues",
-                "source": "https://github.com/consolidation/config/tree/master"
+                "source": "https://github.com/consolidation/config/tree/2.1.0"
             },
-            "time": "2019-03-03T19:37:04+00:00"
+            "time": "2022-02-24T00:32:42+00:00"
         },
         {
             "name": "consolidation/filter-via-dot-access-data",
-            "version": "1.0.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/filter-via-dot-access-data.git",
-                "reference": "a53e96c6b9f7f042f5e085bf911f3493cea823c6"
+                "reference": "cb2eeba41f8e2e3c61698a5cf70ef048ff6c9d5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/filter-via-dot-access-data/zipball/a53e96c6b9f7f042f5e085bf911f3493cea823c6",
-                "reference": "a53e96c6b9f7f042f5e085bf911f3493cea823c6",
+                "url": "https://api.github.com/repos/consolidation/filter-via-dot-access-data/zipball/cb2eeba41f8e2e3c61698a5cf70ef048ff6c9d5b",
+                "reference": "cb2eeba41f8e2e3c61698a5cf70ef048ff6c9d5b",
                 "shasum": ""
             },
             "require": {
-                "dflydev/dot-access-data": "^1.1.0",
-                "php": ">=5.5.0"
+                "dflydev/dot-access-data": "^1.1.0 || ^2.0.0 || ^3.0.0",
+                "php": ">=7.1.3"
             },
             "require-dev": {
-                "consolidation/robo": "^1.2.3",
-                "g1a/composer-test-scenarios": "^3",
-                "knplabs/github-api": "^2.7",
-                "php-coveralls/php-coveralls": "^1",
-                "php-http/guzzle6-adapter": "^1.1",
-                "phpunit/phpunit": "^5",
-                "squizlabs/php_codesniffer": "^2.8",
-                "symfony/console": "^2.8|^3|^4"
+                "phpunit/phpunit": "^7.5.20 || ^8 || ^9",
+                "squizlabs/php_codesniffer": "^3",
+                "yoast/phpunit-polyfills": "^0.2.0"
             },
             "type": "library",
             "extra": {
-                "scenarios": {
-                    "phpunit5": {
-                        "require-dev": {
-                            "phpunit/phpunit": "^5.7.27"
-                        },
-                        "remove": [
-                            "php-coveralls/php-coveralls"
-                        ],
-                        "config": {
-                            "platform": {
-                                "php": "5.6.33"
-                            }
-                        }
-                    }
-                },
                 "branch-alias": {
-                    "dev-master": "1.x-dev"
+                    "dev-main": "2.x-dev"
                 }
             },
             "autoload": {
@@ -1486,9 +1446,9 @@
             ],
             "description": "This project uses dflydev/dot-access-data to provide simple output filtering for applications built with annotated-command / Robo.",
             "support": {
-                "source": "https://github.com/consolidation/filter-via-dot-access-data/tree/1.0.0"
+                "source": "https://github.com/consolidation/filter-via-dot-access-data/tree/2.0.2"
             },
-            "time": "2019-01-18T06:05:07+00:00"
+            "time": "2021-12-30T03:56:08+00:00"
         },
         {
             "name": "consolidation/log",
@@ -1872,42 +1832,6 @@
             "time": "2022-02-19T04:09:55+00:00"
         },
         {
-            "name": "container-interop/container-interop",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/container-interop/container-interop.git",
-                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
-                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
-                "shasum": ""
-            },
-            "require": {
-                "psr/container": "^1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Interop\\Container\\": "src/Interop/Container/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "homepage": "https://github.com/container-interop/container-interop",
-            "support": {
-                "issues": "https://github.com/container-interop/container-interop/issues",
-                "source": "https://github.com/container-interop/container-interop/tree/master"
-            },
-            "abandoned": "psr/container",
-            "time": "2017-02-14T19:40:03+00:00"
-        },
-        {
             "name": "cweagans/composer-patches",
             "version": "1.7.2",
             "source": {
@@ -2013,30 +1937,37 @@
         },
         {
             "name": "dflydev/dot-access-data",
-            "version": "v1.1.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-dot-access-data.git",
-                "reference": "3fbd874921ab2c041e899d044585a2ab9795df8a"
+                "reference": "0992cc19268b259a39e86f296da5f0677841f42c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/3fbd874921ab2c041e899d044585a2ab9795df8a",
-                "reference": "3fbd874921ab2c041e899d044585a2ab9795df8a",
+                "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/0992cc19268b259a39e86f296da5f0677841f42c",
+                "reference": "0992cc19268b259a39e86f296da5f0677841f42c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.42",
+                "phpunit/phpunit": "^7.5 || ^8.5 || ^9.3",
+                "scrutinizer/ocular": "1.6.0",
+                "squizlabs/php_codesniffer": "^3.5",
+                "vimeo/psalm": "^3.14"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-main": "3.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Dflydev\\DotAccessData": "src"
+                "psr-4": {
+                    "Dflydev\\DotAccessData\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2058,6 +1989,11 @@
                     "name": "Carlos Frutos",
                     "email": "carlos@kiwing.it",
                     "homepage": "https://github.com/cfrutos"
+                },
+                {
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "https://www.colinodell.com"
                 }
             ],
             "description": "Given a deep data structure, access data by dot notation.",
@@ -2070,9 +2006,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dflydev/dflydev-dot-access-data/issues",
-                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/master"
+                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.1"
             },
-            "time": "2017-01-20T21:14:22+00:00"
+            "time": "2021-08-13T13:06:58+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -2539,23 +2475,17 @@
         },
         {
             "name": "drupal/acquia_contenthub",
-            "version": "2.31.0",
+            "version": "dev-2.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/acquia_contenthub.git",
-                "reference": "8.x-2.31"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/acquia_contenthub-8.x-2.31.zip",
-                "reference": "8.x-2.31",
-                "shasum": "e764652564e7eedb9f633cb8d43f521321d4a70d"
+                "reference": "69ac1450f3bd891ad580e7f590e15a59b8ea36be"
             },
             "require": {
-                "acquia/content-hub-php": "^2.1.1",
-                "acquia/contenthub-console": "^1.4",
+                "acquia/content-hub-php": "2.x-dev",
+                "acquia/contenthub-console": "dev-main",
                 "drupal/core": "^8.8 || ^9",
-                "drupal/depcalc": "^1.11",
+                "drupal/depcalc": "1.x-dev",
                 "laminas/laminas-diactoros": "^1.8 || ^2.2",
                 "symfony/psr-http-message-bridge": "^1.1.2 || ^2.0"
             },
@@ -2575,16 +2505,17 @@
             },
             "type": "drupal-module",
             "extra": {
-                "drupal": {
-                    "version": "8.x-2.31",
-                    "datestamp": "1648484465",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                },
                 "branch-alias": {
+                    "dev-2.x": "2.x-dev",
                     "dev-8.x-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.31+4-dev",
+                    "datestamp": "1648632420",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4460,17 +4391,11 @@
         },
         {
             "name": "drupal/depcalc",
-            "version": "1.11.0",
+            "version": "dev-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/depcalc.git",
-                "reference": "8.x-1.11"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/depcalc-8.x-1.11.zip",
-                "reference": "8.x-1.11",
-                "shasum": "d710b2186b4b220bc8374ba6c3c95037d107758c"
+                "reference": "0222983ff1e9aa1805ca13ecfc58e6078f36a0d4"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9"
@@ -4480,16 +4405,17 @@
             },
             "type": "drupal-module",
             "extra": {
-                "drupal": {
-                    "version": "8.x-1.11",
-                    "datestamp": "1647957996",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                },
                 "branch-alias": {
+                    "dev-1.x": "1.x-dev",
                     "dev-8.x-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.10+1-dev",
+                    "datestamp": "1646918719",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -8067,33 +7993,32 @@
         },
         {
             "name": "drush/drush",
-            "version": "11.0.5",
+            "version": "11.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "dce2da2806961827662384058b460cc432fa24df"
+                "reference": "88b2293ded84f67aad96ad6dbd64cacd84bcd6fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/dce2da2806961827662384058b460cc432fa24df",
-                "reference": "dce2da2806961827662384058b460cc432fa24df",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/88b2293ded84f67aad96ad6dbd64cacd84bcd6fe",
+                "reference": "88b2293ded84f67aad96ad6dbd64cacd84bcd6fe",
                 "shasum": ""
             },
             "require": {
                 "chi-teck/drupal-code-generator": "^2.4",
                 "composer/semver": "^1.4 || ^3",
-                "consolidation/annotated-command": "^4.5",
-                "consolidation/config": "^1.2",
-                "consolidation/filter-via-dot-access-data": "^1",
-                "consolidation/robo": "^3",
+                "consolidation/annotated-command": "^4.5.3",
+                "consolidation/config": "^2",
+                "consolidation/filter-via-dot-access-data": "^2",
+                "consolidation/robo": "^3.0.9",
                 "consolidation/site-alias": "^3.1.3",
-                "consolidation/site-process": "^4.1.3",
+                "consolidation/site-process": "^4.1.3 || ^5",
                 "enlightn/security-checker": "^1",
                 "ext-dom": "*",
                 "guzzlehttp/guzzle": "^6.3 || ^7.0",
-                "league/container": "^3.4",
+                "league/container": "^3.4 || ^4",
                 "php": ">=7.4",
-                "psr/log": "~1.0",
                 "psy/psysh": "~0.11",
                 "symfony/event-dispatcher": "^4.0 || ^5.0 || ^6.0",
                 "symfony/finder": "^4.0 || ^5 || ^6",
@@ -8202,7 +8127,7 @@
                 "irc": "irc://irc.freenode.org/drush",
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/11.0.5"
+                "source": "https://github.com/drush-ops/drush/tree/11.0.9"
             },
             "funding": [
                 {
@@ -8210,7 +8135,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-02-08T14:17:13+00:00"
+            "time": "2022-04-16T12:01:55+00:00"
         },
         {
             "name": "e0ipso/shaper",
@@ -8260,20 +8185,20 @@
         },
         {
             "name": "eclipsegc/common-console",
-            "version": "0.0.3",
+            "version": "0.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/EclipseGc/CommonConsole.git",
-                "reference": "4285b5b1e86559207fa00961779918937dddbb59"
+                "reference": "494968390b0bdc12941ec040afb406144d4b62fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EclipseGc/CommonConsole/zipball/4285b5b1e86559207fa00961779918937dddbb59",
-                "reference": "4285b5b1e86559207fa00961779918937dddbb59",
+                "url": "https://api.github.com/repos/EclipseGc/CommonConsole/zipball/494968390b0bdc12941ec040afb406144d4b62fd",
+                "reference": "494968390b0bdc12941ec040afb406144d4b62fd",
                 "shasum": ""
             },
             "require": {
-                "consolidation/config": "^1.0@dev",
+                "consolidation/config": "^1.0@dev || ^2",
                 "ext-json": "*",
                 "symfony/config": "^3.4 || ^4.3@dev",
                 "symfony/console": "^3.4 || ^4.2",
@@ -8287,6 +8212,7 @@
                 "phpspec/prophecy-phpunit": "^2.0@dev",
                 "phpunit/phpunit": "^9.3@dev"
             },
+            "default-branch": true,
             "bin": [
                 "bin/commoncli"
             ],
@@ -8303,9 +8229,9 @@
             "description": "A Common Console base application.",
             "support": {
                 "issues": "https://github.com/EclipseGc/CommonConsole/issues",
-                "source": "https://github.com/EclipseGc/CommonConsole/tree/0.0.3"
+                "source": "https://github.com/EclipseGc/CommonConsole/tree/0.0.4"
             },
-            "time": "2022-02-24T10:28:50+00:00"
+            "time": "2022-04-05T19:35:47+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -9004,27 +8930,28 @@
         },
         {
             "name": "grasmash/expander",
-            "version": "1.0.0",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/grasmash/expander.git",
-                "reference": "95d6037344a4be1dd5f8e0b0b2571a28c397578f"
+                "reference": "f4df21d01d1fbda38269cca89e3dbb6ba223da7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/grasmash/expander/zipball/95d6037344a4be1dd5f8e0b0b2571a28c397578f",
-                "reference": "95d6037344a4be1dd5f8e0b0b2571a28c397578f",
+                "url": "https://api.github.com/repos/grasmash/expander/zipball/f4df21d01d1fbda38269cca89e3dbb6ba223da7f",
+                "reference": "f4df21d01d1fbda38269cca89e3dbb6ba223da7f",
                 "shasum": ""
             },
             "require": {
-                "dflydev/dot-access-data": "^1.1.0",
-                "php": ">=5.4"
+                "dflydev/dot-access-data": "^3.0.0",
+                "php": ">=5.6",
+                "psr/log": "^1 | ^2"
             },
             "require-dev": {
                 "greg-1-anderson/composer-test-scenarios": "^1",
-                "phpunit/phpunit": "^4|^5.5.4",
-                "satooshi/php-coveralls": "^1.0.2|dev-master",
-                "squizlabs/php_codesniffer": "^2.7"
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpunit/phpunit": "^6.0 || ^8.0 || ^9",
+                "squizlabs/php_codesniffer": "^2.7 || ^3.3"
             },
             "type": "library",
             "extra": {
@@ -9049,9 +8976,9 @@
             "description": "Expands internal property references in PHP arrays file.",
             "support": {
                 "issues": "https://github.com/grasmash/expander/issues",
-                "source": "https://github.com/grasmash/expander/tree/master"
+                "source": "https://github.com/grasmash/expander/tree/2.0.2"
             },
-            "time": "2017-12-21T22:14:55+00:00"
+            "time": "2022-02-24T03:58:20+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -9686,37 +9613,39 @@
         },
         {
             "name": "laminas/laminas-servicemanager",
-            "version": "3.10.0",
+            "version": "3.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-servicemanager.git",
-                "reference": "e52b985909e0940bf22d34f322eb3f48bbef6bd1"
+                "reference": "8a1f4d53ec93b2e18174f6f186922ef44d11a75a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-servicemanager/zipball/e52b985909e0940bf22d34f322eb3f48bbef6bd1",
-                "reference": "e52b985909e0940bf22d34f322eb3f48bbef6bd1",
+                "url": "https://api.github.com/repos/laminas/laminas-servicemanager/zipball/8a1f4d53ec93b2e18174f6f186922ef44d11a75a",
+                "reference": "8a1f4d53ec93b2e18174f6f186922ef44d11a75a",
                 "shasum": ""
             },
             "require": {
-                "container-interop/container-interop": "^1.2",
                 "laminas/laminas-stdlib": "^3.2.1",
                 "php": "~7.4.0 || ~8.0.0 || ~8.1.0",
                 "psr/container": "^1.0"
             },
             "conflict": {
+                "ext-psr": "*",
                 "laminas/laminas-code": "<3.3.1",
                 "zendframework/zend-code": "<3.3.1",
                 "zendframework/zend-servicemanager": "*"
             },
             "provide": {
-                "container-interop/container-interop-implementation": "^1.2",
                 "psr/container-implementation": "^1.0"
+            },
+            "replace": {
+                "container-interop/container-interop": "^1.2.0"
             },
             "require-dev": {
                 "composer/package-versions-deprecated": "^1.0",
-                "laminas/laminas-coding-standard": "~2.2.1",
-                "laminas/laminas-container-config-test": "^0.3",
+                "laminas/laminas-coding-standard": "~2.3.0",
+                "laminas/laminas-container-config-test": "^0.6",
                 "laminas/laminas-dependency-plugin": "^2.1.2",
                 "mikey179/vfsstream": "^1.6.10@alpha",
                 "ocramius/proxy-manager": "^2.11",
@@ -9735,6 +9664,9 @@
             ],
             "type": "library",
             "autoload": {
+                "files": [
+                    "src/autoload.php"
+                ],
                 "psr-4": {
                     "Laminas\\ServiceManager\\": "src/"
                 }
@@ -9768,7 +9700,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2021-09-18T20:19:36+00:00"
+            "time": "2022-04-07T17:21:25+00:00"
         },
         {
             "name": "laminas/laminas-stdlib",
@@ -9889,21 +9821,21 @@
         },
         {
             "name": "league/container",
-            "version": "3.4.1",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/container.git",
-                "reference": "84ecbc2dbecc31bd23faf759a0e329ee49abddbd"
+                "reference": "375d13cb828649599ef5d48a339c4af7a26cd0ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/container/zipball/84ecbc2dbecc31bd23faf759a0e329ee49abddbd",
-                "reference": "84ecbc2dbecc31bd23faf759a0e329ee49abddbd",
+                "url": "https://api.github.com/repos/thephpleague/container/zipball/375d13cb828649599ef5d48a339c4af7a26cd0ab",
+                "reference": "375d13cb828649599ef5d48a339c4af7a26cd0ab",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0 || ^8.0",
-                "psr/container": "^1.0.0"
+                "php": "^7.2 || ^8.0",
+                "psr/container": "^1.1 || ^2.0"
             },
             "provide": {
                 "psr/container-implementation": "^1.0"
@@ -9912,15 +9844,19 @@
                 "orno/di": "~2.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.0 || ^7.0",
+                "nette/php-generator": "^3.4",
+                "nikic/php-parser": "^4.10",
+                "phpstan/phpstan": "^0.12.47",
+                "phpunit/phpunit": "^8.5.17",
                 "roave/security-advisories": "dev-latest",
                 "scrutinizer/ocular": "^1.8",
-                "squizlabs/php_codesniffer": "^3.5"
+                "squizlabs/php_codesniffer": "^3.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.x-dev",
+                    "dev-master": "4.x-dev",
+                    "dev-4.x": "4.x-dev",
                     "dev-3.x": "3.x-dev",
                     "dev-2.x": "2.x-dev",
                     "dev-1.x": "1.x-dev"
@@ -9938,8 +9874,7 @@
             "authors": [
                 {
                     "name": "Phil Bennett",
-                    "email": "philipobenito@gmail.com",
-                    "homepage": "http://www.philipobenito.com",
+                    "email": "mail@philbennett.co.uk",
                     "role": "Developer"
                 }
             ],
@@ -9956,7 +9891,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/container/issues",
-                "source": "https://github.com/thephpleague/container/tree/3.4.1"
+                "source": "https://github.com/thephpleague/container/tree/4.2.0"
             },
             "funding": [
                 {
@@ -9964,7 +9899,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-09T08:23:52+00:00"
+            "time": "2021-11-16T10:29:06+00:00"
         },
         {
             "name": "league/oauth2-client",
@@ -10349,16 +10284,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.1.13",
+            "version": "1.1.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "6150d442fd0a272c5a031647e2e145cdebec82cb"
+                "reference": "2c72ac675e5630e1f421adb1bf4e6546310d6b05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/6150d442fd0a272c5a031647e2e145cdebec82cb",
-                "reference": "6150d442fd0a272c5a031647e2e145cdebec82cb",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/2c72ac675e5630e1f421adb1bf4e6546310d6b05",
+                "reference": "2c72ac675e5630e1f421adb1bf4e6546310d6b05",
                 "shasum": ""
             },
             "require": {
@@ -10377,6 +10312,7 @@
                 "phpstan/phpstan-deprecation-rules": "^1.0",
                 "phpstan/phpstan-strict-rules": "^1.0",
                 "phpunit/phpunit": "^6.5 || ^7.5 || ^8.0 || ^9",
+                "slevomat/coding-standard": "^7.1",
                 "squizlabs/php_codesniffer": "^3.3",
                 "symfony/phpunit-bridge": "^3.4.3 || ^4.4 || ^5.4 || ^6.0"
             },
@@ -10409,7 +10345,8 @@
                 },
                 "phpstan": {
                     "includes": [
-                        "extension.neon"
+                        "extension.neon",
+                        "rules.neon"
                     ]
                 }
             },
@@ -10434,7 +10371,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.13"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.16"
             },
             "funding": [
                 {
@@ -10450,7 +10387,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-09T12:34:47+00:00"
+            "time": "2022-04-13T20:19:23+00:00"
         },
         {
             "name": "mkalkbrenner/php-htmldiff-advanced",
@@ -11967,20 +11904,20 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.4.10",
+            "version": "1.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "898c479c39caa727bedf4311dd294a8f4e250e72"
+                "reference": "799dd8c2d2c9c704bb55d2078078cb970cf0f6d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/898c479c39caa727bedf4311dd294a8f4e250e72",
-                "reference": "898c479c39caa727bedf4311dd294a8f4e250e72",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/799dd8c2d2c9c704bb55d2078078cb970cf0f6d1",
+                "reference": "799dd8c2d2c9c704bb55d2078078cb970cf0f6d1",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1|^8.0"
+                "php": "^7.2|^8.0"
             },
             "conflict": {
                 "phpstan/phpstan-shim": "*"
@@ -12002,7 +11939,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.4.10"
+                "source": "https://github.com/phpstan/phpstan/tree/1.5.6"
             },
             "funding": [
                 {
@@ -12022,7 +11959,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-14T10:25:45+00:00"
+            "time": "2022-04-15T11:13:37+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
@@ -18345,5 +18282,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
