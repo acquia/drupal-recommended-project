@@ -10278,16 +10278,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.1.17",
+            "version": "1.1.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "ff4f58bbc8ac5fced104d4c4432c884a137ffab0"
+                "reference": "28f06afe95e0b1554d392b0e084a4d6569e93aa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/ff4f58bbc8ac5fced104d4c4432c884a137ffab0",
-                "reference": "ff4f58bbc8ac5fced104d4c4432c884a137ffab0",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/28f06afe95e0b1554d392b0e084a4d6569e93aa1",
+                "reference": "28f06afe95e0b1554d392b0e084a4d6569e93aa1",
                 "shasum": ""
             },
             "require": {
@@ -10345,9 +10345,6 @@
                 }
             },
             "autoload": {
-                "files": [
-                    "drupal-phpunit-hack.php"
-                ],
                 "psr-4": {
                     "mglaman\\PHPStanDrupal\\": "src/"
                 }
@@ -10365,7 +10362,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.17"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.18"
             },
             "funding": [
                 {
@@ -10381,7 +10378,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-24T19:40:53+00:00"
+            "time": "2022-05-28T16:06:58+00:00"
         },
         {
             "name": "mkalkbrenner/php-htmldiff-advanced",
