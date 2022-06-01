@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "acquia/acquia_cms",
-            "version": "v1.4.9",
+            "version": "v1.4.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia_cms.git",
-                "reference": "7eebc02604d69f0cb91150d1e493f4f8e7e47350"
+                "reference": "5e449bd776919c09938a05462f0fcbab14791d9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia_cms/zipball/7eebc02604d69f0cb91150d1e493f4f8e7e47350",
-                "reference": "7eebc02604d69f0cb91150d1e493f4f8e7e47350",
+                "url": "https://api.github.com/repos/acquia/acquia_cms/zipball/5e449bd776919c09938a05462f0fcbab14791d9e",
+                "reference": "5e449bd776919c09938a05462f0fcbab14791d9e",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 "drupal/component": "1.0-rc3",
                 "drupal/config_ignore": "2.3.0",
                 "drupal/config_rewrite": "^1.4",
-                "drupal/core": "~9.2.19 || ~9.3.13",
+                "drupal/core": "~9.2.20 || ~9.3.14",
                 "drupal/default_content": "2.0.0-alpha1",
                 "drupal/diff": "^1",
                 "drupal/entity_clone": "1.0-beta6",
@@ -221,9 +221,9 @@
             "homepage": "https://github.com/acquia/acquia_cms",
             "support": {
                 "issues": "https://github.com/acquia/acquia_cms/issues",
-                "source": "https://github.com/acquia/acquia_cms/tree/v1.4.9"
+                "source": "https://github.com/acquia/acquia_cms/tree/v1.4.10"
             },
-            "time": "2022-05-12T14:15:48+00:00"
+            "time": "2022-05-27T17:00:48+00:00"
         },
         {
             "name": "acquia/acsf-contenthub-console",
@@ -428,19 +428,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/content-hub-php.git",
-                "reference": "83d4158dee231aef51aa93f0b4216db22196c575"
+                "reference": "ea157dcd36a02a9d473476ad13e4634b11e35f00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/content-hub-php/zipball/83d4158dee231aef51aa93f0b4216db22196c575",
-                "reference": "83d4158dee231aef51aa93f0b4216db22196c575",
+                "url": "https://api.github.com/repos/acquia/content-hub-php/zipball/ea157dcd36a02a9d473476ad13e4634b11e35f00",
+                "reference": "ea157dcd36a02a9d473476ad13e4634b11e35f00",
                 "shasum": ""
             },
             "require": {
                 "acquia/http-hmac-php": ">=3.4",
                 "ext-json": "*",
                 "guzzlehttp/guzzle": "~6.0",
-                "php": ">=7.1",
+                "php": ">=7.3",
                 "psr/log": "~1.0",
                 "symfony/event-dispatcher": "^3.4 || ^4.3",
                 "symfony/http-foundation": "^3.4 || ^4.3",
@@ -486,9 +486,9 @@
             "homepage": "https://github.com/acquia/content-hub-php",
             "support": {
                 "issues": "https://github.com/acquia/content-hub-php/issues",
-                "source": "https://github.com/acquia/content-hub-php/tree/2.1.2"
+                "source": "https://github.com/acquia/content-hub-php/tree/2.x"
             },
-            "time": "2022-04-22T11:38:57+00:00"
+            "time": "2022-05-20T11:16:01+00:00"
         },
         {
             "name": "acquia/contenthub-console",
@@ -2479,7 +2479,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/acquia_contenthub.git",
-                "reference": "b0eed5e26100446f4217c393e8ef761023a2f5f2"
+                "reference": "2c63fc66b14e77c74cd4af5389f29329859f07fd"
             },
             "require": {
                 "acquia/content-hub-php": "2.x-dev",
@@ -2510,8 +2510,8 @@
                     "dev-8.x-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.32+1-dev",
-                    "datestamp": "1652167270",
+                    "version": "8.x-2.32+4-dev",
+                    "datestamp": "1652860137",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -5305,17 +5305,17 @@
         },
         {
             "name": "drupal/honeypot",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/honeypot.git",
-                "reference": "2.1.0"
+                "reference": "2.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/honeypot-2.1.0.zip",
-                "reference": "2.1.0",
-                "shasum": "7ddb2d0bfeaa65d55823d82bdf01c9c330a1e12f"
+                "url": "https://ftp.drupal.org/files/projects/honeypot-2.1.1.zip",
+                "reference": "2.1.1",
+                "shasum": "2f01297c8c6d1bdb2e5f4c3b2c8c7e8be521191c"
             },
             "require": {
                 "drupal/core": "^9.2 || ^10"
@@ -5326,8 +5326,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.0",
-                    "datestamp": "1651894953",
+                    "version": "2.1.1",
+                    "datestamp": "1653942827",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6932,17 +6932,17 @@
         },
         {
             "name": "drupal/scheduler_content_moderation_integration",
-            "version": "1.3.0",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/scheduler_content_moderation_integration.git",
-                "reference": "8.x-1.3"
+                "reference": "8.x-1.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/scheduler_content_moderation_integration-8.x-1.3.zip",
-                "reference": "8.x-1.3",
-                "shasum": "27df8713893f6418c99e5d99f2fa9b5dd66fc048"
+                "url": "https://ftp.drupal.org/files/projects/scheduler_content_moderation_integration-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "0afb23b9a5e578f2859ae3eabad1d3aadaf70418"
             },
             "require": {
                 "drupal/core": "^8.7.7 || ^9",
@@ -6951,8 +6951,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.3",
-                    "datestamp": "1591179040",
+                    "version": "8.x-1.4",
+                    "datestamp": "1653735087",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -6985,7 +6985,7 @@
                     "homepage": "https://www.drupal.org/user/57527"
                 }
             ],
-            "description": "Scheduler Content Moderation Integration",
+            "description": "Scheduler sub-module providing content moderation functionality for publishing/unpublishing",
             "homepage": "https://www.drupal.org/project/scheduler_content_moderation_integration",
             "support": {
                 "source": "https://git.drupalcode.org/project/scheduler_content_moderation_integration"
@@ -8200,17 +8200,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/EclipseGc/CommonConsole.git",
-                "reference": "494968390b0bdc12941ec040afb406144d4b62fd"
+                "reference": "63fe7d0492cfa907b3e9a88888ed0aec1331b779"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/EclipseGc/CommonConsole/zipball/494968390b0bdc12941ec040afb406144d4b62fd",
-                "reference": "494968390b0bdc12941ec040afb406144d4b62fd",
+                "url": "https://api.github.com/repos/EclipseGc/CommonConsole/zipball/63fe7d0492cfa907b3e9a88888ed0aec1331b779",
+                "reference": "63fe7d0492cfa907b3e9a88888ed0aec1331b779",
                 "shasum": ""
             },
             "require": {
                 "consolidation/config": "^1.0@dev || ^2",
                 "ext-json": "*",
+                "php": ">=7.3",
                 "symfony/config": "^3.4 || ^4.3@dev",
                 "symfony/console": "^3.4 || ^4.2",
                 "symfony/dependency-injection": "^3.4 || ^4.3@dev",
@@ -8240,9 +8241,9 @@
             "description": "A Common Console base application.",
             "support": {
                 "issues": "https://github.com/EclipseGc/CommonConsole/issues",
-                "source": "https://github.com/EclipseGc/CommonConsole/tree/0.0.4"
+                "source": "https://github.com/EclipseGc/CommonConsole/tree/0.0.x"
             },
-            "time": "2022-04-05T19:35:47+00:00"
+            "time": "2022-05-19T10:18:59+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -10087,29 +10088,31 @@
         },
         {
             "name": "maennchen/zipstream-php",
-            "version": "2.1.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maennchen/ZipStream-PHP.git",
-                "reference": "c4c5803cc1f93df3d2448478ef79394a5981cc58"
+                "reference": "211e9ba1530ea5260b45d90c9ea252f56ec52729"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maennchen/ZipStream-PHP/zipball/c4c5803cc1f93df3d2448478ef79394a5981cc58",
-                "reference": "c4c5803cc1f93df3d2448478ef79394a5981cc58",
+                "url": "https://api.github.com/repos/maennchen/ZipStream-PHP/zipball/211e9ba1530ea5260b45d90c9ea252f56ec52729",
+                "reference": "211e9ba1530ea5260b45d90c9ea252f56ec52729",
                 "shasum": ""
             },
             "require": {
                 "myclabs/php-enum": "^1.5",
-                "php": ">= 7.1",
+                "php": "^7.4 || ^8.0",
                 "psr/http-message": "^1.0",
                 "symfony/polyfill-mbstring": "^1.0"
             },
             "require-dev": {
                 "ext-zip": "*",
-                "guzzlehttp/guzzle": ">= 6.3",
+                "guzzlehttp/guzzle": "^6.5.3 || ^7.2.0",
                 "mikey179/vfsstream": "^1.6",
-                "phpunit/phpunit": ">= 7.5"
+                "php-coveralls/php-coveralls": "^2.4",
+                "phpunit/phpunit": "^8.5.8 || ^9.4.2",
+                "vimeo/psalm": "^4.1"
             },
             "type": "library",
             "autoload": {
@@ -10146,7 +10149,7 @@
             ],
             "support": {
                 "issues": "https://github.com/maennchen/ZipStream-PHP/issues",
-                "source": "https://github.com/maennchen/ZipStream-PHP/tree/master"
+                "source": "https://github.com/maennchen/ZipStream-PHP/tree/2.2.1"
             },
             "funding": [
                 {
@@ -10154,7 +10157,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2020-05-30T13:11:16+00:00"
+            "time": "2022-05-18T15:52:06+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -10639,16 +10642,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.13.2",
+            "version": "v4.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "210577fe3cf7badcc5814d99455df46564f3c077"
+                "reference": "34bea19b6e03d8153165d8f30bba4c3be86184c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/210577fe3cf7badcc5814d99455df46564f3c077",
-                "reference": "210577fe3cf7badcc5814d99455df46564f3c077",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/34bea19b6e03d8153165d8f30bba4c3be86184c1",
+                "reference": "34bea19b6e03d8153165d8f30bba4c3be86184c1",
                 "shasum": ""
             },
             "require": {
@@ -10689,9 +10692,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v4.13.2"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v4.14.0"
             },
-            "time": "2021-11-30T19:35:32+00:00"
+            "time": "2022-05-31T20:59:12+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
@@ -11235,16 +11238,16 @@
         },
         {
             "name": "php-http/discovery",
-            "version": "1.14.1",
+            "version": "1.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-http/discovery.git",
-                "reference": "de90ab2b41d7d61609f504e031339776bc8c7223"
+                "reference": "c8d48852fbc052454af42f6de27635ddd916b959"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-http/discovery/zipball/de90ab2b41d7d61609f504e031339776bc8c7223",
-                "reference": "de90ab2b41d7d61609f504e031339776bc8c7223",
+                "url": "https://api.github.com/repos/php-http/discovery/zipball/c8d48852fbc052454af42f6de27635ddd916b959",
+                "reference": "c8d48852fbc052454af42f6de27635ddd916b959",
                 "shasum": ""
             },
             "require": {
@@ -11257,8 +11260,7 @@
                 "graham-campbell/phpspec-skip-example-extension": "^5.0",
                 "php-http/httplug": "^1.0 || ^2.0",
                 "php-http/message-factory": "^1.0",
-                "phpspec/phpspec": "^5.1 || ^6.1",
-                "puli/composer-plugin": "1.0.0-beta10"
+                "phpspec/phpspec": "^5.1 || ^6.1"
             },
             "suggest": {
                 "php-http/message": "Allow to use Guzzle, Diactoros or Slim Framework factories"
@@ -11297,9 +11299,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-http/discovery/issues",
-                "source": "https://github.com/php-http/discovery/tree/1.14.1"
+                "source": "https://github.com/php-http/discovery/tree/1.14.2"
             },
-            "time": "2021-09-18T07:57:46+00:00"
+            "time": "2022-05-25T07:26:05+00:00"
         },
         {
             "name": "php-http/guzzle6-adapter",
@@ -14216,16 +14218,16 @@
         },
         {
             "name": "symfony/cache",
-            "version": "v5.4.8",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "4c6747cf7e56c6b8e3094dd24852bd3e364375b1"
+                "reference": "a50b7249bea81ddd6d3b799ce40c5521c2f72f0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/4c6747cf7e56c6b8e3094dd24852bd3e364375b1",
-                "reference": "4c6747cf7e56c6b8e3094dd24852bd3e364375b1",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/a50b7249bea81ddd6d3b799ce40c5521c2f72f0b",
+                "reference": "a50b7249bea81ddd6d3b799ce40c5521c2f72f0b",
                 "shasum": ""
             },
             "require": {
@@ -14293,7 +14295,7 @@
                 "psr6"
             ],
             "support": {
-                "source": "https://github.com/symfony/cache/tree/v5.4.8"
+                "source": "https://github.com/symfony/cache/tree/v5.4.9"
             },
             "funding": [
                 {
@@ -14309,7 +14311,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-26T13:19:20+00:00"
+            "time": "2022-05-21T10:24:18+00:00"
         },
         {
             "name": "symfony/cache-contracts",
@@ -14392,16 +14394,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v4.4.41",
+            "version": "v4.4.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "9d031eb2d4292aed117b0f7fafd5c436dcf3dfd7"
+                "reference": "83cdafd1bd3370de23e3dc2ed01026908863be81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/9d031eb2d4292aed117b0f7fafd5c436dcf3dfd7",
-                "reference": "9d031eb2d4292aed117b0f7fafd5c436dcf3dfd7",
+                "url": "https://api.github.com/repos/symfony/config/zipball/83cdafd1bd3370de23e3dc2ed01026908863be81",
+                "reference": "83cdafd1bd3370de23e3dc2ed01026908863be81",
                 "shasum": ""
             },
             "require": {
@@ -14450,7 +14452,7 @@
             "description": "Helps you find, load, combine, autofill and validate configuration values of any kind",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/config/tree/v4.4.41"
+                "source": "https://github.com/symfony/config/tree/v4.4.42"
             },
             "funding": [
                 {
@@ -14466,7 +14468,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-12T15:19:55+00:00"
+            "time": "2022-05-17T07:10:14+00:00"
         },
         {
             "name": "symfony/console",
@@ -15012,16 +15014,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.4.39",
+            "version": "v4.4.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "72a5b35fecaa670b13954e6eaf414acbe2a67b35"
+                "reference": "815412ee8971209bd4c1eecd5f4f481eacd44bf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/72a5b35fecaa670b13954e6eaf414acbe2a67b35",
-                "reference": "72a5b35fecaa670b13954e6eaf414acbe2a67b35",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/815412ee8971209bd4c1eecd5f4f481eacd44bf5",
+                "reference": "815412ee8971209bd4c1eecd5f4f481eacd44bf5",
                 "shasum": ""
             },
             "require": {
@@ -15055,7 +15057,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v4.4.39"
+                "source": "https://github.com/symfony/filesystem/tree/v4.4.42"
             },
             "funding": [
                 {
@@ -15071,7 +15073,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-25T10:38:15+00:00"
+            "time": "2022-05-20T08:49:14+00:00"
         },
         {
             "name": "symfony/finder",
@@ -16695,16 +16697,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.4.8",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "3c061a76bff6d6ea427d85e12ad1bb8ed8cd43e8"
+                "reference": "985e6a9703ef5ce32ba617c9c7d97873bb7b2a99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/3c061a76bff6d6ea427d85e12ad1bb8ed8cd43e8",
-                "reference": "3c061a76bff6d6ea427d85e12ad1bb8ed8cd43e8",
+                "url": "https://api.github.com/repos/symfony/string/zipball/985e6a9703ef5ce32ba617c9c7d97873bb7b2a99",
+                "reference": "985e6a9703ef5ce32ba617c9c7d97873bb7b2a99",
                 "shasum": ""
             },
             "require": {
@@ -16761,7 +16763,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v5.4.8"
+                "source": "https://github.com/symfony/string/tree/v5.4.9"
             },
             "funding": [
                 {
@@ -17143,16 +17145,16 @@
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v5.4.8",
+            "version": "v5.4.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "7e132a3fcd4b57add721b4207236877b6017ec93"
+                "reference": "63249ebfca4e75a357679fa7ba2089cfb898aa67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/7e132a3fcd4b57add721b4207236877b6017ec93",
-                "reference": "7e132a3fcd4b57add721b4207236877b6017ec93",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/63249ebfca4e75a357679fa7ba2089cfb898aa67",
+                "reference": "63249ebfca4e75a357679fa7ba2089cfb898aa67",
                 "shasum": ""
             },
             "require": {
@@ -17196,7 +17198,7 @@
                 "serialize"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/v5.4.8"
+                "source": "https://github.com/symfony/var-exporter/tree/v5.4.9"
             },
             "funding": [
                 {
@@ -17212,7 +17214,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-26T13:19:20+00:00"
+            "time": "2022-05-21T10:24:18+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -18193,16 +18195,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "7.2.0",
+            "version": "7.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "b4f96a8beea515d2d89141b7b9ad72f526d84071"
+                "reference": "aff06ae7a84e4534bf6f821dc982a93a5d477c90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/b4f96a8beea515d2d89141b7b9ad72f526d84071",
-                "reference": "b4f96a8beea515d2d89141b7b9ad72f526d84071",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/aff06ae7a84e4534bf6f821dc982a93a5d477c90",
+                "reference": "aff06ae7a84e4534bf6f821dc982a93a5d477c90",
                 "shasum": ""
             },
             "require": {
@@ -18214,7 +18216,7 @@
             "require-dev": {
                 "phing/phing": "2.17.3",
                 "php-parallel-lint/php-parallel-lint": "1.3.2",
-                "phpstan/phpstan": "1.4.10|1.6.7",
+                "phpstan/phpstan": "1.4.10|1.7.1",
                 "phpstan/phpstan-deprecation-rules": "1.0.0",
                 "phpstan/phpstan-phpunit": "1.0.0|1.1.1",
                 "phpstan/phpstan-strict-rules": "1.2.3",
@@ -18238,7 +18240,7 @@
             "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/7.2.0"
+                "source": "https://github.com/slevomat/coding-standard/tree/7.2.1"
             },
             "funding": [
                 {
@@ -18250,7 +18252,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-06T10:58:42+00:00"
+            "time": "2022-05-25T10:58:12+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
