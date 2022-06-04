@@ -10281,16 +10281,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.1.18",
+            "version": "1.1.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "28f06afe95e0b1554d392b0e084a4d6569e93aa1"
+                "reference": "b3dac214fa90d8b5e79a426693cf78313d154f5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/28f06afe95e0b1554d392b0e084a4d6569e93aa1",
-                "reference": "28f06afe95e0b1554d392b0e084a4d6569e93aa1",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/b3dac214fa90d8b5e79a426693cf78313d154f5e",
+                "reference": "b3dac214fa90d8b5e79a426693cf78313d154f5e",
                 "shasum": ""
             },
             "require": {
@@ -10365,7 +10365,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.18"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.19"
             },
             "funding": [
                 {
@@ -10381,7 +10381,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-28T16:06:58+00:00"
+            "time": "2022-06-04T20:22:12+00:00"
         },
         {
             "name": "mkalkbrenner/php-htmldiff-advanced",
@@ -16202,16 +16202,16 @@
         },
         {
             "name": "symfony/polyfill-php81",
-            "version": "v1.25.0",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php81.git",
-                "reference": "5de4ba2d41b15f9bd0e19b2ab9674135813ec98f"
+                "reference": "13f6d1271c663dc5ae9fb843a8f16521db7687a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/5de4ba2d41b15f9bd0e19b2ab9674135813ec98f",
-                "reference": "5de4ba2d41b15f9bd0e19b2ab9674135813ec98f",
+                "url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/13f6d1271c663dc5ae9fb843a8f16521db7687a1",
+                "reference": "13f6d1271c663dc5ae9fb843a8f16521db7687a1",
                 "shasum": ""
             },
             "require": {
@@ -16220,7 +16220,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.23-dev"
+                    "dev-main": "1.26-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -16261,7 +16261,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php81/tree/v1.25.0"
+                "source": "https://github.com/symfony/polyfill-php81/tree/v1.26.0"
             },
             "funding": [
                 {
@@ -16277,7 +16277,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-09-13T13:58:11+00:00"
+            "time": "2022-05-24T11:49:31+00:00"
         },
         {
             "name": "symfony/process",
