@@ -10281,16 +10281,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.1.19",
+            "version": "1.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "b3dac214fa90d8b5e79a426693cf78313d154f5e"
+                "reference": "f9d8493835cc50ab9e3592486d129c2b355db335"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/b3dac214fa90d8b5e79a426693cf78313d154f5e",
-                "reference": "b3dac214fa90d8b5e79a426693cf78313d154f5e",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/f9d8493835cc50ab9e3592486d129c2b355db335",
+                "reference": "f9d8493835cc50ab9e3592486d129c2b355db335",
                 "shasum": ""
             },
             "require": {
@@ -10365,7 +10365,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.19"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.20"
             },
             "funding": [
                 {
@@ -10381,7 +10381,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-04T20:22:12+00:00"
+            "time": "2022-06-07T14:32:27+00:00"
         },
         {
             "name": "mkalkbrenner/php-htmldiff-advanced",
