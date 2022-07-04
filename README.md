@@ -4,12 +4,22 @@ Acquia Drupal Recommended Project
 This is a project template providing a great out-of-the-box experience for new Drupal 9 projects hosted on Acquia. It is based on the [Drupal Recommended Project](https://github.com/drupal/recommended-project/tree/9.0.x) and similar to the [Acquia Drupal Minimal Project](https://github.com/acquia/drupal-minimal-project), with the principal difference being the addition of several modules and packages that provide the best possible out-of-the-box experience for Acquia customers.
 
 This project includes the following packages and configuration:
-* Drupal core
-* [Acquia CMS](https://github.com/acquia/acquia_cms) (Drupal distribution)
+* [Drupal core](https://www.drupal.org/project/drupal)
+* [Drupal core scaffold](https://www.drupal.org/docs/develop/using-composer/using-drupals-composer-scaffold)
+* [Acquia CMS](https://github.com/acquia/acquia-cms-starterkit) (Starter kit)
 * [Drush](https://github.com/drush-ops/drush) (Drupal CLI and development tool)
-* [Acquia Connector](https://drupal.org/project/acquia_connector) (Management and reporting tool for Acquia Cloud sites)
-* [Acquia Site Studio](https://www.acquia.com/products/drupal-cloud/site-studio) (Low-code visual page builder)
 * [Asset Packagist](https://asset-packagist.org/) repository, package, and configuration
+* [Acquia environment detection](https://github.com/acquia/drupal-environment-detector)
+* [Acquia platform memcache settings](https://github.com/acquia/memcache-settings)
+* Best practices for Drupal development, testing and project architcture
+
+The Acquia CMS starter kit allows you to install Drupal for a given style of CMS:
+
+| Name  | Description |
+| ------------- | ------------- |
+| Acquia CMS Enterprise Low-code  | The low-code starter kit will install Acquia CMS with Site Studio and a UIkit. It provides drag and drop content authoring and low-code site building. An optional content model can be added in the installation process.  |
+| Acquia CMS Community  | The community starter kit will install Acquia CMS. An optional content model can be added in the installation process.  |
+| Acquia CMS Headless  | The headless starter kit preconfigures Drupal for serving structured, RESTful content to 3rd party content displays such as mobile apps, smart displays and frontend driven websites (e.g. React or Next.js).  |
 
 ## Installation and usage
 
