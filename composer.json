@@ -113,6 +113,7 @@
         },
         "patches": {},
         "violinist": {
+            "allow_update_indirect_with_direct": 1,
             "allow_updates_beyond_constraint": 0,
             "blocklist": [
                 "drupal/core-composer-scaffold"
