@@ -1943,16 +1943,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.4.1",
+            "version": "9.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "81489e8f0d5fdcd5d502b561f0f8cdf5ccdda614"
+                "reference": "5a4d6acc99e279f70a914804ff3dd08111707de1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/81489e8f0d5fdcd5d502b561f0f8cdf5ccdda614",
-                "reference": "81489e8f0d5fdcd5d502b561f0f8cdf5ccdda614",
+                "url": "https://api.github.com/repos/drupal/core/zipball/5a4d6acc99e279f70a914804ff3dd08111707de1",
+                "reference": "5a4d6acc99e279f70a914804ff3dd08111707de1",
                 "shasum": ""
             },
             "require": {
@@ -2195,9 +2195,9 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.4.1"
+                "source": "https://github.com/drupal/core/tree/9.4.2"
             },
-            "time": "2022-06-21T20:53:48+00:00"
+            "time": "2022-07-07T01:18:39+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
@@ -2251,16 +2251,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.4.1",
+            "version": "9.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "a3ae54715ba7792fe596c2f6a73dfcef217b0577"
+                "reference": "c10da85434356b27e2bf0516a7b6f8103b473038"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/a3ae54715ba7792fe596c2f6a73dfcef217b0577",
-                "reference": "a3ae54715ba7792fe596c2f6a73dfcef217b0577",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/c10da85434356b27e2bf0516a7b6f8103b473038",
+                "reference": "c10da85434356b27e2bf0516a7b6f8103b473038",
                 "shasum": ""
             },
             "require": {
@@ -2269,7 +2269,7 @@
                 "doctrine/annotations": "~1.13.2",
                 "doctrine/lexer": "~1.2.3",
                 "doctrine/reflection": "~1.2.3",
-                "drupal/core": "9.4.1",
+                "drupal/core": "9.4.2",
                 "egulias/email-validator": "~3.2",
                 "guzzlehttp/guzzle": "~6.5.8",
                 "guzzlehttp/promises": "~1.5.1",
@@ -2331,9 +2331,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.4.1"
+                "source": "https://github.com/drupal/core-recommended/tree/9.4.2"
             },
-            "time": "2022-06-21T20:53:48+00:00"
+            "time": "2022-07-07T01:18:39+00:00"
         },
         {
             "name": "drupal/memcache",
