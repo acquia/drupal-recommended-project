@@ -44,7 +44,7 @@ Drupal 9 is installed by default. If you want to try Drupal 10, use the `drupal1
 composer create-project acquia/drupal-recommended-project:dev-drupal10
 ```
 
-Note that the `drupal10` branch is completely untested and will be slightly more resource-intensive to install due to not shipping with a `composer.lock` file.
+Note that the `drupal10` branch is completely untested, lacks many packages with known compatibility issues, and is slightly more resource-intensive to install due to not shipping with a `composer.lock` file.
 
 ## Next steps
 
