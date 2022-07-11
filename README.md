@@ -1,3 +1,12 @@
+Drupal 10 branch
+===
+
+This provides Drupal 10 with Acquia Drupal Recommended Project.
+
+Known compatibility issues:
+
+- Acquia CMS Start Kit (temporarily removed)
+
 Acquia Drupal Recommended Project
 ====
 
