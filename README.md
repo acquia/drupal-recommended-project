@@ -37,6 +37,15 @@ composer remove acquia/mysql56
 
 You should only commit changes to `composer.json` and `composer.lock`. Do not commit files in the `vendor`, `docroot/core`, and similar directories (these are ignored by the provided `.gitignore` file). In order to run your application in another environment, you’ll need to run `composer install` to reinstall these assets. [Acquia Code Studio’s](https://docs.acquia.com/code-studio/) Auto DevOps feature can do this automatically when deploying to Acquia Cloud.
 
+## Other Drupal versions
+
+Drupal 9 is installed by default. If you want to try Drupal 10, use the `drupal10` branch:
+```
+composer create-project acquia/drupal-recommended-project:dev-drupal10
+```
+
+Note that the `drupal10` branch is completely untested and will be slightly more resource-intensive to install due to not shipping with a `composer.lock` file.
+
 ## Next steps
 
 After creating your project, if you'd also like to use Acquia BLT, do the following:
