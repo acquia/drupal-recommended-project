@@ -24,7 +24,7 @@
         "oomphinc/composer-installers-extender": "^1.1 || ^2"
     },
     "require-dev": {
-        "acquia/coding-standards": "^0.8.0",
+        "acquia/coding-standards": "^1.0.0",
         "mglaman/phpstan-drupal": "^1.1",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.6",
