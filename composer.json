@@ -13,7 +13,7 @@
         "php": ">=7.4",
         "acquia/acquia-cms-starterkit": "^1",
         "acquia/drupal-environment-detector": "^1",
-        "acquia/http-hmac-php": "3.4.0",
+        "acquia/http-hmac-php": "6.0.0",
         "acquia/memcache-settings": "^1",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6",
