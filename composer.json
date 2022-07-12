@@ -111,19 +111,7 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "patches": {},
-        "violinist": {
-            "allow_update_indirect_with_direct": 1,
-            "allow_updates_beyond_constraint": 0,
-            "blocklist": [
-                "drupal/core-composer-scaffold"
-            ],
-            "bundled_packages": {
-                "drupal/core-recommended": [
-                    "drupal/core-composer-scaffold"
-                ]
-            }
-        }
+        "patches": {}
     },
     "repositories": {
         "drupal": {
