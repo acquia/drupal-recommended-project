@@ -3833,16 +3833,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.1.22",
+            "version": "1.1.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "87e64fb4c8370000b4e235c6e7314e48f486662c"
+                "reference": "ad47ecc886433a17e928c2f47682bb237b51fdc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/87e64fb4c8370000b4e235c6e7314e48f486662c",
-                "reference": "87e64fb4c8370000b4e235c6e7314e48f486662c",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/ad47ecc886433a17e928c2f47682bb237b51fdc0",
+                "reference": "ad47ecc886433a17e928c2f47682bb237b51fdc0",
                 "shasum": ""
             },
             "require": {
@@ -3917,7 +3917,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.22"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.23"
             },
             "funding": [
                 {
@@ -3933,7 +3933,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-13T18:37:22+00:00"
+            "time": "2022-07-14T12:15:55+00:00"
         },
         {
             "name": "nikic/php-parser",
