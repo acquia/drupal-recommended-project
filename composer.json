@@ -123,7 +123,7 @@
     "prefer-stable": true,
     "scripts": {
         "acms:install": [
-            "bash ./docroot/profiles/contrib/acquia_cms/install-acms"
+            "./vendor/bin/acms acms:install"
         ],
         "nuke": [
             "rm -rf docroot vendor composer.lock"
