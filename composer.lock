@@ -423,16 +423,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.16",
+            "version": "2.2.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "8c0ee53ff67399b0eec4eee2c5dc5189ec6938a6"
+                "reference": "a8ab5070fb99396e4710baee286478ad697724c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/8c0ee53ff67399b0eec4eee2c5dc5189ec6938a6",
-                "reference": "8c0ee53ff67399b0eec4eee2c5dc5189ec6938a6",
+                "url": "https://api.github.com/repos/composer/composer/zipball/a8ab5070fb99396e4710baee286478ad697724c2",
+                "reference": "a8ab5070fb99396e4710baee286478ad697724c2",
                 "shasum": ""
             },
             "require": {
@@ -502,7 +502,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.2.16"
+                "source": "https://github.com/composer/composer/tree/2.2.17"
             },
             "funding": [
                 {
@@ -518,7 +518,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-05T14:50:29+00:00"
+            "time": "2022-07-13T13:27:38+00:00"
         },
         {
             "name": "composer/installers",
@@ -2475,16 +2475,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "11.0.9",
+            "version": "11.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "88b2293ded84f67aad96ad6dbd64cacd84bcd6fe"
+                "reference": "5ee249f4e511d65c099e86317719fb3a15370e6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/88b2293ded84f67aad96ad6dbd64cacd84bcd6fe",
-                "reference": "88b2293ded84f67aad96ad6dbd64cacd84bcd6fe",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/5ee249f4e511d65c099e86317719fb3a15370e6b",
+                "reference": "5ee249f4e511d65c099e86317719fb3a15370e6b",
                 "shasum": ""
             },
             "require": {
@@ -2493,12 +2493,12 @@
                 "consolidation/annotated-command": "^4.5.3",
                 "consolidation/config": "^2",
                 "consolidation/filter-via-dot-access-data": "^2",
-                "consolidation/robo": "^3.0.9",
+                "consolidation/robo": "^3.0.9 || ^4.0.0-alpha1",
                 "consolidation/site-alias": "^3.1.3",
                 "consolidation/site-process": "^4.1.3 || ^5",
                 "enlightn/security-checker": "^1",
                 "ext-dom": "*",
-                "guzzlehttp/guzzle": "^6.3 || ^7.0",
+                "guzzlehttp/guzzle": "^6.5 || ^7.0",
                 "league/container": "^3.4 || ^4",
                 "php": ">=7.4",
                 "psy/psysh": "~0.11",
@@ -2609,7 +2609,7 @@
                 "irc": "irc://irc.freenode.org/drush",
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/11.0.9"
+                "source": "https://github.com/drush-ops/drush/tree/11.1.1"
             },
             "funding": [
                 {
@@ -2617,7 +2617,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-04-16T12:01:55+00:00"
+            "time": "2022-07-12T16:08:05+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -3833,16 +3833,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.1.21",
+            "version": "1.1.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "8acaa1e4a15b266cfbd404c6fcb4e1be398f05f8"
+                "reference": "ad47ecc886433a17e928c2f47682bb237b51fdc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/8acaa1e4a15b266cfbd404c6fcb4e1be398f05f8",
-                "reference": "8acaa1e4a15b266cfbd404c6fcb4e1be398f05f8",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/ad47ecc886433a17e928c2f47682bb237b51fdc0",
+                "reference": "ad47ecc886433a17e928c2f47682bb237b51fdc0",
                 "shasum": ""
             },
             "require": {
@@ -3917,7 +3917,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.21"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.23"
             },
             "funding": [
                 {
@@ -3933,7 +3933,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-07T19:39:04+00:00"
+            "time": "2022-07-14T12:15:55+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -4288,16 +4288,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.8.0",
+            "version": "1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "b7648d4ee9321665acaf112e49da9fd93df8fbd5"
+                "reference": "8dbba631fa32f4b289404469c2afd6122fd61d67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b7648d4ee9321665acaf112e49da9fd93df8fbd5",
-                "reference": "b7648d4ee9321665acaf112e49da9fd93df8fbd5",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/8dbba631fa32f4b289404469c2afd6122fd61d67",
+                "reference": "8dbba631fa32f4b289404469c2afd6122fd61d67",
                 "shasum": ""
             },
             "require": {
@@ -4323,7 +4323,7 @@
             "description": "PHPStan - PHP Static Analysis Tool",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.8.0"
+                "source": "https://github.com/phpstan/phpstan/tree/1.8.1"
             },
             "funding": [
                 {
@@ -4343,7 +4343,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-29T08:53:31+00:00"
+            "time": "2022-07-12T16:08:06+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
