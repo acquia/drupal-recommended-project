@@ -193,22 +193,27 @@
         },
         {
             "name": "acquia/memcache-settings",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/memcache-settings.git",
-                "reference": "1a2c6bb19d7aaaf3367147e3564744e89dd5469b"
+                "reference": "543cb19afcd9d75000dceb924b85c2ff16997003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/memcache-settings/zipball/1a2c6bb19d7aaaf3367147e3564744e89dd5469b",
-                "reference": "1a2c6bb19d7aaaf3367147e3564744e89dd5469b",
+                "url": "https://api.github.com/repos/acquia/memcache-settings/zipball/543cb19afcd9d75000dceb924b85c2ff16997003",
+                "reference": "543cb19afcd9d75000dceb924b85c2ff16997003",
                 "shasum": ""
             },
             "require": {
                 "drupal/memcache": "^2.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
@@ -223,9 +228,9 @@
             "description": "Recommended Memcache settings for use with Acquia hosting.",
             "support": {
                 "issues": "https://github.com/acquia/memcache-settings/issues",
-                "source": "https://github.com/acquia/memcache-settings/tree/v1.1.0"
+                "source": "https://github.com/acquia/memcache-settings/tree/v1.2.0"
             },
-            "time": "2021-08-23T18:08:00+00:00"
+            "time": "2022-08-03T15:14:53+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -2268,14 +2273,6 @@
             ],
             "authors": [
                 {
-                    "name": "Fabianx",
-                    "homepage": "https://www.drupal.org/user/693738"
-                },
-                {
-                    "name": "Jeremy",
-                    "homepage": "https://www.drupal.org/user/409"
-                },
-                {
                     "name": "bdragon",
                     "homepage": "https://www.drupal.org/user/53081"
                 },
@@ -2288,8 +2285,16 @@
                     "homepage": "https://www.drupal.org/user/1037976"
                 },
                 {
+                    "name": "Fabianx",
+                    "homepage": "https://www.drupal.org/user/693738"
+                },
+                {
                     "name": "japerry",
                     "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "Jeremy",
+                    "homepage": "https://www.drupal.org/user/409"
                 },
                 {
                     "name": "jvandyk",
