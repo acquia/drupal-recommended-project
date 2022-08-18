@@ -111,3 +111,6 @@ local.site.yml
 local.services.yml
 *.local
 local.blt.yml
+
+# oauth keys
+oauth_keys/
