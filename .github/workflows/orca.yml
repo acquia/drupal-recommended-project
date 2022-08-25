@@ -36,6 +36,8 @@ jobs:
           - INTEGRATED_TEST_ON_NEXT_MINOR_DEV
           - ISOLATED_TEST_ON_NEXT_MINOR_DEV
           - INTEGRATED_UPGRADE_TEST_TO_NEXT_MINOR_DEV
+          - ISOLATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_DEV
+          - INTEGRATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_DEV
           # This is our custom job on 7.4
           - ""
           # We do not run deprecated code scans since they'd scan the entire
@@ -49,6 +51,10 @@ jobs:
           # These are our custom jobs to ensure composer install works
           - orca-job: ""
             php-version: "8.0"
+          - orca-job: INTEGRATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_DEV
+            php-version: "8.1"
+          - orca-job: ISOLATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_DEV
+            php-version: "8.1"
     steps:
       - uses: actions/checkout@v2
 
