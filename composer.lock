@@ -82,17 +82,20 @@
         },
         {
             "name": "acquia/drupal-environment-detector",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/drupal-environment-detector.git",
-                "reference": "ef6e86df2654f93b11062e07a93dbcd941d65176"
+                "reference": "8f3d8d4340a8d180e226a5dcb7a8948f4e15bde7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/drupal-environment-detector/zipball/ef6e86df2654f93b11062e07a93dbcd941d65176",
-                "reference": "ef6e86df2654f93b11062e07a93dbcd941d65176",
+                "url": "https://api.github.com/repos/acquia/drupal-environment-detector/zipball/8f3d8d4340a8d180e226a5dcb7a8948f4e15bde7",
+                "reference": "8f3d8d4340a8d180e226a5dcb7a8948f4e15bde7",
                 "shasum": ""
+            },
+            "conflict": {
+                "acquia/blt": "<13.5.2"
             },
             "require-dev": {
                 "acquia/coding-standards": "^1.0.0",
@@ -126,9 +129,9 @@
             "description": "Provides common methods for detecting the current Acquia environment",
             "support": {
                 "issues": "https://github.com/acquia/drupal-environment-detector/issues",
-                "source": "https://github.com/acquia/drupal-environment-detector/tree/1.5.0"
+                "source": "https://github.com/acquia/drupal-environment-detector/tree/1.5.1"
             },
-            "time": "2022-08-23T18:15:55+00:00"
+            "time": "2022-08-24T15:13:06+00:00"
         },
         {
             "name": "acquia/http-hmac-php",
