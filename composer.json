@@ -123,6 +123,7 @@
     "prefer-stable": true,
     "scripts": {
         "acms:install": [
+            "Composer\\Config::disableProcessTimeout",
             "./vendor/bin/acms acms:install"
         ],
         "nuke": [
