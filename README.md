@@ -28,6 +28,8 @@ Create a new project using Composer:
 composer create-project --no-interaction acquia/drupal-recommended-project
 ```
 
+After the project is created, the ACMS installer should automatically run. If it does not, run `./vendor/bin/acms acms:install`.
+
 Once you create the project, you can and should customize `composer.json` and the rest of the project to suit your needs. You will receive updates from any dependent packages, but not from the project template itself. It's yours to keep!
 
 For instance, you can remove a provided package by running the following command and committing the changed `composer.json` and `composer.lock` to Git:
@@ -45,13 +47,6 @@ composer create-project acquia/drupal-recommended-project:dev-drupal10
 ```
 
 Note that the `drupal10` branch is completely untested, lacks many packages with known compatibility issues, and is slightly more resource-intensive to install due to not shipping with a `composer.lock` file.
-
-## Next steps
-
-After creating your project, if you'd also like to use Acquia BLT, do the following:
-* Add BLT via Composer with `composer require acquia/blt`
-* Install the [BLT Launcher](https://github.com/acquia/blt-launcher) and follow the rest of the [BLT setup guide](https://docs.acquia.com/blt/install/next-steps/).
-* Set up automated testing using BLT recipes and plugins such as [BLT Behat](https://github.com/acquia/blt-behat) and the [Acquia Drupal Spec Tool](https://github.com/acquia/drupal-spec-tool).
 
 # License
 
