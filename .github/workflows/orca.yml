@@ -67,6 +67,15 @@ jobs:
           ../orca/bin/ci/before_install.sh
           if [[ ! "$ORCA_JOB" ]]; then composer install; fi
 
+          # Fix https://github.com/acquia/drupal-recommended-project/issues/24.
+          # Update and use the latest tag to provide composer a stable version.
+          cd "$ORCA_SUT_DIR"
+          git fetch --tags
+          CTAG=$(git describe --tags $(git rev-list --tags --max-count=1))
+          echo "$CTAG"
+          git tag -f "$CTAG"
+          git checkout "$CTAG"
+
       - name: Install
         run: ../orca/bin/ci/install.sh
 
