@@ -40,8 +40,18 @@ jobs:
           - ""
           # We do not run deprecated code scans since they'd scan the entire
           # codebase (since the SUT is the project template).
-        php-version: [ "7.4" ]
+        php-version: [ "8.1" ]
         include:
+          - orca-job: INTEGRATED_TEST_ON_OLDEST_SUPPORTED
+            php-version: "7.4"
+
+          - orca-job: INTEGRATED_TEST_ON_OLDEST_SUPPORTED
+            php-version: "8.0"
+
+          - orca-job: INTEGRATED_TEST_ON_LATEST_LTS
+            php-version: "7.4"
+            coveralls-enable: "FALSE"
+
           - orca-job: ISOLATED_TEST_ON_CURRENT
             php-version: "8.0"
           - orca-job: ISOLATED_TEST_ON_CURRENT
@@ -49,14 +59,14 @@ jobs:
           # These are our custom jobs to ensure composer install works
           - orca-job: ""
             php-version: "8.0"
-          - orca-job: INTEGRATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_DEV
-            php-version: "8.1"
-          - orca-job: ISOLATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_DEV
-            php-version: "8.1"
-          - orca-job: INTEGRATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_BETA_OR_LATER
-            php-version: "8.1"
-          - orca-job: ISOLATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_BETA_OR_LATER
-            php-version: "8.1"
+          # - orca-job: INTEGRATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_DEV
+          #   php-version: "8.1"
+          # - orca-job: ISOLATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_DEV
+          #   php-version: "8.1"
+          # - orca-job: INTEGRATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_BETA_OR_LATER
+          #   php-version: "8.1"
+          # - orca-job: ISOLATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_BETA_OR_LATER
+          #   php-version: "8.1"
     steps:
       - uses: actions/checkout@v2
 
