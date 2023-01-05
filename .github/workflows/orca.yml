@@ -14,7 +14,7 @@ jobs:
     env:
       ORCA_SUT_NAME: acquia/drupal-recommended-project
       ORCA_SUT_BRANCH: master
-      ORCA_VERSION: ^3
+      ORCA_VERSION: 3.26.0
       ORCA_JOB: ${{ matrix.orca-job }}
 
     strategy:
