@@ -53,8 +53,6 @@ jobs:
             coveralls-enable: "FALSE"
 
           - orca-job: ISOLATED_TEST_ON_CURRENT
-            php-version: "8.0"
-          - orca-job: ISOLATED_TEST_ON_CURRENT
             php-version: "8.1"
           # These are our custom jobs to ensure composer install works
           - orca-job: ""
