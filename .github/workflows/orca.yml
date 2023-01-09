@@ -24,39 +24,43 @@ jobs:
           - INTEGRATED_TEST_ON_OLDEST_SUPPORTED
           - INTEGRATED_TEST_ON_PREVIOUS_MINOR
           - INTEGRATED_UPGRADE_TEST_FROM_PREVIOUS_MINOR
-          - ISOLATED_TEST_ON_CURRENT
-          - INTEGRATED_TEST_ON_CURRENT
-          - INTEGRATED_UPGRADE_TEST_TO_NEXT_MINOR
-          - ISOLATED_TEST_ON_CURRENT_DEV
-          - INTEGRATED_TEST_ON_CURRENT_DEV
-          - ISOLATED_TEST_ON_NEXT_MINOR
-          - INTEGRATED_TEST_ON_NEXT_MINOR
-          - ISOLATED_UPGRADE_TEST_TO_NEXT_MAJOR_BETA_OR_LATER
-          - ISOLATED_UPGRADE_TEST_TO_NEXT_MAJOR_DEV
-          - INTEGRATED_TEST_ON_NEXT_MINOR_DEV
-          - ISOLATED_TEST_ON_NEXT_MINOR_DEV
-          - INTEGRATED_UPGRADE_TEST_TO_NEXT_MINOR_DEV
           # This is our custom job on 7.4
           - ""
+          # Drupal core restricted to 9.x, upgrade not possible. So, skipping.
+          #- ISOLATED_TEST_ON_NEXT_MINOR
+          #- INTEGRATED_TEST_ON_NEXT_MINOR
+          #- ISOLATED_UPGRADE_TEST_TO_NEXT_MAJOR_BETA_OR_LATER
+          #- ISOLATED_UPGRADE_TEST_TO_NEXT_MAJOR_DEV
+          #- ISOLATED_TEST_ON_CURRENT
+          #- INTEGRATED_TEST_ON_CURRENT
+          #- ISOLATED_TEST_ON_CURRENT_DEV
+          #- INTEGRATED_TEST_ON_CURRENT_DEV
+          #- INTEGRATED_UPGRADE_TEST_TO_NEXT_MINOR
+          #- INTEGRATED_TEST_ON_NEXT_MINOR_DEV
+          #- ISOLATED_TEST_ON_NEXT_MINOR_DEV
+          #- INTEGRATED_UPGRADE_TEST_TO_NEXT_MINOR_DEV
           # We do not run deprecated code scans since they'd scan the entire
           # codebase (since the SUT is the project template).
         php-version: [ "7.4" ]
         include:
-          - orca-job: ISOLATED_TEST_ON_CURRENT
+          - orca-job: INTEGRATED_TEST_ON_OLDEST_SUPPORTED
             php-version: "8.0"
-          - orca-job: ISOLATED_TEST_ON_CURRENT
+          - orca-job: INTEGRATED_TEST_ON_OLDEST_SUPPORTED
+            php-version: "8.1"
+            # ORCA doesn't support ISOLATED_TEST_ON_PREVIOUS_MINOR, so used
+            # INTEGRATED_TEST_ON_PREVIOUS_MINOR to verify on PHP 8.0 & PHP 8.1.
+            # This will fail after Drupal core 10.0.1. So remove this later.
+          - orca-job: INTEGRATED_TEST_ON_PREVIOUS_MINOR
+            php-version: "8.0"
+          - orca-job: INTEGRATED_TEST_ON_PREVIOUS_MINOR
+            php-version: "8.1"
+          - orca-job: INTEGRATED_UPGRADE_TEST_FROM_PREVIOUS_MINOR
+            php-version: "8.0"
+          - orca-job: INTEGRATED_UPGRADE_TEST_FROM_PREVIOUS_MINOR
             php-version: "8.1"
           # These are our custom jobs to ensure composer install works
           - orca-job: ""
             php-version: "8.0"
-          - orca-job: INTEGRATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_DEV
-            php-version: "8.1"
-          - orca-job: ISOLATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_DEV
-            php-version: "8.1"
-          - orca-job: INTEGRATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_BETA_OR_LATER
-            php-version: "8.1"
-          - orca-job: ISOLATED_TEST_ON_NEXT_MAJOR_LATEST_MINOR_BETA_OR_LATER
-            php-version: "8.1"
     steps:
       - uses: actions/checkout@v2
 
