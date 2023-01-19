@@ -1939,16 +1939,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.5.1",
+            "version": "9.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "083636264b027984694eb6d1e592f148ec24c637"
+                "reference": "2ce2d9dbc3d248d7fd6bf9c9a50cce7e8dc799a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/083636264b027984694eb6d1e592f148ec24c637",
-                "reference": "083636264b027984694eb6d1e592f148ec24c637",
+                "url": "https://api.github.com/repos/drupal/core/zipball/2ce2d9dbc3d248d7fd6bf9c9a50cce7e8dc799a6",
+                "reference": "2ce2d9dbc3d248d7fd6bf9c9a50cce7e8dc799a6",
                 "shasum": ""
             },
             "require": {
@@ -2100,9 +2100,9 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.5.1"
+                "source": "https://github.com/drupal/core/tree/9.5.2"
             },
-            "time": "2023-01-04T15:53:28+00:00"
+            "time": "2023-01-18T12:48:20+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
@@ -2156,16 +2156,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.5.1",
+            "version": "9.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "9004418593163c787ff9057e31cf76063dd282dc"
+                "reference": "eab84e96280017f11e0dfba7f9995facaa803d13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/9004418593163c787ff9057e31cf76063dd282dc",
-                "reference": "9004418593163c787ff9057e31cf76063dd282dc",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/eab84e96280017f11e0dfba7f9995facaa803d13",
+                "reference": "eab84e96280017f11e0dfba7f9995facaa803d13",
                 "shasum": ""
             },
             "require": {
@@ -2174,7 +2174,7 @@
                 "doctrine/annotations": "~1.13.3",
                 "doctrine/lexer": "~1.2.3",
                 "doctrine/reflection": "~1.2.3",
-                "drupal/core": "9.5.1",
+                "drupal/core": "9.5.2",
                 "egulias/email-validator": "~3.2.1",
                 "guzzlehttp/guzzle": "~6.5.8",
                 "guzzlehttp/promises": "~1.5.2",
@@ -2236,9 +2236,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.5.1"
+                "source": "https://github.com/drupal/core-recommended/tree/9.5.2"
             },
-            "time": "2023-01-04T15:53:28+00:00"
+            "time": "2023-01-18T12:48:20+00:00"
         },
         {
             "name": "drupal/memcache",
@@ -3853,16 +3853,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.15.2",
+            "version": "v4.15.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc"
+                "reference": "570e980a201d8ed0236b0a62ddf2c9cbb2034039"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc",
-                "reference": "f59bbe44bf7d96f24f3e2b4ddc21cd52c1d2adbc",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/570e980a201d8ed0236b0a62ddf2c9cbb2034039",
+                "reference": "570e980a201d8ed0236b0a62ddf2c9cbb2034039",
                 "shasum": ""
             },
             "require": {
@@ -3903,9 +3903,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v4.15.2"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v4.15.3"
             },
-            "time": "2022-11-12T15:38:23+00:00"
+            "time": "2023-01-16T22:05:37+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
