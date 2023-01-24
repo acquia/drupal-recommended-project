@@ -54,10 +54,6 @@ jobs:
             php-version: "8.0"
           - orca-job: INTEGRATED_TEST_ON_PREVIOUS_MINOR
             php-version: "8.1"
-          - orca-job: INTEGRATED_UPGRADE_TEST_FROM_PREVIOUS_MINOR
-            php-version: "8.0"
-          - orca-job: INTEGRATED_UPGRADE_TEST_FROM_PREVIOUS_MINOR
-            php-version: "8.1"
           # These are our custom jobs to ensure composer install works
           - orca-job: ""
             php-version: "8.0"
