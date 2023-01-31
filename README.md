@@ -1,7 +1,7 @@
 Acquia Drupal Recommended Project
 ====
 
-This is a project template providing a great out-of-the-box experience for new Drupal 9 projects hosted on Acquia. It is based on the [Drupal Recommended Project](https://github.com/drupal/recommended-project/tree/9.0.x) and similar to the [Acquia Drupal Minimal Project](https://github.com/acquia/drupal-minimal-project), with the principal difference being the addition of several modules and packages that provide the best possible out-of-the-box experience for Acquia customers.
+This is a project template providing a great out-of-the-box experience for new Drupal 10 projects hosted on Acquia. It is based on the [Drupal Recommended Project](https://github.com/drupal/recommended-project/tree/9.0.x), with the principal difference being the addition of several modules and packages that provide the best possible out-of-the-box experience for Acquia customers.
 
 This project includes the following packages and configuration:
 * [Drupal core](https://www.drupal.org/project/drupal)
@@ -11,7 +11,7 @@ This project includes the following packages and configuration:
 * [Asset Packagist](https://asset-packagist.org/) repository, package, and configuration
 * [Acquia environment detection](https://github.com/acquia/drupal-environment-detector)
 * [Acquia platform memcache settings](https://github.com/acquia/memcache-settings)
-* Best practices for Drupal development, testing and project architcture
+* Best practices for Drupal development, testing and project architecture
 
 The Acquia CMS starter kit allows you to install Drupal for a given style of CMS:
 
@@ -39,12 +39,10 @@ You should only commit changes to `composer.json` and `composer.lock`. Do not co
 
 ## Other Drupal versions
 
-Drupal 9 is installed by default. If you want to try Drupal 10, use the `drupal10` branch:
+Drupal 10 is installed by default. To install Drupal 9, use the below command:
 ```
-composer create-project acquia/drupal-recommended-project:dev-drupal10
+composer create-project acquia/drupal-recommended-project:^1
 ```
-
-Note that the `drupal10` branch is completely untested, lacks many packages with known compatibility issues, and is slightly more resource-intensive to install due to not shipping with a `composer.lock` file.
 
 ## Next steps
 
