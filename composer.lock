@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f11d06390f29ac0c7319ca4c8ee90f1",
+    "content-hash": "c53695820c66d61ce018196f73c90bde",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -133,67 +133,6 @@
                 "source": "https://github.com/acquia/drupal-environment-detector/tree/1.5.3"
             },
             "time": "2022-12-15T16:49:52+00:00"
-        },
-        {
-            "name": "acquia/http-hmac-php",
-            "version": "6.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/acquia/http-hmac-php.git",
-                "reference": "f4405aa98531b3d6b094b928495e93bc171b7758"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/acquia/http-hmac-php/zipball/f4405aa98531b3d6b094b928495e93bc171b7758",
-                "reference": "f4405aa98531b3d6b094b928495e93bc171b7758",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.3.0",
-                "psr/http-message": "^1.0"
-            },
-            "replace": {
-                "acquia/hmac-request": "self.version"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.2.1",
-                "guzzlehttp/guzzle": "^6.0",
-                "nyholm/psr7": "^1.0",
-                "php-coveralls/php-coveralls": "^2.2",
-                "phpmd/phpmd": "^2.0",
-                "phpunit/phpunit": "^8.0",
-                "symfony/phpunit-bridge": "^4.0 || ^5.0",
-                "symfony/psr-http-message-bridge": "^2.0",
-                "symfony/security-bundle": "^4.0 || ^5.0"
-            },
-            "suggest": {
-                "guzzlehttp/guzzle": "^6.0",
-                "laminas/laminas-diactoros": "^1.8 || ^2.2",
-                "symfony/security": "^4.0 || ^5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Acquia\\Hmac\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "See contributors",
-                    "homepage": "https://github.com/acquia/http-hmac-php/graphs/contributors"
-                }
-            ],
-            "description": "An implementation of the HTTP HMAC Spec in PHP that integrates with popular libraries such as Symfony and Guzzle.",
-            "homepage": "https://github.com/acquia/http-hmac-php",
-            "support": {
-                "issues": "https://github.com/acquia/http-hmac-php/issues",
-                "source": "https://github.com/acquia/http-hmac-php/tree/6.0.0"
-            },
-            "time": "2021-10-21T21:17:37+00:00"
         },
         {
             "name": "acquia/memcache-settings",
