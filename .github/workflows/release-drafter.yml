@@ -25,5 +25,7 @@ jobs:
       pull-requests: read
     steps:
       - uses: release-drafter/release-drafter@v5
+        with:
+          config-name: release-drafter.yml # located in .github/ in default branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
