@@ -233,16 +233,16 @@
         },
         {
             "name": "chi-teck/drupal-code-generator",
-            "version": "2.6.1",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "3bffb204d29bd6136167f9f03b59f31cf5d5e6d2"
+                "reference": "22ed1cc02dc47814e8239de577da541e9b9bd980"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/3bffb204d29bd6136167f9f03b59f31cf5d5e6d2",
-                "reference": "3bffb204d29bd6136167f9f03b59f31cf5d5e6d2",
+                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/22ed1cc02dc47814e8239de577da541e9b9bd980",
+                "reference": "22ed1cc02dc47814e8239de577da541e9b9bd980",
                 "shasum": ""
             },
             "require": {
@@ -288,9 +288,9 @@
             "description": "Drupal code generator",
             "support": {
                 "issues": "https://github.com/Chi-teck/drupal-code-generator/issues",
-                "source": "https://github.com/Chi-teck/drupal-code-generator/tree/2.6.1"
+                "source": "https://github.com/Chi-teck/drupal-code-generator/tree/2.6.2"
             },
-            "time": "2022-09-15T09:13:57+00:00"
+            "time": "2022-11-11T15:34:04+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -2224,16 +2224,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "11.4.0",
+            "version": "11.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "d1f7809ceaf580c9e0bf4725e005975956af5629"
+                "reference": "70c0826b99a633b45b274fe3c3353ea0274d8862"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/d1f7809ceaf580c9e0bf4725e005975956af5629",
-                "reference": "d1f7809ceaf580c9e0bf4725e005975956af5629",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/70c0826b99a633b45b274fe3c3353ea0274d8862",
+                "reference": "70c0826b99a633b45b274fe3c3353ea0274d8862",
                 "shasum": ""
             },
             "require": {
@@ -2357,7 +2357,7 @@
                 "forum": "http://drupal.stackexchange.com/questions/tagged/drush",
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/11.4.0"
+                "source": "https://github.com/drush-ops/drush/tree/11.5.0"
             },
             "funding": [
                 {
@@ -2365,7 +2365,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-14T16:02:30+00:00"
+            "time": "2023-02-15T17:17:24+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -3975,16 +3975,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.11.10",
+            "version": "v0.11.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "e9eadffbed9c9deb5426fd107faae0452bf20a36"
+                "reference": "52cb7c47d403c31c0adc9bf7710fc355f93c20f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/e9eadffbed9c9deb5426fd107faae0452bf20a36",
-                "reference": "e9eadffbed9c9deb5426fd107faae0452bf20a36",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/52cb7c47d403c31c0adc9bf7710fc355f93c20f7",
+                "reference": "52cb7c47d403c31c0adc9bf7710fc355f93c20f7",
                 "shasum": ""
             },
             "require": {
@@ -4045,9 +4045,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.11.10"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.12"
             },
-            "time": "2022-12-23T17:47:18+00:00"
+            "time": "2023-01-29T21:24:40+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -7270,16 +7270,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.5.0",
+            "version": "v3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3ffcf4b7d890770466da3b2666f82ac054e7ec72"
+                "reference": "a6e0510cc793912b451fd40ab983a1d28f611c15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3ffcf4b7d890770466da3b2666f82ac054e7ec72",
-                "reference": "3ffcf4b7d890770466da3b2666f82ac054e7ec72",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/a6e0510cc793912b451fd40ab983a1d28f611c15",
+                "reference": "a6e0510cc793912b451fd40ab983a1d28f611c15",
                 "shasum": ""
             },
             "require": {
@@ -7330,7 +7330,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.5.0"
+                "source": "https://github.com/twigphp/Twig/tree/v3.5.1"
             },
             "funding": [
                 {
@@ -7342,7 +7342,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-27T12:28:18+00:00"
+            "time": "2023-02-08T07:49:20+00:00"
         },
         {
             "name": "webflo/drupal-finder",
