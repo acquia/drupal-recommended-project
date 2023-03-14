@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
-            "version": "1.0.8",
+            "version": "1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia-cms-starterkit.git",
-                "reference": "0c514873b97d6880f23b66508cc30c5321262c22"
+                "reference": "53760e20ae615baead6f5df7a090d79d06923291"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia-cms-starterkit/zipball/0c514873b97d6880f23b66508cc30c5321262c22",
-                "reference": "0c514873b97d6880f23b66508cc30c5321262c22",
+                "url": "https://api.github.com/repos/acquia/acquia-cms-starterkit/zipball/53760e20ae615baead6f5df7a090d79d06923291",
+                "reference": "53760e20ae615baead6f5df7a090d79d06923291",
                 "shasum": ""
             },
             "require": {
@@ -77,9 +77,9 @@
             ],
             "support": {
                 "issues": "https://github.com/acquia/acquia-cms-starterkit/issues",
-                "source": "https://github.com/acquia/acquia-cms-starterkit/tree/1.0.8"
+                "source": "https://github.com/acquia/acquia-cms-starterkit/tree/1.0.9"
             },
-            "time": "2023-02-23T14:05:11+00:00"
+            "time": "2023-03-14T04:20:48+00:00"
         },
         {
             "name": "acquia/drupal-environment-detector",
@@ -5603,16 +5603,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.4.19",
+            "version": "v5.4.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "648bfaca6a494f3e22378123bcee2894045dc9d8"
+                "reference": "e75960b1bbfd2b8c9e483e0d74811d555ca3de9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/648bfaca6a494f3e22378123bcee2894045dc9d8",
-                "reference": "648bfaca6a494f3e22378123bcee2894045dc9d8",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/e75960b1bbfd2b8c9e483e0d74811d555ca3de9f",
+                "reference": "e75960b1bbfd2b8c9e483e0d74811d555ca3de9f",
                 "shasum": ""
             },
             "require": {
@@ -5647,7 +5647,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.4.19"
+                "source": "https://github.com/symfony/filesystem/tree/v5.4.21"
             },
             "funding": [
                 {
@@ -5663,7 +5663,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-14T19:14:44+00:00"
+            "time": "2023-02-14T08:03:56+00:00"
         },
         {
             "name": "symfony/finder",
