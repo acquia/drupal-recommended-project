@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
-            "version": "1.0.9",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia-cms-starterkit.git",
-                "reference": "53760e20ae615baead6f5df7a090d79d06923291"
+                "reference": "d9562c05c68d78239516059fde7b4ae99d3b74e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia-cms-starterkit/zipball/53760e20ae615baead6f5df7a090d79d06923291",
-                "reference": "53760e20ae615baead6f5df7a090d79d06923291",
+                "url": "https://api.github.com/repos/acquia/acquia-cms-starterkit/zipball/d9562c05c68d78239516059fde7b4ae99d3b74e5",
+                "reference": "d9562c05c68d78239516059fde7b4ae99d3b74e5",
                 "shasum": ""
             },
             "require": {
@@ -77,9 +77,9 @@
             ],
             "support": {
                 "issues": "https://github.com/acquia/acquia-cms-starterkit/issues",
-                "source": "https://github.com/acquia/acquia-cms-starterkit/tree/1.0.9"
+                "source": "https://github.com/acquia/acquia-cms-starterkit/tree/1.1.0"
             },
-            "time": "2023-03-14T04:20:48+00:00"
+            "time": "2023-04-18T16:24:18+00:00"
         },
         {
             "name": "acquia/drupal-environment-detector",
@@ -5726,16 +5726,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.21",
+            "version": "v5.4.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "6b88914a7f1bf144df15904f60a19be78a67a3b2"
+                "reference": "4cd1b7e7ee846c8b22cb47cbc435344af9b2a8bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/6b88914a7f1bf144df15904f60a19be78a67a3b2",
-                "reference": "6b88914a7f1bf144df15904f60a19be78a67a3b2",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/4cd1b7e7ee846c8b22cb47cbc435344af9b2a8bf",
+                "reference": "4cd1b7e7ee846c8b22cb47cbc435344af9b2a8bf",
                 "shasum": ""
             },
             "require": {
@@ -5792,8 +5792,11 @@
             ],
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
+            "keywords": [
+                "http"
+            ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.21"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.22"
             },
             "funding": [
                 {
@@ -5809,7 +5812,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-17T21:35:35+00:00"
+            "time": "2023-03-24T15:16:26+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
