@@ -7,7 +7,7 @@ Project](https://github.com/drupal/recommended-project/tree/9.0.x), with the
 principal difference being the addition of several modules and packages that
 provide the best possible out-of-the-box experience for Acquia customers.
 
-This project includes the following packages and configuration:
+This project includes the following packages and configurations:
 * [Drupal core](https://www.drupal.org/project/drupal)
 * [Drupal core scaffold](https://www.drupal.org/docs/develop/using-composer/using-drupals-composer-scaffold)
 * [Acquia CMS](https://github.com/acquia/acquia-cms-starterkit) (Starter kit)
@@ -25,8 +25,8 @@ The Acquia CMS Starterkit allows you to install Drupal for a given style of CMS:
 | Acquia CMS Community  | The community starter kit will install Acquia CMS. An optional content model can be added in the installation process.  |
 | Acquia CMS Headless  | The headless starter kit preconfigures Drupal for serving structured, RESTful content to 3rd party content displays such as mobile apps, smart displays and frontend driven websites (e.g. React or Next.js).  |
 
-For more information on selecting Acquia CMS Starterkit which best fit for
-your use case follow
+For more information on selecting the Acquia CMS Starterkit that best fits your
+use case follow
 [instructions](https://docs.acquia.com/acquia-cms/install-cms).
 
 ## Installation
@@ -81,7 +81,7 @@ the rest of the
 
 # License
 
-Copyright (C) 2020 Acquia, Inc.
+Copyright (C) 2023 Acquia, Inc.
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License version 2 as published by the Free
