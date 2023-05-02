@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia-cms-starterkit.git",
-                "reference": "d9562c05c68d78239516059fde7b4ae99d3b74e5"
+                "reference": "8f6d7c6257febaac09e959cfd452641f471eeb2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia-cms-starterkit/zipball/d9562c05c68d78239516059fde7b4ae99d3b74e5",
-                "reference": "d9562c05c68d78239516059fde7b4ae99d3b74e5",
+                "url": "https://api.github.com/repos/acquia/acquia-cms-starterkit/zipball/8f6d7c6257febaac09e959cfd452641f471eeb2d",
+                "reference": "8f6d7c6257febaac09e959cfd452641f471eeb2d",
                 "shasum": ""
             },
             "require": {
@@ -79,7 +79,7 @@
                 "issues": "https://github.com/acquia/acquia-cms-starterkit/issues",
                 "source": "https://github.com/acquia/acquia-cms-starterkit/tree/1.1.0"
             },
-            "time": "2023-04-18T16:24:18+00:00"
+            "time": "2023-05-02T05:49:13+00:00"
         },
         {
             "name": "acquia/drupal-environment-detector",
