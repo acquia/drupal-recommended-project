@@ -12,6 +12,7 @@
 /docroot/sites/simpletest
 
 # Directories specific to this template
+/drush/Commands/contrib
 /docroot/libraries
 /docroot/modules/contrib
 /docroot/profiles/contrib
