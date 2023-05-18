@@ -14,32 +14,30 @@ jobs:
     env:
       ORCA_SUT_NAME: acquia/drupal-recommended-project
       ORCA_SUT_BRANCH: master
-      ORCA_VERSION: ^3
+      ORCA_VERSION: ^4
       ORCA_JOB: ${{ matrix.orca-job }}
 
     strategy:
       matrix:
         orca-job:
           - STATIC_CODE_ANALYSIS
-          #- INTEGRATED_TEST_ON_OLDEST_SUPPORTED
-          # Currently the PREVIOUS_MINOR is Drupal Core 9.5.x and we do not
-          # support on this branch.
-          # @todo remove below after the release of Drupal Core 10.1.0.
-          #- INTEGRATED_TEST_ON_PREVIOUS_MINOR
+          - INTEGRATED_TEST_ON_PREVIOUS_MINOR
           #- INTEGRATED_UPGRADE_TEST_FROM_PREVIOUS_MINOR
           - ISOLATED_TEST_ON_CURRENT
           - INTEGRATED_TEST_ON_CURRENT
-          - INTEGRATED_UPGRADE_TEST_TO_NEXT_MINOR
           - ISOLATED_TEST_ON_CURRENT_DEV
           - INTEGRATED_TEST_ON_CURRENT_DEV
           - ISOLATED_TEST_ON_NEXT_MINOR
           - INTEGRATED_TEST_ON_NEXT_MINOR
           - INTEGRATED_TEST_ON_NEXT_MINOR_DEV
           - ISOLATED_TEST_ON_NEXT_MINOR_DEV
-          - INTEGRATED_UPGRADE_TEST_TO_NEXT_MINOR_DEV
           # We do not run deprecated code scans since they'd scan the entire
           # codebase (since the SUT is the project template).
         php-version: [ "8.1" ]
+        include:
+          - orca-job: ISOLATED_TEST_ON_CURRENT
+            php-version: "8.2"
+            
     steps:
       - uses: actions/checkout@v2
 
