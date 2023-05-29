@@ -6,6 +6,8 @@ on:
     branches-ignore:
       - 'dependabot/**'
   pull_request:
+  schedule:
+    - cron: "0 0 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
