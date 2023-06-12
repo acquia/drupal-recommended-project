@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ORCA_SUT_NAME: acquia/drupal-recommended-project
-      ORCA_SUT_BRANCH: master
-      ORCA_VERSION: ^3
+      ORCA_SUT_BRANCH: 1.x
+      ORCA_VERSION: ${{ matrix.orca-version }}
       ORCA_JOB: ${{ matrix.orca-job }}
 
     strategy:
@@ -22,8 +22,7 @@ jobs:
         orca-job:
           - STATIC_CODE_ANALYSIS
           - INTEGRATED_TEST_ON_OLDEST_SUPPORTED
-          - INTEGRATED_TEST_ON_PREVIOUS_MINOR
-          - INTEGRATED_UPGRADE_TEST_FROM_PREVIOUS_MINOR
+          - INTEGRATED_TEST_ON_LATEST_LTS
           # This is our custom job on 7.4
           - ""
           # Drupal core restricted to 9.x, upgrade not possible. So, skipping.
@@ -42,21 +41,32 @@ jobs:
           # We do not run deprecated code scans since they'd scan the entire
           # codebase (since the SUT is the project template).
         php-version: [ "7.4" ]
+        orca-version: [ "^3" ]
         include:
           - orca-job: INTEGRATED_TEST_ON_OLDEST_SUPPORTED
             php-version: "8.0"
+            orca-version: "^3"
+
           - orca-job: INTEGRATED_TEST_ON_OLDEST_SUPPORTED
             php-version: "8.1"
-            # ORCA doesn't support ISOLATED_TEST_ON_PREVIOUS_MINOR, so used
-            # INTEGRATED_TEST_ON_PREVIOUS_MINOR to verify on PHP 8.0 & PHP 8.1.
-            # This will fail after Drupal core 10.0.1. So remove this later.
-          - orca-job: INTEGRATED_TEST_ON_PREVIOUS_MINOR
+            orca-version: "^4"
+
+          - orca-job: INTEGRATED_TEST_ON_LATEST_LTS
             php-version: "8.0"
-          - orca-job: INTEGRATED_TEST_ON_PREVIOUS_MINOR
+            orca-version: "^3"
+
+          - orca-job: INTEGRATED_TEST_ON_LATEST_LTS
             php-version: "8.1"
+            orca-version: "^4"
+
+          - orca-job: INTEGRATED_TEST_ON_LATEST_LTS
+            php-version: "8.2"
+            orca-version: "^4"
+
           # These are our custom jobs to ensure composer install works
           - orca-job: ""
             php-version: "8.0"
+            orca-version: "^3"
     steps:
       - uses: actions/checkout@v2
 
