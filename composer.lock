@@ -8,22 +8,22 @@
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
-            "version": "1.1.2",
+            "version": "1.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/acquia-cms-starterkit.git",
-                "reference": "4eff8e6c8731eea85fc9d64098b98192443fece6"
+                "reference": "7ad0a077284c000b40d0ee6891f6bc0fce60032e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/acquia-cms-starterkit/zipball/4eff8e6c8731eea85fc9d64098b98192443fece6",
-                "reference": "4eff8e6c8731eea85fc9d64098b98192443fece6",
+                "url": "https://api.github.com/repos/acquia/acquia-cms-starterkit/zipball/7ad0a077284c000b40d0ee6891f6bc0fce60032e",
+                "reference": "7ad0a077284c000b40d0ee6891f6bc0fce60032e",
                 "shasum": ""
             },
             "require": {
                 "acquia/drupal-environment-detector": "^1.4",
                 "composer/composer": "^2.2",
-                "stecman/symfony-console-completion": "^0.11.0 || ^0.12.0",
+                "stecman/symfony-console-completion": "^0.11.0 || ^0.12.1",
                 "symfony/config": "^4.4 || ^5 || ^6",
                 "symfony/console": "^4.4 || ^5 || ^6",
                 "symfony/dependency-injection": "^4.4 || ^5 || ^6",
@@ -77,9 +77,9 @@
             ],
             "support": {
                 "issues": "https://github.com/acquia/acquia-cms-starterkit/issues",
-                "source": "https://github.com/acquia/acquia-cms-starterkit/tree/1.1.2"
+                "source": "https://github.com/acquia/acquia-cms-starterkit/tree/1.1.3"
             },
-            "time": "2023-05-16T18:18:04+00:00"
+            "time": "2023-07-03T10:13:46+00:00"
         },
         {
             "name": "acquia/drupal-environment-detector",
@@ -294,16 +294,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.3.5",
+            "version": "1.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "74780ccf8c19d6acb8d65c5f39cd72110e132bbd"
+                "reference": "90d087e988ff194065333d16bc5cf649872d9cdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/74780ccf8c19d6acb8d65c5f39cd72110e132bbd",
-                "reference": "74780ccf8c19d6acb8d65c5f39cd72110e132bbd",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/90d087e988ff194065333d16bc5cf649872d9cdb",
+                "reference": "90d087e988ff194065333d16bc5cf649872d9cdb",
                 "shasum": ""
             },
             "require": {
@@ -350,7 +350,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.3.5"
+                "source": "https://github.com/composer/ca-bundle/tree/1.3.6"
             },
             "funding": [
                 {
@@ -366,7 +366,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-11T08:27:00+00:00"
+            "time": "2023-06-06T12:02:59+00:00"
         },
         {
             "name": "composer/composer",
@@ -5582,16 +5582,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.4.23",
+            "version": "v5.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "b2f79d86cd9e7de0fff6d03baa80eaed7a5f38b5"
+                "reference": "0ce3a62c9579a53358d3a7eb6b3dfb79789a6364"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/b2f79d86cd9e7de0fff6d03baa80eaed7a5f38b5",
-                "reference": "b2f79d86cd9e7de0fff6d03baa80eaed7a5f38b5",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/0ce3a62c9579a53358d3a7eb6b3dfb79789a6364",
+                "reference": "0ce3a62c9579a53358d3a7eb6b3dfb79789a6364",
                 "shasum": ""
             },
             "require": {
@@ -5626,7 +5626,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.4.23"
+                "source": "https://github.com/symfony/filesystem/tree/v5.4.25"
             },
             "funding": [
                 {
@@ -5642,7 +5642,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-02T11:38:35+00:00"
+            "time": "2023-05-31T13:04:02+00:00"
         },
         {
             "name": "symfony/finder",
@@ -5709,16 +5709,16 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v5.4.23",
+            "version": "v5.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "617c98e46b54e43ca76945a908b1749bb82f4478"
+                "reference": "ccbb572627466f03a3d7aa1b23483787f5969afc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/617c98e46b54e43ca76945a908b1749bb82f4478",
-                "reference": "617c98e46b54e43ca76945a908b1749bb82f4478",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/ccbb572627466f03a3d7aa1b23483787f5969afc",
+                "reference": "ccbb572627466f03a3d7aa1b23483787f5969afc",
                 "shasum": ""
             },
             "require": {
@@ -5744,6 +5744,7 @@
                 "guzzlehttp/promises": "^1.4",
                 "nyholm/psr7": "^1.0",
                 "php-http/httplug": "^1.0|^2.0",
+                "php-http/message-factory": "^1.0",
                 "psr/http-client": "^1.0",
                 "symfony/dependency-injection": "^4.4|^5.0|^6.0",
                 "symfony/http-kernel": "^4.4.13|^5.1.5|^6.0",
@@ -5779,7 +5780,7 @@
                 "http"
             ],
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v5.4.23"
+                "source": "https://github.com/symfony/http-client/tree/v5.4.25"
             },
             "funding": [
                 {
@@ -5795,7 +5796,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-20T13:04:04+00:00"
+            "time": "2023-06-21T14:44:30+00:00"
         },
         {
             "name": "symfony/http-client-contracts",
@@ -7724,16 +7725,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.24",
+            "version": "v5.4.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "8e12706bf9c68a2da633f23bfdc15b4dce5970b3"
+                "reference": "82269f73c0f0f9859ab9b6900eebacbe54954ede"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/8e12706bf9c68a2da633f23bfdc15b4dce5970b3",
-                "reference": "8e12706bf9c68a2da633f23bfdc15b4dce5970b3",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/82269f73c0f0f9859ab9b6900eebacbe54954ede",
+                "reference": "82269f73c0f0f9859ab9b6900eebacbe54954ede",
                 "shasum": ""
             },
             "require": {
@@ -7792,7 +7793,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.24"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.25"
             },
             "funding": [
                 {
@@ -7808,7 +7809,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-25T13:05:00+00:00"
+            "time": "2023-06-20T20:56:26+00:00"
         },
         {
             "name": "symfony/yaml",
