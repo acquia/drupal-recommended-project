@@ -1908,16 +1908,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "10.1.0",
+            "version": "10.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "b83ccdf5ac7b00b033c245725be64239fd61a4d9"
+                "reference": "91752018a418c9e17448c59c7aff1cb802195c9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/b83ccdf5ac7b00b033c245725be64239fd61a4d9",
-                "reference": "b83ccdf5ac7b00b033c245725be64239fd61a4d9",
+                "url": "https://api.github.com/repos/drupal/core/zipball/91752018a418c9e17448c59c7aff1cb802195c9b",
+                "reference": "91752018a418c9e17448c59c7aff1cb802195c9b",
                 "shasum": ""
             },
             "require": {
@@ -2062,9 +2062,9 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/10.1.0"
+                "source": "https://github.com/drupal/core/tree/10.1.1"
             },
-            "time": "2023-06-22T08:41:06+00:00"
+            "time": "2023-07-06T08:25:16+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
@@ -2118,16 +2118,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "10.1.0",
+            "version": "10.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "38f93af015f974ff222a120fc32bd8b1bddef1ac"
+                "reference": "27f96cd519d2891bbe7a5eeb4c43ff59bae390bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/38f93af015f974ff222a120fc32bd8b1bddef1ac",
-                "reference": "38f93af015f974ff222a120fc32bd8b1bddef1ac",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/27f96cd519d2891bbe7a5eeb4c43ff59bae390bc",
+                "reference": "27f96cd519d2891bbe7a5eeb4c43ff59bae390bc",
                 "shasum": ""
             },
             "require": {
@@ -2136,10 +2136,9 @@
                 "doctrine/annotations": "~1.14.3",
                 "doctrine/deprecations": "~v1.1.1",
                 "doctrine/lexer": "~2.1.0",
-                "drupal/core": "10.1.0",
+                "drupal/core": "10.1.1",
                 "egulias/email-validator": "~4.0.1",
                 "guzzlehttp/guzzle": "~7.7.0",
-                "guzzlehttp/promises": "~2.0.0",
                 "guzzlehttp/psr7": "~2.5.0",
                 "masterminds/html5": "~2.8.0",
                 "mck89/peast": "~v1.15.1",
@@ -2194,9 +2193,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/10.1.0"
+                "source": "https://github.com/drupal/core-recommended/tree/10.1.1"
             },
-            "time": "2023-06-22T08:41:06+00:00"
+            "time": "2023-07-06T08:25:16+00:00"
         },
         {
             "name": "drupal/memcache",
@@ -6694,16 +6693,16 @@
         },
         {
             "name": "symfony/routing",
-            "version": "v6.3.0",
+            "version": "v6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/routing.git",
-                "reference": "827f59fdc67eecfc4dfff81f9c93bf4d98f0c89b"
+                "reference": "d37ad1779c38b8eb71996d17dc13030dcb7f9cf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/827f59fdc67eecfc4dfff81f9c93bf4d98f0c89b",
-                "reference": "827f59fdc67eecfc4dfff81f9c93bf4d98f0c89b",
+                "url": "https://api.github.com/repos/symfony/routing/zipball/d37ad1779c38b8eb71996d17dc13030dcb7f9cf5",
+                "reference": "d37ad1779c38b8eb71996d17dc13030dcb7f9cf5",
                 "shasum": ""
             },
             "require": {
@@ -6756,7 +6755,7 @@
                 "url"
             ],
             "support": {
-                "source": "https://github.com/symfony/routing/tree/v6.3.0"
+                "source": "https://github.com/symfony/routing/tree/v6.3.1"
             },
             "funding": [
                 {
@@ -6772,7 +6771,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-28T15:57:00+00:00"
+            "time": "2023-06-05T15:30:22+00:00"
         },
         {
             "name": "symfony/serializer",
@@ -7115,16 +7114,16 @@
         },
         {
             "name": "symfony/validator",
-            "version": "v6.3.0",
+            "version": "v6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/validator.git",
-                "reference": "b18c05b5f52e0428688191da3a856b64c7a022db"
+                "reference": "1b71f43c62ee867ab08195ba6039a1bc3e6654dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/validator/zipball/b18c05b5f52e0428688191da3a856b64c7a022db",
-                "reference": "b18c05b5f52e0428688191da3a856b64c7a022db",
+                "url": "https://api.github.com/repos/symfony/validator/zipball/1b71f43c62ee867ab08195ba6039a1bc3e6654dc",
+                "reference": "1b71f43c62ee867ab08195ba6039a1bc3e6654dc",
                 "shasum": ""
             },
             "require": {
@@ -7191,7 +7190,7 @@
             "description": "Provides tools to validate values",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/validator/tree/v6.3.0"
+                "source": "https://github.com/symfony/validator/tree/v6.3.1"
             },
             "funding": [
                 {
@@ -7207,7 +7206,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-25T13:09:35+00:00"
+            "time": "2023-06-21T12:08:28+00:00"
         },
         {
             "name": "symfony/var-dumper",
