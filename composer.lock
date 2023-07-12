@@ -1286,16 +1286,16 @@
         },
         {
             "name": "consolidation/output-formatters",
-            "version": "4.3.1",
+            "version": "4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/output-formatters.git",
-                "reference": "f65524e9ecd2bd0021c4b18710005caaa6dcbd86"
+                "reference": "06711568b4cd169700ff7e8075db0a9a341ceb58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/f65524e9ecd2bd0021c4b18710005caaa6dcbd86",
-                "reference": "f65524e9ecd2bd0021c4b18710005caaa6dcbd86",
+                "url": "https://api.github.com/repos/consolidation/output-formatters/zipball/06711568b4cd169700ff7e8075db0a9a341ceb58",
+                "reference": "06711568b4cd169700ff7e8075db0a9a341ceb58",
                 "shasum": ""
             },
             "require": {
@@ -1334,9 +1334,9 @@
             "description": "Format text by applying transformations provided by plug-in formatters.",
             "support": {
                 "issues": "https://github.com/consolidation/output-formatters/issues",
-                "source": "https://github.com/consolidation/output-formatters/tree/4.3.1"
+                "source": "https://github.com/consolidation/output-formatters/tree/4.3.2"
             },
-            "time": "2023-05-20T03:23:06+00:00"
+            "time": "2023-07-06T04:45:41+00:00"
         },
         {
             "name": "consolidation/robo",
@@ -2275,16 +2275,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "12.1.1",
+            "version": "12.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "586496f191c93d3ca5dc498fe6d1ecbdd7204330"
+                "reference": "185ebd0d15bd8d2647821cc20eee0b82bf00ff4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/586496f191c93d3ca5dc498fe6d1ecbdd7204330",
-                "reference": "586496f191c93d3ca5dc498fe6d1ecbdd7204330",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/185ebd0d15bd8d2647821cc20eee0b82bf00ff4b",
+                "reference": "185ebd0d15bd8d2647821cc20eee0b82bf00ff4b",
                 "shasum": ""
             },
             "require": {
@@ -2294,6 +2294,7 @@
                 "consolidation/annotated-command": "^4.9.1",
                 "consolidation/config": "^2.1.2",
                 "consolidation/filter-via-dot-access-data": "^2.0.2",
+                "consolidation/output-formatters": "^4.3.2",
                 "consolidation/robo": "^4.0.6",
                 "consolidation/site-alias": "^4",
                 "consolidation/site-process": "^5.2.0",
@@ -2406,7 +2407,7 @@
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "security": "https://github.com/drush-ops/drush/security/advisories",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/12.1.1"
+                "source": "https://github.com/drush-ops/drush/tree/12.1.2"
             },
             "funding": [
                 {
@@ -2414,7 +2415,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-28T13:56:27+00:00"
+            "time": "2023-07-11T14:22:11+00:00"
         },
         {
             "name": "egulias/email-validator",
