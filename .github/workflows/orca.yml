@@ -16,6 +16,11 @@ jobs:
       ORCA_SUT_BRANCH: master
       ORCA_VERSION: ^4
       ORCA_JOB: ${{ matrix.orca-job }}
+      # Google env variables.
+      ORCA_GOOGLE_API_CLIENT_ID: ${{ secrets.ORCA_GOOGLE_API_CLIENT_ID }}
+      ORCA_GOOGLE_API_CLIENT_SECRET: ${{ secrets.ORCA_GOOGLE_API_CLIENT_SECRET }}
+      ORCA_GOOGLE_API_REFRESH_TOKEN: ${{ secrets.ORCA_GOOGLE_API_REFRESH_TOKEN }}
+
 
     strategy:
       matrix:
@@ -37,7 +42,7 @@ jobs:
         include:
           - orca-job: ISOLATED_TEST_ON_CURRENT
             php-version: "8.2"
-            
+
     steps:
       - uses: actions/checkout@v2
 
