@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee19ace3bb41dee43fe7c237e3258a2e",
+    "content-hash": "0b81576644ba28cfb94c3c9a2c483a14",
     "packages": [
         {
             "name": "acquia/acquia-cms-starterkit",
@@ -1904,6 +1904,29 @@
                 }
             ],
             "time": "2022-12-14T08:49:07+00:00"
+        },
+        {
+            "name": "drupal/config_sync_without_site_uuid",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/config_sync_without_site_uuid.git",
+                "reference": "2f6aea8a46553523b473c53dc2df87a76c2130a2"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "globals.php"
+                ],
+                "psr-4": {
+                    "Drupal\\ConfigSyncWithoutSiteUuid\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2023-03-13T16:14:16+00:00"
         },
         {
             "name": "drupal/core",
@@ -9904,7 +9927,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/config_sync_without_site_uuid": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
