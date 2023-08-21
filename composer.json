@@ -16,6 +16,7 @@
         "acquia/memcache-settings": "^1",
         "composer/installers": "^2.1",
         "cweagans/composer-patches": "^1.6",
+        "drupal/config_sync_without_site_uuid": "^1.0@beta",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
         "drupal/upgrade_status": "^4.0",
