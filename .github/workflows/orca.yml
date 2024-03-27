@@ -72,9 +72,9 @@ jobs:
             php-version: "8.1"
             orca-version: "^4"
 
-         - orca-job: INTEGRATED_TEST_ON_LATEST_EOL_MAJOR
-           php-version: "8.0"
-           orca-version: "^3"
+          - orca-job: INTEGRATED_TEST_ON_LATEST_EOL_MAJOR
+            php-version: "8.0"
+            orca-version: "^3"
 
     steps:
       - uses: actions/checkout@v2
