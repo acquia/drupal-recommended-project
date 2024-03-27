@@ -141,12 +141,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/drupal-recommended-settings.git",
-                "reference": "d5d22179fa21419fe9d07940c0d5db8f2aaa7da9"
+                "reference": "3b5734971353d894888e1ebfc7db6c6aa38a9346"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/drupal-recommended-settings/zipball/d5d22179fa21419fe9d07940c0d5db8f2aaa7da9",
-                "reference": "d5d22179fa21419fe9d07940c0d5db8f2aaa7da9",
+                "url": "https://api.github.com/repos/acquia/drupal-recommended-settings/zipball/3b5734971353d894888e1ebfc7db6c6aa38a9346",
+                "reference": "3b5734971353d894888e1ebfc7db6c6aa38a9346",
                 "shasum": ""
             },
             "require": {
@@ -199,7 +199,7 @@
                 "issues": "https://github.com/acquia/drupal-recommended-settings/issues",
                 "source": "https://github.com/acquia/drupal-recommended-settings/tree/1.0.0"
             },
-            "time": "2024-03-26T18:22:43+00:00"
+            "time": "2024-03-27T10:56:42+00:00"
         },
         {
             "name": "acquia/memcache-settings",
