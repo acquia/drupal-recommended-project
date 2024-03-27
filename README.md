@@ -11,6 +11,7 @@ This project includes the following packages and configurations:
 * [Drupal core](https://www.drupal.org/project/drupal)
 * [Drupal core scaffold](https://www.drupal.org/docs/develop/using-composer/using-drupals-composer-scaffold)
 * [Acquia CMS](https://github.com/acquia/acquia-cms-starterkit) (Starter kit)
+* [Drupal Recommended Settings](https://github.com/acquia/drupal-recommended-settings)
 * [Drush](https://github.com/drush-ops/drush) (Drupal CLI and development tool)
 * [Asset Packagist](https://asset-packagist.org/) repository, package, and configuration
 * [Acquia environment detection](https://github.com/acquia/drupal-environment-detector)
