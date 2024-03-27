@@ -14,7 +14,7 @@ jobs:
     env:
       ORCA_SUT_NAME: acquia/drupal-recommended-project
       ORCA_SUT_BRANCH: master
-      ORCA_VERSION: ^4
+      ORCA_VERSION: ${{ matrix.orca-version }}
       ORCA_JOB: ${{ matrix.orca-job }}
       # Google env variables.
       ORCA_GOOGLE_API_CLIENT_ID: ${{ secrets.ORCA_GOOGLE_API_CLIENT_ID }}
@@ -38,10 +38,9 @@ jobs:
           - ISOLATED_TEST_ON_NEXT_MINOR_DEV
           # We do not run deprecated code scans since they'd scan the entire
           # codebase (since the SUT is the project template).
-        php-version: [ "8.1" ]
-        include:
-          - orca-job: ISOLATED_TEST_ON_CURRENT
-            php-version: "8.2"
+        php-version: [ "8.1", "8.3" ]
+        orca-version: [ "^4" ]
+
 
     steps:
       - uses: actions/checkout@v2
