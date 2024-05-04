@@ -1189,16 +1189,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "11.x-dev",
+            "version": "11.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "422794078773a018050126c0acb2540ed1f4bb76"
+                "reference": "0e994cb3cf17350cc1dcd94990f8615ed8fb20a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/422794078773a018050126c0acb2540ed1f4bb76",
-                "reference": "422794078773a018050126c0acb2540ed1f4bb76",
+                "url": "https://api.github.com/repos/drupal/core/zipball/0e994cb3cf17350cc1dcd94990f8615ed8fb20a1",
+                "reference": "0e994cb3cf17350cc1dcd94990f8615ed8fb20a1",
                 "shasum": ""
             },
             "require": {
@@ -1279,7 +1279,6 @@
             "suggest": {
                 "ext-zip": "Needed to extend the plugin.manager.archiver service capability with the handling of files in the ZIP format."
             },
-            "default-branch": true,
             "type": "drupal-core",
             "extra": {
                 "drupal-scaffold": {
@@ -1348,13 +1347,13 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/11.x"
+                "source": "https://github.com/drupal/core/tree/11.0.0-alpha1"
             },
-            "time": "2024-05-02T08:05:48+00:00"
+            "time": "2024-05-03T21:08:05+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "11.x-dev",
+            "version": "11.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -1376,7 +1375,6 @@
             "require-dev": {
                 "composer/composer": "^1.8@stable"
             },
-            "default-branch": true,
             "type": "composer-plugin",
             "extra": {
                 "class": "Drupal\\Composer\\Plugin\\Scaffold\\Plugin",
@@ -1399,22 +1397,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/11.x"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/11.0.0-alpha1"
             },
             "time": "2024-04-29T22:08:32+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "11.x-dev",
+            "version": "11.0.0-alpha1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "455ab83309e909ed599d76a891d10f76aea238aa"
+                "reference": "3272b7f37d257119a6945cce65d6f076ca52d631"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/455ab83309e909ed599d76a891d10f76aea238aa",
-                "reference": "455ab83309e909ed599d76a891d10f76aea238aa",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/3272b7f37d257119a6945cce65d6f076ca52d631",
+                "reference": "3272b7f37d257119a6945cce65d6f076ca52d631",
                 "shasum": ""
             },
             "require": {
@@ -1423,7 +1421,7 @@
                 "doctrine/annotations": "~2.0.1",
                 "doctrine/deprecations": "~1.1.3",
                 "doctrine/lexer": "~2.1.1",
-                "drupal/core": "11.x-dev",
+                "drupal/core": "11.0.0-alpha1",
                 "egulias/email-validator": "~4.0.2",
                 "guzzlehttp/guzzle": "~7.8.1",
                 "guzzlehttp/promises": "~2.0.2",
@@ -1483,13 +1481,13 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/11.x"
+                "source": "https://github.com/drupal/core-recommended/tree/11.0.0-alpha1"
             },
-            "time": "2024-04-18T14:43:21+00:00"
+            "time": "2024-05-03T21:08:05+00:00"
         },
         {
             "name": "drush/drush",
-            "version": "13.x-dev",
+            "version": "13.0.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
@@ -1542,7 +1540,6 @@
                 "rector/rector": "^1",
                 "squizlabs/php_codesniffer": "^3.7"
             },
-            "default-branch": true,
             "bin": [
                 "drush"
             ],
@@ -1625,7 +1622,7 @@
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "security": "https://github.com/drush-ops/drush/security/advisories",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/13.x"
+                "source": "https://github.com/drush-ops/drush/tree/13.0.0-beta1"
             },
             "funding": [
                 {
