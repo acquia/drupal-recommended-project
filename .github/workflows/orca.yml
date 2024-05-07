@@ -10,7 +10,7 @@ on:
     - cron: "0 0 * * *"
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       ORCA_SUT_NAME: acquia/drupal-recommended-project
       ORCA_SUT_BRANCH: master
