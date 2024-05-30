@@ -2322,22 +2322,22 @@
         },
         {
             "name": "drupal/upgrade_status",
-            "version": "4.3.1",
+            "version": "4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/upgrade_status.git",
-                "reference": "4.3.1"
+                "reference": "4.3.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/upgrade_status-4.3.1.zip",
-                "reference": "4.3.1",
-                "shasum": "18390306878f8abe2c2c68d471217655e5b7b31c"
+                "url": "https://ftp.drupal.org/files/projects/upgrade_status-4.3.2.zip",
+                "reference": "4.3.2",
+                "shasum": "4e8cbeb7632933105fb2e16c639a9ecf026bc141"
             },
             "require": {
                 "dekor/php-array-table": "^2.0",
                 "drupal/core": "^9 || ^10",
-                "mglaman/phpstan-drupal": "^1.0.0",
+                "mglaman/phpstan-drupal": "^1.2.11",
                 "nikic/php-parser": "^4.0.0|^5.0.0",
                 "phpstan/phpstan-deprecation-rules": "^1.0.0",
                 "symfony/process": "^3.4|^4.0|^5.0|^6.0",
@@ -2349,8 +2349,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "4.3.1",
-                    "datestamp": "1714463117",
+                    "version": "4.3.2",
+                    "datestamp": "1717069210",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3638,16 +3638,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.2.10",
+            "version": "1.2.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "cdafb3285beeb5fadf25a43e18fee6f80bb14575"
+                "reference": "e624a4b64de5b91a0c56852635af2115e9a6e08c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/cdafb3285beeb5fadf25a43e18fee6f80bb14575",
-                "reference": "cdafb3285beeb5fadf25a43e18fee6f80bb14575",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/e624a4b64de5b91a0c56852635af2115e9a6e08c",
+                "reference": "e624a4b64de5b91a0c56852635af2115e9a6e08c",
                 "shasum": ""
             },
             "require": {
@@ -3662,10 +3662,10 @@
                 "behat/mink": "^1.8",
                 "composer/installers": "^1.9",
                 "drupal/core-recommended": "^10",
-                "drush/drush": "^10.0 || ^11 || ^12",
+                "drush/drush": "^10.0 || ^11 || ^12 || ^13@beta",
                 "phpstan/extension-installer": "^1.1",
                 "phpstan/phpstan-strict-rules": "^1.0",
-                "phpunit/phpunit": "^8.5 || ^9",
+                "phpunit/phpunit": "^8.5 || ^9 || ^10 || ^11",
                 "slevomat/coding-standard": "^7.1",
                 "squizlabs/php_codesniffer": "^3.3",
                 "symfony/phpunit-bridge": "^4.4 || ^5.4 || ^6.0 || ^7.0"
@@ -3722,7 +3722,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.2.10"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.2.11"
             },
             "funding": [
                 {
@@ -3738,7 +3738,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-02T17:27:29+00:00"
+            "time": "2024-05-10T17:22:10+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -4094,16 +4094,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.67",
+            "version": "1.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "16ddbe776f10da6a95ebd25de7c1dbed397dc493"
+                "reference": "0d5d4294a70deb7547db655c47685d680e39cfec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/16ddbe776f10da6a95ebd25de7c1dbed397dc493",
-                "reference": "16ddbe776f10da6a95ebd25de7c1dbed397dc493",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/0d5d4294a70deb7547db655c47685d680e39cfec",
+                "reference": "0d5d4294a70deb7547db655c47685d680e39cfec",
                 "shasum": ""
             },
             "require": {
@@ -4148,29 +4148,28 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-16T07:22:02+00:00"
+            "time": "2024-05-24T13:23:04+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
-            "version": "1.1.4",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-deprecation-rules.git",
-                "reference": "089d8a8258ed0aeefdc7b68b6c3d25572ebfdbaa"
+                "reference": "fa8cce7720fa782899a0aa97b6a41225d1bb7b26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/089d8a8258ed0aeefdc7b68b6c3d25572ebfdbaa",
-                "reference": "089d8a8258ed0aeefdc7b68b6c3d25572ebfdbaa",
+                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/fa8cce7720fa782899a0aa97b6a41225d1bb7b26",
+                "reference": "fa8cce7720fa782899a0aa97b6a41225d1bb7b26",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0",
-                "phpstan/phpstan": "^1.10.3"
+                "phpstan/phpstan": "^1.11"
             },
             "require-dev": {
                 "php-parallel-lint/php-parallel-lint": "^1.2",
-                "phpstan/phpstan-php-parser": "^1.1",
                 "phpstan/phpstan-phpunit": "^1.0",
                 "phpunit/phpunit": "^9.5"
             },
@@ -4194,9 +4193,9 @@
             "description": "PHPStan rules for detecting usage of deprecated classes, methods, properties, constants and traits.",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-deprecation-rules/issues",
-                "source": "https://github.com/phpstan/phpstan-deprecation-rules/tree/1.1.4"
+                "source": "https://github.com/phpstan/phpstan-deprecation-rules/tree/1.2.0"
             },
-            "time": "2023-08-05T09:02:04+00:00"
+            "time": "2024-04-20T06:39:48+00:00"
         },
         {
             "name": "psr/cache",
