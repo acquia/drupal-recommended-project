@@ -38,6 +38,7 @@ jobs:
           - ISOLATED_TEST_ON_NEXT_MINOR_DEV
           # We do not run deprecated code scans since they'd scan the entire
           # codebase (since the SUT is the project template).
+          # Test PR
         php-version: [ "8.1", "8.3" ]
         orca-version: [ "^4" ]
 
