@@ -136,16 +136,16 @@
         },
         {
             "name": "acquia/drupal-recommended-settings",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/drupal-recommended-settings.git",
-                "reference": "3b5734971353d894888e1ebfc7db6c6aa38a9346"
+                "reference": "bf269fd7c85655c2a740118bd0d12bd71fe40b04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/drupal-recommended-settings/zipball/3b5734971353d894888e1ebfc7db6c6aa38a9346",
-                "reference": "3b5734971353d894888e1ebfc7db6c6aa38a9346",
+                "url": "https://api.github.com/repos/acquia/drupal-recommended-settings/zipball/bf269fd7c85655c2a740118bd0d12bd71fe40b04",
+                "reference": "bf269fd7c85655c2a740118bd0d12bd71fe40b04",
                 "shasum": ""
             },
             "require": {
@@ -196,9 +196,9 @@
             "support": {
                 "docs": "https://docs.acquia.com/drupal-recommended-settings/",
                 "issues": "https://github.com/acquia/drupal-recommended-settings/issues",
-                "source": "https://github.com/acquia/drupal-recommended-settings/tree/1.0.0"
+                "source": "https://github.com/acquia/drupal-recommended-settings/tree/1.0.1"
             },
-            "time": "2024-03-27T10:56:42+00:00"
+            "time": "2024-06-19T08:37:58+00:00"
         },
         {
             "name": "acquia/memcache-settings",
@@ -299,16 +299,16 @@
         },
         {
             "name": "chi-teck/drupal-code-generator",
-            "version": "3.5.0",
+            "version": "3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "74c2dc687e124bfc4001e73e9346b33067e2ec2b"
+                "reference": "2dbd8d231945681a398862a3282ade3cf0ea23ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/74c2dc687e124bfc4001e73e9346b33067e2ec2b",
-                "reference": "74c2dc687e124bfc4001e73e9346b33067e2ec2b",
+                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/2dbd8d231945681a398862a3282ade3cf0ea23ab",
+                "reference": "2dbd8d231945681a398862a3282ade3cf0ea23ab",
                 "shasum": ""
             },
             "require": {
@@ -353,9 +353,9 @@
             "description": "Drupal code generator",
             "support": {
                 "issues": "https://github.com/Chi-teck/drupal-code-generator/issues",
-                "source": "https://github.com/Chi-teck/drupal-code-generator/tree/3.5.0"
+                "source": "https://github.com/Chi-teck/drupal-code-generator/tree/3.6.1"
             },
-            "time": "2024-04-11T11:23:44+00:00"
+            "time": "2024-06-06T17:36:37+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -2691,21 +2691,21 @@
         },
         {
             "name": "grasmash/yaml-expander",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/grasmash/yaml-expander.git",
-                "reference": "f6dd6be2a899316528e201c91fc317b16794b1c0"
+                "reference": "6b35ac5ba622c877a4868c6618233655129f0ec5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/grasmash/yaml-expander/zipball/f6dd6be2a899316528e201c91fc317b16794b1c0",
-                "reference": "f6dd6be2a899316528e201c91fc317b16794b1c0",
+                "url": "https://api.github.com/repos/grasmash/yaml-expander/zipball/6b35ac5ba622c877a4868c6618233655129f0ec5",
+                "reference": "6b35ac5ba622c877a4868c6618233655129f0ec5",
                 "shasum": ""
             },
             "require": {
                 "grasmash/expander": "^1 || ^2 || ^3",
-                "symfony/yaml": "^4 || ^5 || ^6"
+                "symfony/yaml": "^4 || ^5 || ^6 || ^7"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.1",
@@ -2730,9 +2730,9 @@
             "description": "Expands internal property references in a yaml file.",
             "support": {
                 "issues": "https://github.com/grasmash/yaml-expander/issues",
-                "source": "https://github.com/grasmash/yaml-expander/tree/3.0.2"
+                "source": "https://github.com/grasmash/yaml-expander/tree/3.0.3"
             },
-            "time": "2022-05-10T13:29:17+00:00"
+            "time": "2024-05-04T17:22:09+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -4248,16 +4248,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.12.3",
+            "version": "v0.12.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73"
+                "reference": "2fd717afa05341b4f8152547f142cd2f130f6818"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73",
-                "reference": "b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/2fd717afa05341b4f8152547f142cd2f130f6818",
+                "reference": "2fd717afa05341b4f8152547f142cd2f130f6818",
                 "shasum": ""
             },
             "require": {
@@ -4321,9 +4321,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
-                "source": "https://github.com/bobthecow/psysh/tree/v0.12.3"
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.4"
             },
-            "time": "2024-04-02T15:57:53+00:00"
+            "time": "2024-06-10T01:18:23+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
