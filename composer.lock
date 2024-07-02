@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "589cad737b9480033ea67e46ece33a0b",
+    "content-hash": "4868022b5116b262b0cbdbd9b9bb004c",
     "packages": [
         {
             "name": "acquia/drupal-environment-detector",
@@ -58,6 +58,47 @@
                 "source": "https://github.com/acquia/drupal-environment-detector/tree/1.6.0"
             },
             "time": "2023-02-28T18:45:28+00:00"
+        },
+        {
+            "name": "acquia/memcache-settings",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/acquia/memcache-settings.git",
+                "reference": "543cb19afcd9d75000dceb924b85c2ff16997003"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/acquia/memcache-settings/zipball/543cb19afcd9d75000dceb924b85c2ff16997003",
+                "reference": "543cb19afcd9d75000dceb924b85c2ff16997003",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/memcache": "^2.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Acquia Engineering",
+                    "homepage": "https://www.acquia.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Recommended Memcache settings for use with Acquia hosting.",
+            "support": {
+                "issues": "https://github.com/acquia/memcache-settings/issues",
+                "source": "https://github.com/acquia/memcache-settings/tree/v1.2.0"
+            },
+            "time": "2022-08-03T15:14:53+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -1188,6 +1229,29 @@
             "time": "2024-02-05T11:35:39+00:00"
         },
         {
+            "name": "drupal/config_sync_without_site_uuid",
+            "version": "1.0.0-beta2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/config_sync_without_site_uuid.git",
+                "reference": "c996ed10968dc92ce750a16cf2bebb2e6fa80957"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "globals.php"
+                ],
+                "psr-4": {
+                    "Drupal\\ConfigSyncWithoutSiteUuid\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2024-06-28T11:06:44+00:00"
+        },
+        {
             "name": "drupal/core",
             "version": "11.0.0-beta1",
             "source": {
@@ -1485,6 +1549,77 @@
                 "source": "https://github.com/drupal/core-recommended/tree/11.0.0-beta1"
             },
             "time": "2024-05-17T13:12:10+00:00"
+        },
+        {
+            "name": "drupal/memcache",
+            "version": "dev-2.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/memcache.git",
+                "reference": "10799157fa33b2ce37ee12ddfad89cbf29ae626f"
+            },
+            "require": {
+                "drupal/core": "^9.5 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev",
+                    "dev-8.x-2.x": "2.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-2.5+4-dev",
+                    "datestamp": "1716393755",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Dev releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "bdragon",
+                    "homepage": "https://www.drupal.org/user/53081"
+                },
+                {
+                    "name": "catch",
+                    "homepage": "https://www.drupal.org/user/35733"
+                },
+                {
+                    "name": "damiankloip",
+                    "homepage": "https://www.drupal.org/user/1037976"
+                },
+                {
+                    "name": "Fabianx",
+                    "homepage": "https://www.drupal.org/user/693738"
+                },
+                {
+                    "name": "japerry",
+                    "homepage": "https://www.drupal.org/user/45640"
+                },
+                {
+                    "name": "Jeremy",
+                    "homepage": "https://www.drupal.org/user/409"
+                },
+                {
+                    "name": "jvandyk",
+                    "homepage": "https://www.drupal.org/user/2375"
+                },
+                {
+                    "name": "robertDouglass",
+                    "homepage": "https://www.drupal.org/user/5449"
+                }
+            ],
+            "description": "High performance integration with memcache.",
+            "homepage": "http://drupal.org/project/memcache",
+            "support": {
+                "source": "https://git.drupalcode.org/project/memcache",
+                "issues": "https://www.drupal.org/project/issues/memcache"
+            }
         },
         {
             "name": "drush/drush",
@@ -8704,7 +8839,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/config_sync_without_site_uuid": 10
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
