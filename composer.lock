@@ -7832,16 +7832,16 @@
     "packages-dev": [
         {
             "name": "acquia/coding-standards",
-            "version": "v3.0.0",
+            "version": "v3.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/coding-standards-php.git",
-                "reference": "ca05888f8dd2e2378f7efc18a0096d41b1a5a66e"
+                "reference": "7315583494b81cbcbd8817d7e00dd8f4fba34b88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/coding-standards-php/zipball/ca05888f8dd2e2378f7efc18a0096d41b1a5a66e",
-                "reference": "ca05888f8dd2e2378f7efc18a0096d41b1a5a66e",
+                "url": "https://api.github.com/repos/acquia/coding-standards-php/zipball/7315583494b81cbcbd8817d7e00dd8f4fba34b88",
+                "reference": "7315583494b81cbcbd8817d7e00dd8f4fba34b88",
                 "shasum": ""
             },
             "require": {
@@ -7887,7 +7887,7 @@
                 "issues": "https://github.com/acquia/coding-standards/issues",
                 "source": "https://github.com/acquia/coding-standards"
             },
-            "time": "2024-07-10T21:13:42+00:00"
+            "time": "2024-07-11T20:08:50+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
