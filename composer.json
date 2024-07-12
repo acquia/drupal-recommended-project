@@ -11,6 +11,7 @@
     ],
     "require": {
         "php": ">=8.1",
+        "acquia/acquia-cms-starterkit": "^1",
         "acquia/drupal-environment-detector": "^1",
         "acquia/drupal-recommended-settings": "^1.0",
         "acquia/memcache-settings": "^1",
