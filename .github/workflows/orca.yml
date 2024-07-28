@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ORCA_SUT_NAME: acquia/drupal-recommended-project
-      ORCA_SUT_BRANCH: master
+      ORCA_SUT_BRANCH: 2.x
       ORCA_VERSION: ${{ matrix.orca-version }}
       ORCA_JOB: ${{ matrix.orca-job }}
       # Google env variables.
