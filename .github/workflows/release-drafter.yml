@@ -3,7 +3,7 @@ name: Release Drafter
 on:
   push:
     branches:
-      - master
+      - 2.x
   pull_request_target:
     types: [opened, synchronize, reopened, labeled, unlabeled]
 
@@ -26,6 +26,6 @@ jobs:
     steps:
       - uses: release-drafter/release-drafter@v6
         with:
-          config-name: release-drafter.yml # located in .github/ in default branch
+          config-name: release-drafter-2.x.yml # located in .github/ in default branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
