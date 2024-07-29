@@ -14,3 +14,13 @@ updates:
         update-types: ["version-update:semver-major"]
       - dependency-name: "drupal/core-recommended"
         update-types: ["version-update:semver-major"]
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    target-branch: "2.x"
+    ignore:
+      - dependency-name: "drupal/core-composer-scaffold"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "drupal/core-recommended"
+        update-types: ["version-update:semver-major"]
