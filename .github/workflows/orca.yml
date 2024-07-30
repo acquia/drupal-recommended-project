@@ -62,7 +62,6 @@ jobs:
       - name: Before install
         run: |
           composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
-          curl https://gist.githubusercontent.com/vishalkhode1/8c594c3f5e95c0af9ad60ab165eec35b/raw/support-drupal11.patch | git -C ../orca apply
           # We are overriding the allowed failure feature, to expose all
           # failing jobs, so that we can fix it.
           # @todo: Remove this back, after Drupal 11 work is completed.
