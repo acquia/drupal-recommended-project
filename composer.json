@@ -18,9 +18,9 @@
         "composer/installers": "^2.1",
         "cweagans/composer-patches": "^1.6",
         "drupal/config_sync_without_site_uuid": "^1.0@beta",
-        "drupal/core-composer-scaffold": "^10",
-        "drupal/core-recommended": "^10",
-        "drush/drush": "^12",
+        "drupal/core-composer-scaffold": "^11",
+        "drupal/core-recommended": "^11",
+        "drush/drush": "^13",
         "oomphinc/composer-installers-extender": "^2"
     },
     "require-dev": {
@@ -29,7 +29,7 @@
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.6",
         "phpstan/phpstan-deprecation-rules": "^1.0",
-        "phpunit/phpunit": "^9.5",
+        "phpunit/phpunit": "^10.5",
         "squizlabs/php_codesniffer": "^3.6"
     },
     "config": {
@@ -45,7 +45,7 @@
             "acquia/drupal-recommended-settings": true
         },
         "platform": {
-            "php": "8.1"
+            "php": "8.3"
         },
         "sort-packages": true
     },
