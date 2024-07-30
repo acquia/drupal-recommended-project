@@ -63,7 +63,11 @@ Install Acquia CMS using starterkit follow
 
 ## Other Drupal versions
 
-Drupal 10 is installed by default. To install Drupal 9, use the below command:
+Drupal 11 is installed by default. To install Drupal 10, use the below command:
+```
+composer create-project acquia/drupal-recommended-project:^2
+```
+To install Drupal 9, use the below command:
 ```
 composer create-project acquia/drupal-recommended-project:^1
 ```
