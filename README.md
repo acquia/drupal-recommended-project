@@ -2,8 +2,8 @@ Acquia Drupal Recommended Project
 ====
 
 This is a project template providing a great out-of-the-box experience for new
-Drupal 10 projects hosted on Acquia. It is based on the [Drupal Recommended
-Project](https://github.com/drupal/recommended-project/tree/9.0.x), with the
+Drupal 11 projects hosted on Acquia. It is based on the [Drupal Recommended
+Project](https://github.com/drupal/recommended-project/tree/11.x), with the
 principal difference being the addition of several modules and packages that
 provide the best possible out-of-the-box experience for Acquia customers.
 
@@ -76,7 +76,7 @@ composer create-project acquia/drupal-recommended-project:^1
 
 # License
 
-Copyright (C) 2023 Acquia, Inc.
+Copyright (C) 2024 Acquia, Inc.
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License version 2 as published by the Free
