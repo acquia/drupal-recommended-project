@@ -58,10 +58,6 @@ jobs:
       - name: Before install
         run: |
           composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
-          # We are overriding the allowed failure feature, to expose all
-          # failing jobs, so that we can fix it.
-          # @todo: Remove this back, after Drupal 11 work is completed.
-          echo 'export ORCA_IS_ALLOWED_FAILURE="FALSE"' >> ../orca/bin/ci/_includes.sh
           ../orca/bin/ci/before_install.sh
           if [[ ! "$ORCA_JOB" ]]; then composer install; fi
 
