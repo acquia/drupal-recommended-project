@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.3",
         "acquia/acquia-cms-starterkit": "^1",
         "acquia/drupal-environment-detector": "^1",
         "acquia/drupal-recommended-settings": "^1.0",
