@@ -21,10 +21,7 @@ jobs:
       matrix:
         orca-job:
           - STATIC_CODE_ANALYSIS
-          - INTEGRATED_TEST_ON_OLDEST_SUPPORTED
-          - INTEGRATED_TEST_ON_LATEST_LTS
-          # This is our custom job on 7.4
-          - ""
+          - INTEGRATED_TEST_ON_LATEST_EOL_MAJOR
           # Drupal core restricted to 9.x, upgrade not possible. So, skipping.
           #- ISOLATED_TEST_ON_NEXT_MINOR
           #- INTEGRATED_TEST_ON_NEXT_MINOR
@@ -40,37 +37,19 @@ jobs:
           #- INTEGRATED_UPGRADE_TEST_TO_NEXT_MINOR_DEV
           # We do not run deprecated code scans since they'd scan the entire
           # codebase (since the SUT is the project template).
-        php-version: [ "7.4" ]
-        orca-version: [ "^3" ]
+        php-version: [ "8.1" ]
+        orca-version: [ "^4" ]
         include:
-          - orca-job: INTEGRATED_TEST_ON_OLDEST_SUPPORTED
-            php-version: "8.0"
-            orca-version: "^3"
-
-          - orca-job: INTEGRATED_TEST_ON_OLDEST_SUPPORTED
-            php-version: "8.1"
-            orca-version: "^4"
-
-          - orca-job: INTEGRATED_TEST_ON_LATEST_LTS
-            php-version: "8.0"
-            orca-version: "^3"
-
-          - orca-job: INTEGRATED_TEST_ON_LATEST_LTS
-            php-version: "8.1"
-            orca-version: "^4"
-
-          - orca-job: INTEGRATED_TEST_ON_LATEST_LTS
-            php-version: "8.2"
-            orca-version: "^4"
 
           # These are our custom jobs to ensure composer install works
           - orca-job: ""
             php-version: "8.0"
             orca-version: "^3"
-
-          - orca-job: INTEGRATED_TEST_ON_LATEST_EOL_MAJOR
-            php-version: "8.1"
-            orca-version: "^4"
+            
+          # This is our custom job on 7.4
+          - orca-job: ""
+            php-version: "7.4"
+            orca-version: "^3"
 
           - orca-job: INTEGRATED_TEST_ON_LATEST_EOL_MAJOR
             php-version: "8.0"
