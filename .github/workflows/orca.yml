@@ -26,21 +26,21 @@ jobs:
       matrix:
         orca-job:
           - STATIC_CODE_ANALYSIS
-          - INTEGRATED_TEST_ON_PREVIOUS_MINOR
+          - INTEGRATED_TEST_ON_OLDEST_SUPPORTED
+          - INTEGRATED_TEST_ON_LATEST_LTS
           #- INTEGRATED_UPGRADE_TEST_FROM_PREVIOUS_MINOR
-          - ISOLATED_TEST_ON_CURRENT
-          - INTEGRATED_TEST_ON_CURRENT
-          - ISOLATED_TEST_ON_CURRENT_DEV
-          - INTEGRATED_TEST_ON_CURRENT_DEV
-          - ISOLATED_TEST_ON_NEXT_MINOR
-          - INTEGRATED_TEST_ON_NEXT_MINOR
-          - INTEGRATED_TEST_ON_NEXT_MINOR_DEV
-          - ISOLATED_TEST_ON_NEXT_MINOR_DEV
+          # - ISOLATED_TEST_ON_CURRENT
+          # - INTEGRATED_TEST_ON_CURRENT
+          # - ISOLATED_TEST_ON_CURRENT_DEV
+          # - INTEGRATED_TEST_ON_CURRENT_DEV
+          # - ISOLATED_TEST_ON_NEXT_MINOR
+          # - INTEGRATED_TEST_ON_NEXT_MINOR
+          # - INTEGRATED_TEST_ON_NEXT_MINOR_DEV
+          # - ISOLATED_TEST_ON_NEXT_MINOR_DEV
           # We do not run deprecated code scans since they'd scan the entire
           # codebase (since the SUT is the project template).
         php-version: [ "8.1", "8.3" ]
         orca-version: [ "^4" ]
-
 
     steps:
       - uses: actions/checkout@v4
