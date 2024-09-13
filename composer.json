@@ -20,6 +20,7 @@
         "drupal/config_sync_without_site_uuid": "^1.0@beta",
         "drupal/core-composer-scaffold": "^11",
         "drupal/core-recommended": "^11",
+        "drupal/mysql57": "^1.0",
         "drush/drush": "^13",
         "oomphinc/composer-installers-extender": "^2"
     },
