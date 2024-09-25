@@ -10,7 +10,7 @@ provide the best possible out-of-the-box experience for Acquia customers.
 This project includes the following packages and configurations:
 * [Drupal core](https://www.drupal.org/project/drupal)
 * [Drupal core scaffold](https://www.drupal.org/docs/develop/using-composer/using-drupals-composer-scaffold)
-* [Acquia CMS](https://github.com/acquia/acquia-cms-starterkit) (Starter kit)
+* [Acquia Drupal Starter kit](https://github.com/acquia/acquia-cms-starterkit)
 * [Drupal Recommended Settings](https://github.com/acquia/drupal-recommended-settings)
 * [Drush](https://github.com/drush-ops/drush) (Drupal CLI and development tool)
 * [Asset Packagist](https://asset-packagist.org/) repository, package, and configuration
@@ -18,15 +18,15 @@ This project includes the following packages and configurations:
 * [Acquia platform memcache settings](https://github.com/acquia/memcache-settings)
 * Best practices for Drupal development, testing and project architecture
 
-The Acquia CMS Starterkit allows you to install Drupal for a given style of CMS:
+The Acquia Drupal Starter kit allows you to install Drupal for a given style of CMS:
 
 | Name  | Description |
 | ------------- | ------------- |
-| Acquia CMS Enterprise Low-code  | The low-code starter kit will install Acquia CMS with Site Studio and a UIkit. It provides drag and drop content authoring and low-code site building. An optional content model can be added in the installation process.  |
-| Acquia CMS Community  | The community starter kit will install Acquia CMS. An optional content model can be added in the installation process.  |
-| Acquia CMS Headless  | The headless starter kit preconfigures Drupal for serving structured, RESTful content to 3rd party content displays such as mobile apps, smart displays and frontend driven websites (e.g. React or Next.js).  |
+| Acquia Drupal Enterprise Low-code Starter kit | The low-code starter kit will install starter kit with Site Studio and a UIkit. It provides drag and drop content authoring and low-code site building. An optional content model can be added in the installation process.  |
+| Acquia Drupal Community Starter kit | The community starter kit will get installed. An optional content model can be added in the installation process.  |
+| Acquia Drupal Headless Starter kit | The headless starter kit preconfigures Drupal for serving structured, RESTful content to 3rd party content displays such as mobile apps, smart displays and frontend driven websites (e.g. React or Next.js).  |
 
-For more information on selecting the Acquia CMS Starterkit that best fits your
+For more information on selecting the Acquia Drupal Starter kit that best fits your
 use case follow
 [instructions](https://docs.acquia.com/acquia-cms/install-cms).
 
@@ -55,10 +55,9 @@ commit files in the `vendor`, `docroot/core`, and similar directories (these are
    these assets. [Acquia Code Studio’s](https://docs.acquia.com/code-studio/)
    Auto DevOps feature can do this automatically when deploying to Acquia Cloud.
 
-## Usage (Install Acquia CMS)
+## Usage (Install Acquia Drupal Starter kit)
 
-Install Acquia CMS using starterkit follow
-[instructions](https://docs.acquia.com/acquia-cms/using-split-commands).
+Follow [instructions](https://docs.acquia.com/acquia-cms/using-split-commands).
 
 
 ## Other Drupal versions
