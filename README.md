@@ -62,7 +62,10 @@ Follow [instructions](https://docs.acquia.com/acquia-cms/using-split-commands).
 
 ## Other Drupal versions
 
-Drupal 11 is installed by default. To install Drupal 10, use the below command:
+Drupal 11 is installed by default.
+Existing customers can quickly upgrade to Drupal 11 on the Acquia Cloud platform by following the documentation [here](https://docs.acquia.com/acquia-cloud-platform/develop-apps/drupal-apps/mysql-80-57-backport-database-driver-upgrading).
+
+To install Drupal 10, use the below command:
 ```
 composer create-project acquia/drupal-recommended-project:^2
 ```
