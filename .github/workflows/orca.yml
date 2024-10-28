@@ -57,6 +57,7 @@ jobs:
 
       - name: Before install
         run: |
+          composer self-update 2.8.0
           composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
           ../orca/bin/ci/before_install.sh
           if [[ ! "$ORCA_JOB" ]]; then composer install; fi
