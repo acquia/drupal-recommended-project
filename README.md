@@ -19,7 +19,7 @@ This project includes the following packages and configurations:
 * Best practices for Drupal development, testing and project architecture
 
 ## Acquia Drupal Starter Kits
-To learn more about Acquia Drupal starter kits, please refer to the [documentation](https://docs.acquia.com/drupal-starter-kits/starter-kits)
+To learn more about Acquia Drupal starter kits, please refer to the [documentation](https://docs.acquia.com/drupal-starter-kits/starter-kits).
 
 ## Installation
 
@@ -28,7 +28,7 @@ Create a new Drupal 11 project using Composer:
 composer create-project --no-interaction acquia/drupal-recommended-project
 ```
 
-To install Drupal Starter Kit, follow the [instructions](https://docs.acquia.com/drupal-starter-kits/install-cms)
+To install Drupal Starter Kit, follow the [instructions](https://docs.acquia.com/drupal-starter-kits/install-cms).
 
 
 ## Install other Drupal versions
@@ -44,9 +44,9 @@ composer create-project acquia/drupal-recommended-project:^1
 
 ## Upgrading
 
-To upgrade Acquia Drupal starter Kit, follow the [instructions](https://docs.acquia.com/drupal-starter-kits/upgrading-drupal-starter-kits-and-its-dependencies)
+To upgrade Acquia Drupal starter Kit, follow the [instructions](https://docs.acquia.com/drupal-starter-kits/upgrading-drupal-starter-kits-and-its-dependencies).
 
-The Acquia Cloud Platform does not yet support MySQL 8.0, therefore enabling the backport database driver module is required for Drupal 11 installation on Acquia Cloud Platform. Follow [instructions](https://docs.acquia.com/acquia-cloud-platform/develop-apps/drupal-apps/mysql-80-57-backport-database-driver-upgrading)
+The Acquia Cloud Platform does not yet support MySQL 8.0, therefore enabling the backport database driver module is required for Drupal 11 installation on Acquia Cloud Platform. Follow [instructions](https://docs.acquia.com/acquia-cloud-platform/develop-apps/drupal-apps/mysql-80-57-backport-database-driver-upgrading).
 
 # License
 
