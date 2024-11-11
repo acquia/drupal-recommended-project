@@ -299,16 +299,16 @@
         },
         {
             "name": "chi-teck/drupal-code-generator",
-            "version": "4.0.0",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Chi-teck/drupal-code-generator.git",
-                "reference": "00b6c6b94f8aa4657c78044d37a6e1da56a223c7"
+                "reference": "9a5501beb1a7aa2400afa5e5679bf21c526c497c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/00b6c6b94f8aa4657c78044d37a6e1da56a223c7",
-                "reference": "00b6c6b94f8aa4657c78044d37a6e1da56a223c7",
+                "url": "https://api.github.com/repos/Chi-teck/drupal-code-generator/zipball/9a5501beb1a7aa2400afa5e5679bf21c526c497c",
+                "reference": "9a5501beb1a7aa2400afa5e5679bf21c526c497c",
                 "shasum": ""
             },
             "require": {
@@ -354,9 +354,9 @@
             "description": "Drupal code generator",
             "support": {
                 "issues": "https://github.com/Chi-teck/drupal-code-generator/issues",
-                "source": "https://github.com/Chi-teck/drupal-code-generator/tree/4.0.0"
+                "source": "https://github.com/Chi-teck/drupal-code-generator/tree/4.1.0"
             },
-            "time": "2024-07-05T17:47:55+00:00"
+            "time": "2024-10-30T18:25:43+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -2363,16 +2363,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "13.3.2",
+            "version": "13.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "bd2351763eea343e7d56f5cbb81ac1855adcf8fd"
+                "reference": "d124723dacb4208ccb875b7114722e420fccf06d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/bd2351763eea343e7d56f5cbb81ac1855adcf8fd",
-                "reference": "bd2351763eea343e7d56f5cbb81ac1855adcf8fd",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/d124723dacb4208ccb875b7114722e420fccf06d",
+                "reference": "d124723dacb4208ccb875b7114722e420fccf06d",
                 "shasum": ""
             },
             "require": {
@@ -2499,7 +2499,7 @@
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "security": "https://github.com/drush-ops/drush/security/advisories",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/13.3.2"
+                "source": "https://github.com/drush-ops/drush/tree/13.3.3"
             },
             "funding": [
                 {
@@ -2507,7 +2507,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-31T17:06:17+00:00"
+            "time": "2024-11-10T20:02:03+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -3374,16 +3374,16 @@
         },
         {
             "name": "league/container",
-            "version": "4.2.3",
+            "version": "4.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/container.git",
-                "reference": "72f9bebe7bd623007782a40f5ec305661ab706d8"
+                "reference": "7ea728b013b9a156c409c6f0fc3624071b742dec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/container/zipball/72f9bebe7bd623007782a40f5ec305661ab706d8",
-                "reference": "72f9bebe7bd623007782a40f5ec305661ab706d8",
+                "url": "https://api.github.com/repos/thephpleague/container/zipball/7ea728b013b9a156c409c6f0fc3624071b742dec",
+                "reference": "7ea728b013b9a156c409c6f0fc3624071b742dec",
                 "shasum": ""
             },
             "require": {
@@ -3444,7 +3444,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/container/issues",
-                "source": "https://github.com/thephpleague/container/tree/4.2.3"
+                "source": "https://github.com/thephpleague/container/tree/4.2.4"
             },
             "funding": [
                 {
@@ -3452,7 +3452,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-23T12:06:58+00:00"
+            "time": "2024-11-10T12:42:13+00:00"
         },
         {
             "name": "loophp/phposinfo",
