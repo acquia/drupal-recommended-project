@@ -1944,16 +1944,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "11.0.6",
+            "version": "11.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "98eeb778f8bb6bb24725c281cf9f8ddab019e9db"
+                "reference": "c5e71f3eb04d3dfb93cfb74e38a876f9290e6462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/98eeb778f8bb6bb24725c281cf9f8ddab019e9db",
-                "reference": "98eeb778f8bb6bb24725c281cf9f8ddab019e9db",
+                "url": "https://api.github.com/repos/drupal/core/zipball/c5e71f3eb04d3dfb93cfb74e38a876f9290e6462",
+                "reference": "c5e71f3eb04d3dfb93cfb74e38a876f9290e6462",
                 "shasum": ""
             },
             "require": {
@@ -2001,7 +2001,7 @@
                 "symfony/serializer": "^7.1",
                 "symfony/validator": "^7.1",
                 "symfony/yaml": "^7.1",
-                "twig/twig": "^3.14.0"
+                "twig/twig": "^3.14.2"
             },
             "conflict": {
                 "drush/drush": "<12.4.3"
@@ -2103,9 +2103,9 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/11.0.6"
+                "source": "https://github.com/drupal/core/tree/11.0.7"
             },
-            "time": "2024-11-07T08:13:19+00:00"
+            "time": "2024-11-12T09:49:41+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
@@ -2159,16 +2159,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "11.0.6",
+            "version": "11.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "148b15d997449dde3fb577abd4ca18ae19a885f1"
+                "reference": "777942228b60193ca58e96f15aa3d094eb5ae305"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/148b15d997449dde3fb577abd4ca18ae19a885f1",
-                "reference": "148b15d997449dde3fb577abd4ca18ae19a885f1",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/777942228b60193ca58e96f15aa3d094eb5ae305",
+                "reference": "777942228b60193ca58e96f15aa3d094eb5ae305",
                 "shasum": ""
             },
             "require": {
@@ -2177,7 +2177,7 @@
                 "doctrine/annotations": "~2.0.1",
                 "doctrine/deprecations": "~1.1.3",
                 "doctrine/lexer": "~2.1.1",
-                "drupal/core": "11.0.6",
+                "drupal/core": "11.0.7",
                 "egulias/email-validator": "~4.0.2",
                 "guzzlehttp/guzzle": "~7.9.2",
                 "guzzlehttp/promises": "~2.0.3",
@@ -2225,7 +2225,7 @@
                 "symfony/var-dumper": "~v7.1.3",
                 "symfony/var-exporter": "~v7.1.2",
                 "symfony/yaml": "~v7.1.1",
-                "twig/twig": "~v3.14.0"
+                "twig/twig": "~v3.14.2"
             },
             "conflict": {
                 "webflo/drupal-core-strict": "*"
@@ -2237,9 +2237,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/11.0.6"
+                "source": "https://github.com/drupal/core-recommended/tree/11.0.7"
             },
-            "time": "2024-11-07T08:13:19+00:00"
+            "time": "2024-11-12T09:49:41+00:00"
         },
         {
             "name": "drupal/memcache",
