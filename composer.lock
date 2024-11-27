@@ -83,25 +83,24 @@
         },
         {
             "name": "acquia/drupal-environment-detector",
-            "version": "1.6.0",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/drupal-environment-detector.git",
-                "reference": "396cc5ed5d7f9d40a8afbdc1800a189c15924450"
+                "reference": "4666ae67b422d209a8b11c9f886e3ef6d3f16778"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/drupal-environment-detector/zipball/396cc5ed5d7f9d40a8afbdc1800a189c15924450",
-                "reference": "396cc5ed5d7f9d40a8afbdc1800a189c15924450",
+                "url": "https://api.github.com/repos/acquia/drupal-environment-detector/zipball/4666ae67b422d209a8b11c9f886e3ef6d3f16778",
+                "reference": "4666ae67b422d209a8b11c9f886e3ef6d3f16778",
                 "shasum": ""
             },
             "conflict": {
                 "acquia/blt": ">=12.0.0 <13.5.2"
             },
             "require-dev": {
-                "acquia/coding-standards": "^1.0.0",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "phpunit/phpunit": "^9.1"
+                "acquia/coding-standards": "^3.0.1",
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0"
             },
             "type": "library",
             "extra": {
@@ -130,9 +129,9 @@
             "description": "Provides common methods for detecting the current Acquia environment",
             "support": {
                 "issues": "https://github.com/acquia/drupal-environment-detector/issues",
-                "source": "https://github.com/acquia/drupal-environment-detector/tree/1.6.0"
+                "source": "https://github.com/acquia/drupal-environment-detector/tree/1.7.0"
             },
-            "time": "2023-02-28T18:45:28+00:00"
+            "time": "2024-11-26T19:16:45+00:00"
         },
         {
             "name": "acquia/drupal-recommended-settings",
