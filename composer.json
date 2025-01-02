@@ -105,6 +105,9 @@
             ],
             "drush/Commands/contrib/{$name}": [
                 "type:drupal-drush"
+            ],
+            "recipes/{$name}": [
+                "type:drupal-recipe"
             ]
         },
         "installer-types": [
