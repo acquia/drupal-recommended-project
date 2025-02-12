@@ -135,16 +135,16 @@
         },
         {
             "name": "acquia/drupal-recommended-settings",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/drupal-recommended-settings.git",
-                "reference": "6b468bf06b330367a536aea115206cbc64767434"
+                "reference": "7ccd443d5e0b3add1324c656ae8a86d8084d7f4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/drupal-recommended-settings/zipball/6b468bf06b330367a536aea115206cbc64767434",
-                "reference": "6b468bf06b330367a536aea115206cbc64767434",
+                "url": "https://api.github.com/repos/acquia/drupal-recommended-settings/zipball/7ccd443d5e0b3add1324c656ae8a86d8084d7f4b",
+                "reference": "7ccd443d5e0b3add1324c656ae8a86d8084d7f4b",
                 "shasum": ""
             },
             "require": {
@@ -195,9 +195,9 @@
             "support": {
                 "docs": "https://docs.acquia.com/drupal-recommended-settings/",
                 "issues": "https://github.com/acquia/drupal-recommended-settings/issues",
-                "source": "https://github.com/acquia/drupal-recommended-settings/tree/1.1.0"
+                "source": "https://github.com/acquia/drupal-recommended-settings/tree/1.1.1"
             },
-            "time": "2024-12-22T17:23:32+00:00"
+            "time": "2025-02-12T15:45:16+00:00"
         },
         {
             "name": "acquia/memcache-settings",
@@ -3058,16 +3058,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v11.36.1",
+            "version": "v11.42.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "21868f9ac221a42d4346dc56495d11ab7e0d339a"
+                "reference": "6fd628d32a0989211c4f2829bf0a6a6175b2f3fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/21868f9ac221a42d4346dc56495d11ab7e0d339a",
-                "reference": "21868f9ac221a42d4346dc56495d11ab7e0d339a",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/6fd628d32a0989211c4f2829bf0a6a6175b2f3fd",
+                "reference": "6fd628d32a0989211c4f2829bf0a6a6175b2f3fd",
                 "shasum": ""
             },
             "require": {
@@ -3110,11 +3110,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-12-13T13:58:10+00:00"
+            "time": "2025-02-05T10:23:21+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v11.36.1",
+            "version": "v11.42.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -3160,16 +3160,16 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v11.36.1",
+            "version": "v11.42.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "184317f701ba20ca265e36808ed54b75b115972d"
+                "reference": "b350a3cd8450846325cb49e1cbc1293598b18898"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/184317f701ba20ca265e36808ed54b75b115972d",
-                "reference": "184317f701ba20ca265e36808ed54b75b115972d",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/b350a3cd8450846325cb49e1cbc1293598b18898",
+                "reference": "b350a3cd8450846325cb49e1cbc1293598b18898",
                 "shasum": ""
             },
             "require": {
@@ -3204,11 +3204,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-11-25T15:33:38+00:00"
+            "time": "2025-02-10T14:20:57+00:00"
         },
         {
             "name": "illuminate/macroable",
-            "version": "v11.36.1",
+            "version": "v11.42.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -3632,16 +3632,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.3.1",
+            "version": "v5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b"
+                "reference": "447a020a1f875a434d62f2a401f53b82a396e494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8eea230464783aa9671db8eea6f8c6ac5285794b",
-                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/447a020a1f875a434d62f2a401f53b82a396e494",
+                "reference": "447a020a1f875a434d62f2a401f53b82a396e494",
                 "shasum": ""
             },
             "require": {
@@ -3684,9 +3684,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.4.0"
             },
-            "time": "2024-10-08T18:51:32+00:00"
+            "time": "2024-12-30T11:07:19+00:00"
         },
         {
             "name": "oomphinc/composer-installers-extender",
