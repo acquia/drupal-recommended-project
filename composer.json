@@ -26,7 +26,7 @@
     },
     "require-dev": {
         "acquia/coding-standards": "^3.0.0",
-        "mglaman/phpstan-drupal": "^1.1",
+        "mglaman/phpstan-drupal": "^1.1 || ^2",
         "phpstan/extension-installer": "^1.1",
         "phpstan/phpstan": "^1.6",
         "phpstan/phpstan-deprecation-rules": "^1.0",
