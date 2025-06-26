@@ -58,6 +58,13 @@ jobs:
       - name: Before install
         run: |
           composer create-project --no-dev acquia/orca ../orca "$ORCA_VERSION"
+          # For now we are allowing INTEGRATED_TEST_ON_CURRENT job to fail
+          # because PHPUnit tests are failing for acquia_search, acquia_dam
+          # drupal-environment-detector & acquia_connector. Once tests passes,
+          # we can remove below.
+          if [[ "$ORCA_JOB" == "INTEGRATED_TEST_ON_CURRENT" ]]; then
+            echo 'export ORCA_IS_ALLOWED_FAILURE="TRUE"' >> ../orca/bin/ci/_includes.sh
+          fi
           ../orca/bin/ci/before_install.sh
           if [[ ! "$ORCA_JOB" ]]; then composer install; fi
 
