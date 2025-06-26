@@ -26,21 +26,20 @@
     },
     "require-dev": {
         "acquia/coding-standards": "^3.0.0",
-        "mglaman/phpstan-drupal": "^2",
-        "phpstan/extension-installer": "^1.1",
-        "phpunit/phpunit": "^10.5"
+        "drupal/core-dev": "^11.1.8"
     },
     "config": {
         "allow-plugins": {
+            "acquia/drupal-recommended-settings": true,
             "composer/installers": true,
             "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "ergebnis/composer-normalize": true,
             "oomphinc/composer-installers-extender": true,
-            "phpstan/extension-installer": true,
             "php-http/discovery": true,
-            "acquia/drupal-recommended-settings": true
+            "phpstan/extension-installer": true,
+            "tbachert/spi": true
         },
         "platform": {
             "php": "8.3"
