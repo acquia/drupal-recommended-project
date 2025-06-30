@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+      - 1.x
+      - 2.x
   pull_request_target:
     types: [opened, synchronize, reopened, labeled, unlabeled]
 
@@ -14,18 +16,47 @@ jobs:
       pull-requests: read
     if: github.event_name == 'pull_request_target'
     steps:
-      - run: gh pr view --json labels https://github.com/$GITHUB_REPOSITORY/pull/$GITHUB_PR | jq -r '.labels[0].name' | grep -q 'null' && echo "You must apply at least one label" && exit 1 || exit 0
+      - name: Check for labels on PR
+        run: gh pr view --json labels https://github.com/$GITHUB_REPOSITORY/pull/$GITHUB_PR | jq -r '.labels[0].name' | grep -q 'null' && echo "You must apply at least one label" && exit 1 || exit 0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_PR: ${{ github.event.pull_request.number }}
+
   update_release_draft:
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: read
     steps:
+      - name: Determine Release Drafter Options
+        id: drafter_options
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            TARGET_BRANCH="${{ github.ref_name }}"
+          elif [[ "${{ github.event_name }}" == "pull_request_target" ]]; then
+            TARGET_BRANCH="${{ github.base_ref }}"
+          else
+            echo "::error::Unsupported event type: ${{ github.event_name }}. Cannot determine target branch."
+            exit 1
+          fi
+
+          echo "Event name: ${{ github.event_name }}"
+          echo "Determined target branch: $TARGET_BRANCH for Release Drafter options"
+
+          if [[ "$TARGET_BRANCH" == "master" ]]; then
+            CONFIG_NAME="release-drafter.yml"
+          elif [[ "$TARGET_BRANCH" == "1.x" ]] || [[ "$TARGET_BRANCH" == "2.x" ]]; then
+            CONFIG_NAME="release-drafter-$TARGET_BRANCH.yml"
+          else
+            CONFIG_NAME="release-drafter.yml" # Default
+            echo "::warning::Unexpected target branch '$TARGET_BRANCH' for release drafting. Defaulting to '$CONFIG_NAME'."
+          fi
+          echo "Using config file: $CONFIG_NAME"
+          echo "config_name=$CONFIG_NAME" >> $GITHUB_OUTPUT
+
       - uses: release-drafter/release-drafter@v6
         with:
-          config-name: release-drafter.yml # located in .github/ in default branch
+          config-name: ${{ steps.drafter_options.outputs.config_name }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

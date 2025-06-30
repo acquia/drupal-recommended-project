@@ -15,6 +15,8 @@ jobs:
       github.event.workflow_run.event == 'pull_request' &&
       github.event.workflow_run.conclusion == 'success' &&
       github.event.workflow_run.actor.login == 'dependabot[bot]'
+    outputs:
+      base_branch: ${{ steps.source-run-info.outputs.targetBranch }}
     steps:
     - name: "Get PR information"
       uses: potiuk/get-workflow-origin@v1_4
@@ -22,7 +24,8 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         sourceRunId: ${{ github.event.workflow_run.id }}
-    - run: 'gh pr merge --squash https://github.com/$GITHUB_REPOSITORY/pull/$GITHUB_PR'
+    - name: "Merge PR"
+      run: 'gh pr merge --squash https://github.com/$GITHUB_REPOSITORY/pull/$GITHUB_PR'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_PR: ${{ steps.source-run-info.outputs.pullRequestNumber }}
@@ -33,9 +36,32 @@ jobs:
       contents: write
       pull-requests: read
     steps:
+      - name: Determine Release Drafter Config Name
+        id: drafter_config
+        shell: bash
+        run: |
+          BASE_BRANCH="${{ needs.merge.outputs.base_branch }}"
+          echo "Using base branch: $BASE_BRANCH"
+          IS_LATEST="false"
+          if [[ "$BASE_BRANCH" == "master" ]]; then
+            CONFIG_NAME="release-drafter.yml"
+            IS_LATEST="true"
+          elif [[ "$BASE_BRANCH" == "1.x" ]] || [[ "$BASE_BRANCH" == "2.x" ]]; then
+            CONFIG_NAME="release-drafter-$BASE_BRANCH.yml"
+          else
+            # Fallback to default config and issue a warning
+            CONFIG_NAME="release-drafter.yml"
+            echo "::warning::Unexpected base branch '$BASE_BRANCH' for release drafting. Defaulting to '$CONFIG_NAME'."
+          fi
+          echo "Using config file: $CONFIG_NAME"
+          echo "Is Release Latest ? $IS_LATEST"
+
+          echo "is_latest=$IS_LATEST" >> $GITHUB_OUTPUT
+          echo "config_name=$CONFIG_NAME" >> $GITHUB_OUTPUT
       - uses: release-drafter/release-drafter@v6
         with:
           publish: true
-          config-name: release-drafter.yml
+          config-name: ${{ steps.drafter_config.outputs.config_name }}
+          latest: ${{ steps.drafter_config.outputs.is_latest }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
