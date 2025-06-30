@@ -2,7 +2,6 @@ name-template: '$RESOLVED_VERSION'
 tag-template: '$RESOLVED_VERSION'
 filter-by-commitish: true
 commitish: '2.x'
-latest: false
 categories:
   - title: '🚨 Major changes'
     label: 'breaking change'
