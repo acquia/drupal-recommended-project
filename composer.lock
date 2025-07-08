@@ -135,16 +135,16 @@
         },
         {
             "name": "acquia/drupal-recommended-settings",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/drupal-recommended-settings.git",
-                "reference": "7ccd443d5e0b3add1324c656ae8a86d8084d7f4b"
+                "reference": "4a7d91424484ed72e92c6e0d2709ff8a657de161"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/drupal-recommended-settings/zipball/7ccd443d5e0b3add1324c656ae8a86d8084d7f4b",
-                "reference": "7ccd443d5e0b3add1324c656ae8a86d8084d7f4b",
+                "url": "https://api.github.com/repos/acquia/drupal-recommended-settings/zipball/4a7d91424484ed72e92c6e0d2709ff8a657de161",
+                "reference": "4a7d91424484ed72e92c6e0d2709ff8a657de161",
                 "shasum": ""
             },
             "require": {
@@ -165,7 +165,7 @@
                 "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
                 "ergebnis/composer-normalize": "^2.30.2",
                 "phpro/grumphp-shim": "^2.2",
-                "phpunit/phpunit": "^9 || ^10"
+                "phpunit/phpunit": "^9 || ^10 || ^11"
             },
             "type": "composer-plugin",
             "extra": {
@@ -195,9 +195,9 @@
             "support": {
                 "docs": "https://docs.acquia.com/drupal-recommended-settings/",
                 "issues": "https://github.com/acquia/drupal-recommended-settings/issues",
-                "source": "https://github.com/acquia/drupal-recommended-settings/tree/1.1.1"
+                "source": "https://github.com/acquia/drupal-recommended-settings/tree/1.1.2"
             },
-            "time": "2025-02-12T15:45:16+00:00"
+            "time": "2025-07-07T14:29:09+00:00"
         },
         {
             "name": "acquia/memcache-settings",
@@ -1200,23 +1200,23 @@
         },
         {
             "name": "consolidation/config",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/config.git",
-                "reference": "0615499781449ab773ffc609b97b934b3357b3f9"
+                "reference": "54bb59d156e01698cd52d4dbbf6df98924f9ff7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/config/zipball/0615499781449ab773ffc609b97b934b3357b3f9",
-                "reference": "0615499781449ab773ffc609b97b934b3357b3f9",
+                "url": "https://api.github.com/repos/consolidation/config/zipball/54bb59d156e01698cd52d4dbbf6df98924f9ff7e",
+                "reference": "54bb59d156e01698cd52d4dbbf6df98924f9ff7e",
                 "shasum": ""
             },
             "require": {
                 "dflydev/dot-access-data": "^3",
                 "grasmash/expander": "^3",
                 "php": ">=8.2.0",
-                "symfony/event-dispatcher": "^7"
+                "symfony/event-dispatcher": "^6 || ^7"
             },
             "require-dev": {
                 "ext-json": "*",
@@ -1233,7 +1233,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.x-dev"
+                    "dev-main": "3.x-dev"
                 }
             },
             "autoload": {
@@ -1254,9 +1254,9 @@
             "description": "Provide configuration services for a commandline tool.",
             "support": {
                 "issues": "https://github.com/consolidation/config/issues",
-                "source": "https://github.com/consolidation/config/tree/3.1.0"
+                "source": "https://github.com/consolidation/config/tree/3.1.1"
             },
-            "time": "2024-11-28T14:37:27+00:00"
+            "time": "2025-07-07T13:37:38+00:00"
         },
         {
             "name": "consolidation/filter-via-dot-access-data",
@@ -5113,16 +5113,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v7.3.0",
+            "version": "v7.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "66c1440edf6f339fd82ed6c7caa76cb006211b44"
+                "reference": "9e27aecde8f506ba0fd1d9989620c04a87697101"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/66c1440edf6f339fd82ed6c7caa76cb006211b44",
-                "reference": "66c1440edf6f339fd82ed6c7caa76cb006211b44",
+                "url": "https://api.github.com/repos/symfony/console/zipball/9e27aecde8f506ba0fd1d9989620c04a87697101",
+                "reference": "9e27aecde8f506ba0fd1d9989620c04a87697101",
                 "shasum": ""
             },
             "require": {
@@ -5187,7 +5187,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v7.3.0"
+                "source": "https://github.com/symfony/console/tree/v7.3.1"
             },
             "funding": [
                 {
@@ -5203,20 +5203,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-05-24T10:34:04+00:00"
+            "time": "2025-06-27T19:55:54+00:00"
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v7.3.0",
+            "version": "v7.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "f64a8f3fa7d4ad5e85de1b128a0e03faed02b732"
+                "reference": "8656c4848b48784c4bb8c4ae50d2b43f832cead8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/f64a8f3fa7d4ad5e85de1b128a0e03faed02b732",
-                "reference": "f64a8f3fa7d4ad5e85de1b128a0e03faed02b732",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/8656c4848b48784c4bb8c4ae50d2b43f832cead8",
+                "reference": "8656c4848b48784c4bb8c4ae50d2b43f832cead8",
                 "shasum": ""
             },
             "require": {
@@ -5267,7 +5267,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v7.3.0"
+                "source": "https://github.com/symfony/dependency-injection/tree/v7.3.1"
             },
             "funding": [
                 {
@@ -5283,7 +5283,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-05-19T13:28:56+00:00"
+            "time": "2025-06-24T04:04:43+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -7782,16 +7782,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v7.3.0",
+            "version": "v7.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "548f6760c54197b1084e1e5c71f6d9d523f2f78e"
+                "reference": "6e209fbe5f5a7b6043baba46fe5735a4b85d0d42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/548f6760c54197b1084e1e5c71f6d9d523f2f78e",
-                "reference": "548f6760c54197b1084e1e5c71f6d9d523f2f78e",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/6e209fbe5f5a7b6043baba46fe5735a4b85d0d42",
+                "reference": "6e209fbe5f5a7b6043baba46fe5735a4b85d0d42",
                 "shasum": ""
             },
             "require": {
@@ -7846,7 +7846,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v7.3.0"
+                "source": "https://github.com/symfony/var-dumper/tree/v7.3.1"
             },
             "funding": [
                 {
@@ -7862,7 +7862,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-27T18:39:23+00:00"
+            "time": "2025-06-27T19:55:54+00:00"
         },
         {
             "name": "symfony/var-exporter",
@@ -7943,16 +7943,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v7.3.0",
+            "version": "v7.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "cea40a48279d58dc3efee8112634cb90141156c2"
+                "reference": "0c3555045a46ab3cd4cc5a69d161225195230edb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/cea40a48279d58dc3efee8112634cb90141156c2",
-                "reference": "cea40a48279d58dc3efee8112634cb90141156c2",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/0c3555045a46ab3cd4cc5a69d161225195230edb",
+                "reference": "0c3555045a46ab3cd4cc5a69d161225195230edb",
                 "shasum": ""
             },
             "require": {
@@ -7995,7 +7995,7 @@
             "description": "Loads and dumps YAML files",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/yaml/tree/v7.3.0"
+                "source": "https://github.com/symfony/yaml/tree/v7.3.1"
             },
             "funding": [
                 {
@@ -8011,7 +8011,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-04T10:10:33+00:00"
+            "time": "2025-06-03T06:57:57+00:00"
         },
         {
             "name": "twig/twig",
@@ -12879,9 +12879,9 @@
     "platform": {
         "php": ">=8.3"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.3"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
