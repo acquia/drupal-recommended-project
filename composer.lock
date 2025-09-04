@@ -2130,7 +2130,7 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "11.2.3",
+            "version": "11.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -2174,7 +2174,7 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/11.2.3"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/11.2.4"
             },
             "time": "2025-05-05T16:18:58+00:00"
         },
