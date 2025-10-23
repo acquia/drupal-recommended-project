@@ -110,7 +110,11 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "patches": {}
+        "patches": {
+          "drupal/acquia_dam": {
+            "3553807 - Fatal error: Uncaught Error: Class AcquiaDamKernelTestBase not found in ORCA CI": "https://git.drupalcode.org/project/acquia_dam/-/merge_requests/211.patch"
+          }
+        }
     },
     "repositories": {
         "drupal": {
