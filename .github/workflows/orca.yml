@@ -20,7 +20,10 @@ jobs:
       ORCA_GOOGLE_API_CLIENT_ID: ${{ secrets.ORCA_GOOGLE_API_CLIENT_ID }}
       ORCA_GOOGLE_API_CLIENT_SECRET: ${{ secrets.ORCA_GOOGLE_API_CLIENT_SECRET }}
       ORCA_GOOGLE_API_REFRESH_TOKEN: ${{ secrets.ORCA_GOOGLE_API_REFRESH_TOKEN }}
-
+      # Removing drupal/acquia_dam from package dependencies as it's failing CI.
+      # @todo: Re-add once the issue is resolved.
+      # @see: https://github.com/acquia/drupal-recommended-project/issues/853
+      ORCA_PACKAGES_CONFIG_ALTER: ../drupal-recommended-project/tests/packages_alter.yml
 
     strategy:
       matrix:
