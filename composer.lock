@@ -83,16 +83,16 @@
         },
         {
             "name": "acquia/drupal-environment-detector",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/drupal-environment-detector.git",
-                "reference": "4666ae67b422d209a8b11c9f886e3ef6d3f16778"
+                "reference": "5941f413a26f9d041ca22a151b11a1098c64a725"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/drupal-environment-detector/zipball/4666ae67b422d209a8b11c9f886e3ef6d3f16778",
-                "reference": "4666ae67b422d209a8b11c9f886e3ef6d3f16778",
+                "url": "https://api.github.com/repos/acquia/drupal-environment-detector/zipball/5941f413a26f9d041ca22a151b11a1098c64a725",
+                "reference": "5941f413a26f9d041ca22a151b11a1098c64a725",
                 "shasum": ""
             },
             "conflict": {
@@ -100,7 +100,9 @@
             },
             "require-dev": {
                 "acquia/coding-standards": "^3.0.1",
-                "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0"
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
+                "phpstan/phpstan": "^2.1",
+                "phpunit/phpunit": "^10 || ^11"
             },
             "type": "library",
             "extra": {
@@ -129,9 +131,9 @@
             "description": "Provides common methods for detecting the current Acquia environment",
             "support": {
                 "issues": "https://github.com/acquia/drupal-environment-detector/issues",
-                "source": "https://github.com/acquia/drupal-environment-detector/tree/1.7.0"
+                "source": "https://github.com/acquia/drupal-environment-detector/tree/1.8.0"
             },
-            "time": "2024-11-26T19:16:45+00:00"
+            "time": "2026-05-29T11:55:23+00:00"
         },
         {
             "name": "acquia/memcache-settings",
@@ -10382,5 +10384,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.9.0"
 }
